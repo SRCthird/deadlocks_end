@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: ""
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "4EDF439DF9FC969A"
+	images: [
+		{
+			height: 8.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			height: 8.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_22.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.0d
+			y: -8.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Kill &2&lzombie clowns, pumpkin bruisers and barrel zombies&r to get &d&ltransmutating elixir&r. Then use the elixir on &4&linfernal evil pumpkin&r to spawn the lord."
+				"{image:born_in_chaos_v1:item/lordpumpkinhead_icon width:50 height:50 align:center}"
+			]
+			id: "3C399066CB8BDB81"
+			rewards: [{
+				id: "52B90934AA8EAE03"
+				item: "graveyard:upper_bone_staff"
+				type: "item"
+			}]
+			subtitle: "&l&4The Lord of the pumpkins"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "7B20C9355671A739"
+				title: "Kill The Lord Pumpkinhead"
+				type: "advancement"
+			}]
+			title: "&l&2Kill The Lord Pumpkinhead"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Found in a rare tower in cold biomes - locate this tower by following &b&lsoul stars&r. &b&lsoul stars&r can be dropped when killing &l&9undead monsters&r. Place four of the stars in &l&8four pedestals&r to summon the lich."
+				"{image:bosses_of_mass_destruction:item/soul_star width:50 height:50 align:center}"
+			]
+			id: "3E66C4822CA11825"
+			rewards: [{
+				id: "2904276AC7A9F3D8"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "&l&3The magican of the night and ice."
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "47B3734FDDE89521"
+				title: "Kill The Night Lich"
+				type: "advancement"
+			}]
+			title: "&l&9Kill The Night Lich"
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Find a &l&cmassive arena similar to bastion&r in the &l&4nether. Then you have to break &8&lthe monolith in the middle&r to fight the gauntlet"
+				""
+				"{image:bosses_of_mass_destruction:item/blazing_eye width:50 height:50 align:center}"
+			]
+			id: "7630C7A56F719E0D"
+			rewards: [{
+				id: "562F27CEF17FB20C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "&4&lA gauntlet of the nether."
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "7ABCD1D925612E8F"
+				title: "Kill The Netherite Gauntlet"
+				type: "advancement"
+			}]
+			title: "&6&lKill The Netherite Gauntlet"
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Void blossom can be found using &l&dvoid lilies&r that point to it. The void blossom &l&aspawns underground."
+				""
+				"{image:bosses_of_mass_destruction:block/void_lily width:50 height:50 align:center}"
+			]
+			id: "3373DED704E46F97"
+			rewards: [{
+				id: "62B5CDF583097310"
+				item: {
+					Count: 1
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&7&lThe corrupted flower of the void."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "6D92252081C9B17E"
+				title: "Kill The Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d&lKill The Void Blossom"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"This boss can be found in &7&llich prisons&r far above &l&boceans&r. It can be summoned using three of the &l&8Ominous bone fragments&r and a &4&lbottle of blood vial&l. You can get the blood vial by killing villagers with the &l&7bone dagger&r and an empty bottle on your offhand."
+				""
+				"{@pagebreak}"
+				"The boss is summoned by placing thee fragments on &l&0corrupted deepslate&r and sacrificing the blood on the &l&3altar at night."
+				""
+				"{image:graveyard:item/corruption width:50 height:50 align:center}"
+			]
+			id: "211F3BBE7BE43F19"
+			rewards: [{
+				id: "71CD6CCCAAA7D41B"
+				item: {
+					Count: 1
+					id: "arphex:infernal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&4&lThe old champion that was corrupted."
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:corruption"
+				id: "4AB3FD4832AD7985"
+				title: "Kill The Corrupted Champion"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7&lKill The Corrupted Champion"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"summonable by placing a soul sand block on top of a &c&lmangled spider flesh block&r, then lighting it on fire."
+				""
+				"{image:arphex:item/abyssalcrystal width:50 height:50 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "63E5363943AF348C"
+			rewards: [{
+				id: "427D72B4E21BADDB"
+				item: {
+					Count: 1
+					id: "arphex:infernal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&c&lhybrid of a spider and a moth."
+			tasks: [{
+				entity: "arphex:hitbox_expander"
+				icon: "arphex:abyssal_crystal"
+				id: "2DDACC6C695F69B5"
+				title: "Kill The Spider Moth"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lKill The Spider Moth"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"summonable by placing a soul sand block on top of a &5&lmangled scorpion flesh block&r, then lighting it on fire."
+				""
+				"{image:arphex:item/fireopal width:50 height:50 align:center}"
+			]
+			id: "6613213896B34609"
+			rewards: [{
+				id: "0FB2127FD42DC3C9"
+				item: {
+					Count: 1
+					id: "arphex:infernal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&5&lhybrid of a scorpion and a mosquito"
+			tasks: [{
+				entity: "arphex:scorpioid_bloodluster"
+				icon: "arphex:fire_opal"
+				id: "210F79F6B1C814AF"
+				title: "Kill The Scorpioid Bloodluster"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&7Kill The Scorpioid Bloodluster"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Also summonable by placing a soul sand block on top of a &8&lmangled fly flesh block&r, then lighting it on fire."
+				""
+				"{image:arphex:textures/mob_effect/voidlasher_chaos_control.png width:50 height:50 align:center}"
+			]
+			id: "3A2B67E8C2DCF8F9"
+			rewards: [
+				{
+					id: "64DE9FDFC4DF2E96"
+					item: {
+						Count: 1
+						id: "arphex:infernal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B1B4CCB1B21FE6B"
+					item: "arphex:tormentor_summoner"
+					type: "item"
+				}
+			]
+			subtitle: "&8&lhybrid of a tailless whip scorpion and a dragonfly."
+			tasks: [{
+				entity: "arphex:draconic_voidlasher"
+				icon: "arphex:void_geode"
+				id: "5572CDF7C62C8E47"
+				title: "Kill The Draconic Voidlasher"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lKill The Dragonic Voidlasher"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: ["&l&eDefeat the eldrich spider that is tormentor."]
+			id: "778311AB6DA92C8C"
+			rewards: [{
+				id: "23C0E09C8B2188D0"
+				item: {
+					Count: 1
+					id: "arphex:eternal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&cThe spider of all worlds"
+			tasks: [{
+				entity: "arphex:tormentor"
+				icon: "arphex:tormentor_egg"
+				id: "2ED2EE44C83B18D5"
+				title: "Kill The Tormentor"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&6Kill The Tormentor"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["Found in rare structures in the &d&lEnd Islands&r."]
+			id: "0CE076244B5A0C93"
+			subtitle: "&f&lThe obelisk of the end."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "1D7CB66C88D083D0"
+				title: "Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lKill The Obsidilith"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: ["Found in the &5&lSoul Forge&r structure, slumbering in the soul fire in the back of the main hall. The boss awakens when the player enters its line of sight."]
+			id: "7A6A91886F189EAF"
+			subtitle: "&8&lThe Monstrosity of the Nether."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: { }
+				}
+				id: "39BA7AD75B5B9558"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6&lKill The Netherite Monstrosity"
+			x: -7.5d
+			y: -5.5d
+		}
+	]
+	title: "Bosses"
+}
