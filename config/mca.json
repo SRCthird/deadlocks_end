@@ -138,7 +138,7 @@
     "minecraft:grass_block",
     "minecraft:dirt"
   ],
-  "launchIntoDestiny": true,
+  "launchIntoDestiny": false,
   "allowDestinyCommandOnce": true,
   "allowDestinyCommandMoreThanOnce": false,
   "allowDestinyTeleportation": true,
@@ -147,7 +147,7 @@
   "forceVillagerPlayerModel": false,
   "allowLimitedPlayerEditor": true,
   "allowFullPlayerEditor": false,
-  "adjustPlayerEyesToHeight": false,
+  "adjustPlayerEyesToHeight": true,
   "useModernUSANamesOnly": false,
   "guardsTargetEntities": {
     "minecraft:creeper": -1,
@@ -177,7 +177,8 @@
     "#minecraft:slabs",
     "#minecraft:stairs",
     "#minecraft:trapdoors",
-    "#minecraft:walls"
+    "#minecraft:walls",
+    "#minecraft:water"
   ],
   "structuresInRumors": [
     "minecraft:igloo",
@@ -203,13 +204,13 @@
   ],
   "professionConversionsMap": {},
   "shaderLocationsMap": {
-    "color_blind": "minecraft:shaders/post/desaturate.json",
-    "sirben": "mca:shaders/post/sirben.json"
+    "sirben": "mca:shaders/post/sirben.json",
+    "color_blind": "minecraft:shaders/post/desaturate.json"
   },
   "playerRendererBlacklist": {
-    "firstperson": "arms",
-    "firstpersonmod": "arms",
     "epicfight": "all",
+    "firstpersonmod": "arms",
+    "firstperson": "arms",
     "morph": "arms"
   },
   "taxesMap": {
@@ -232,8 +233,8 @@
     "minecraft:ancient_city"
   ],
   "destinyLocationsToTranslationMap": {
-    "default": "destiny.story.travelling",
-    "minecraft:shipwreck_beached": "destiny.story.sailing"
+    "minecraft:shipwreck_beached": "destiny.story.sailing",
+    "default": "destiny.story.travelling"
   },
   "enabledTraits": {
     "SIRBEN": true,
