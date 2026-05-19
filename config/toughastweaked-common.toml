@@ -2,7 +2,7 @@
 #*The game must be restarted for most of these to take effect
 ["Minecraft Integrations"]
 	#Enable Minecraft integrations
-	enable_minecraft = false
+	enable_minecraft = true
 	#Lit furnaces act as a heat source #default true
 	furnace_heat = true
 	#Lit blast furnaces act as a heat source #default true
