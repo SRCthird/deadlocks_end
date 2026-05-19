@@ -19,11 +19,11 @@
 	#customhotbar:textures/gui/underlay.png
 	#Example KubeJS asset:
 	#ce:textures/image/hotbar/underlay.png
-	underlay_path = ""
+	underlay_path = "ce:textures/image/hotbar/dead_roses_underlay.png"
 	#Resource location for the overlay texture.
 	#Leave blank to use the bundled texture:
 	#customhotbar:textures/gui/overlay.png
 	#Example KubeJS asset:
 	#ce:textures/image/hotbar/overlay.png
-	overlay_path = ""
+	overlay_path = "ce:textures/image/hotbar/dead_roses_overlay.png"
 
