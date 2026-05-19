@@ -1,16 +1,11 @@
 filename = 'Aquaculture 2 Excalibur Support.zip'
 name = 'Excalibur | Aquaculture 2'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.2-Snapshot', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Aquaculture 2 Excalibur Support'
 
 [download]
 hash = '9ffe7ce6d0cf4c946759a6da6c13ddcd1720c178'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 5916158

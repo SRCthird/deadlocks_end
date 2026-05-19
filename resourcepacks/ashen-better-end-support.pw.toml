@@ -1,16 +1,11 @@
 filename = 'Ashen_Better_End_Support_1.1.zip'
 name = 'Ashen + Better End Support'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ashen + Better End Support v1.1 MC1.20.1'
 
 [download]
 hash = '48a3bed1ac69c9f373b80f1baa4ded7078c5b78f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 5726983

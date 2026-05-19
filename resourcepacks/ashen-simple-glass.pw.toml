@@ -1,16 +1,11 @@
 filename = 'Ashen_Simple_Glass.zip'
 name = 'Ashen Simple Glass'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ashen Simple Glass v1.1 MC1.20.1'
 
 [download]
 hash = '1ca228594d65c03e6af91fe523cce2b99b7a393c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 5548867

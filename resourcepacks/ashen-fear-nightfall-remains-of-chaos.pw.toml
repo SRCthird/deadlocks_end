@@ -1,16 +1,11 @@
 filename = 'Ashen_FN_Remains_of_Chaos.zip'
 name = 'Ashen + Fear Nightfall: Remains of Chaos'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ashen + Fear Nightfall: Remains of Chaos v1.1.3 MC1.20.1'
 
 [download]
 hash = '06010560154dbec5649b5182e952b2ef7de0e468'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 5863413

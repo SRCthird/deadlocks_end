@@ -1,16 +1,11 @@
 filename = 'Ashen_Regions_Unexplored_Support_1.0.zip'
 name = 'Ashen + Regions Unexplored Support'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ashen + Regions Unexplored Support v1.0 MC1.20.1'
 
 [download]
 hash = '7e6d7165bad374ca57e46569b532bb920321991b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 5690860

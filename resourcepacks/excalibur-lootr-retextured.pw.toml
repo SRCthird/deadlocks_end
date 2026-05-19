@@ -1,16 +1,11 @@
 filename = 'Excalibur_Lootr_v1.1.zip'
 name = 'Excalibur | Lootr Retextured'
 side = ''
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Excalibur_Lootr_v1.1.zip'
 
 [download]
 hash = '9a9b09afc6b3701bd8878336dad843fc4eaba25d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 6976125
