@@ -1,7 +1,7 @@
 
 [general]
 	"Enable 'q' Button" = true
-	"'q' Button on the Right" = false
+	"'q' Button on the Right" = true
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
@@ -1827,7 +1827,7 @@
 	"Matrix Enchanting" = true
 	Pipes = true
 	"Tiny Potato" = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
