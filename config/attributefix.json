@@ -11,6 +11,17 @@
         "value": 100
       }
     },
+    "midnight:malignant_armor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -262,6 +273,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tacz:tacz.bullet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "undead_revamp2:cheroattackspeed": {
@@ -858,6 +880,17 @@
         "value": 100
       }
     },
+    "hordes:infection_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -933,6 +966,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "hordes:infectivity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "turtlecore:magic_amp": {
