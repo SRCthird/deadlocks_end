@@ -1,0 +1,182 @@
+smithing.addTransformRecipe(
+    "recipe_sentient_impaler",
+    <item:srp_spartans:sentient_impaler>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_impaler>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_gauntlet",
+    <item:srp_spartans:sentient_gauntlet>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_gauntlet>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_greatsword",
+    <item:srp_spartans:sentient_v2_greatsword>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_v1_greatsword>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_dagger",
+    <item:srp_spartans:sentient_c_dagger>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_c_dagger>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_glaive",
+    <item:srp_spartans:sentient_b3_glaive>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b2_glaive>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_pike",
+    <item:srp_spartans:sentient_b3_pike>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b2_pike>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_parrying_dagger",
+    <item:srp_spartans:sentient_r3_parrying_dagger>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_r2_parrying_dagger>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_longsword",
+    <item:srp_spartans:sentient_v3_longsword>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_v2_longsword>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_katana",
+    <item:srp_spartans:sentient_vr2_katana>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_vr1_katana>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_throwing_knife",
+    <item:srp_spartans:sentient_vr2_throwing_knife>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_vr1_throwing_knife>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_saber",
+    <item:srp_spartans:sentient_br3_saber>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_br2_saber>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_javelin",
+    <item:srp_spartans:sentient_br3_javelin>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_br2_javelin>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_rapier",
+    <item:srp_spartans:sentient_br2_rapier>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_br1_rapier>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_lance",
+    <item:srp_spartans:sentient_b2_lance>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b1_lance>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_spear",
+    <item:srp_spartans:sentient_b2_spear>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b1_spear>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_longbow",
+    <item:srp_spartans:sentient_b2_longbow>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b1_longbow>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_heavy_crossbow",
+    <item:srp_spartans:sentient_b2_heavy_crossbow>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_b1_heavy_crossbow>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_halberd",
+    <item:srp_spartans:sentient_c2_halberd>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_c1_halberd>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_tomahawk",
+    <item:srp_spartans:sentient_cr2_tomahawk>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_cr1_tomahawk>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_battle_hammer",
+    <item:srp_spartans:sentient_i_battle_hammer>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_i_battle_hammer>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_reaper_scythe",
+    <item:srp_spartans:sentient_reaper_scythe>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_reaper_scythe>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_battleaxe",
+    <item:srp_spartans:sentient_i_battleaxe>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_i_battleaxe>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_boomerang",
+    <item:srp_spartans:sentient_i_boomerang>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_i_boomerang>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_quarterstaff",
+    <item:srp_spartans:sentient_i_quarterstaff>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_i_quarterstaff>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_warhammer",
+    <item:srp_spartans:sentient_i_warhammer>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_i_warhammer>,
+    <item:mobstein:brain>
+);
+smithing.addTransformRecipe(
+    "recipe_sentient_flanged_mace",
+    <item:srp_spartans:sentient_cr3_flanged_mace>,
+    <item:the_deep_void:smithing_template_hard_flesh>,
+    <item:srp_spartans:living_cr2_flanged_mace>,
+    <item:mobstein:brain>
+);
