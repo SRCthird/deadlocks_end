@@ -1,0 +1,13 @@
+name = "The One Who Watches"
+filename = "TheOneWhoWatches-V1.4.4-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "02529521620a87824a447b7377c36c0a1905c70a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7608035
+project-id = 940557

@@ -1,0 +1,13 @@
+name = "Ancient Curses"
+filename = "ancientcurses-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86d22141449af6834f3cfacd64ce259a1dcad3c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5835238
+project-id = 1108294

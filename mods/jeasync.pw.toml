@@ -1,0 +1,13 @@
+name = "JEAsync"
+filename = "jei-1.20.1-forge-15.20.0.130-async-26.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "910b8503b1dbefd955c38147af1862e6d005e31e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8060893
+project-id = 1180017

@@ -1,0 +1,17 @@
+filename = 'Excalibur Kobolds 1.1.zip'
+name = 'Excalibur | Kobolds Support'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1', '1.21.10', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Excalibur Kobolds 1.1'
+
+[download]
+hash = '3dc7e3512852a69d31e1733c93cb269f3a4862ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7298896
+project-id = 1381259

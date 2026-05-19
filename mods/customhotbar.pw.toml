@@ -1,0 +1,13 @@
+name = "CustomHotbar"
+filename = "customhotbar-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6adb8fbac9c672ffc6afa7d8be67f74107ad2e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8085092
+project-id = 1542525

@@ -1,0 +1,17 @@
+filename = 'Ashen_Eldritch_End_Support_1.0.zip'
+name = 'Ashen + Eldritch End Support'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ashen + Eldritch End Support 1.0'
+
+[download]
+hash = '482bdbece6ddcc18668f57f4aeb12a5e4b9ae76a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5690754
+project-id = 1096434

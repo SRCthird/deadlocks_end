@@ -1,0 +1,13 @@
+name = "Born in Chaos Jade compat"
+filename = "born-in-chaos-jade-compat-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "480b63ded8389c2119683d7918bc15afe8ee5dcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7910320
+project-id = 1510842

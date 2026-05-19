@@ -1,0 +1,17 @@
+filename = 'Excalibur Amendments 1.7.zip'
+name = 'Excalibur | Amendments Support'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Excalibur Amendments 1.7'
+
+[download]
+hash = 'a7ba132916c40b60efd4cc2435650d6d823297c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7304781
+project-id = 1245625

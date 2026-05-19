@@ -1,0 +1,13 @@
+name = "Roguelike tower"
+filename = "roguelike_tower-1.20.1-1.20.6-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a78f6420b2e58504cfef239c337445c4e69d7228"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7402752
+project-id = 1417866

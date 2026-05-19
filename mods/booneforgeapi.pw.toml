@@ -1,0 +1,13 @@
+name = "BooneForgeAPI"
+filename = "booneforgeapi-1.20.1-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d8988216b4e453925fd0dd3e7f008b186465d45"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6434954
+project-id = 1232386

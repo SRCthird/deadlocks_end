@@ -1,0 +1,17 @@
+filename = 'Excalibur-FTB-V1 (1).zip'
+name = 'Excalibur | FTB Quests/Teams Support'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Excalibur-FTB-V1.zip'
+
+[download]
+hash = '38c76cf2589bac7e2577e3bbe26aff730ce7d562'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8026918
+project-id = 1531576

@@ -1,0 +1,29 @@
+
+[hotbar]
+	#Enable CustomHotbar overlay rendering.
+	enabled = true
+	#Horizontal offset from centered hotbar position.
+	#Range: -500 ~ 500
+	x_offset = 0
+	#Vertical offset from vanilla hotbar position.
+	#Range: -500 ~ 500
+	y_offset = 0
+	#Overlay texture width.
+	#Range: 1 ~ 1024
+	width = 256
+	#Overlay texture height.
+	#Range: 1 ~ 1024
+	height = 55
+	#Resource location for the underlay texture.
+	#Leave blank to use the bundled texture:
+	#customhotbar:textures/gui/underlay.png
+	#Example KubeJS asset:
+	#ce:textures/image/hotbar/underlay.png
+	underlay_path = ""
+	#Resource location for the overlay texture.
+	#Leave blank to use the bundled texture:
+	#customhotbar:textures/gui/overlay.png
+	#Example KubeJS asset:
+	#ce:textures/image/hotbar/overlay.png
+	overlay_path = ""
+
