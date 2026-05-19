@@ -92,7 +92,7 @@
 		totalsHeals = 4
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 18
+		secondsPerHeal = 9
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
 		applyTime = 2500
@@ -103,7 +103,7 @@
 		totalsHeals = 2
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 22
+		secondsPerHeal = 18
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
 		applyTime = 3000
@@ -111,12 +111,12 @@
 ["External Healing"]
 	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
 	#**WARNING** This sets the gamerule "naturalRegeneration" for all of your worlds internally, so it persists even if you remove the mod
-	allowNaturalRegeneration = false
+	allowNaturalRegeneration = true
 	#If false, healing potions and other healing items will have no effect
 	allowOtherHealingItems = true
 	#Specifies how much percent of the max health should be restored when sleeping
 	#Range: 0.0 ~ 1.0
-	sleepHealPercentage = 0.07
+	sleepHealPercentage = 0.5
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
 	otherRegenMultiplier = 0.75
@@ -138,14 +138,14 @@
 	#If true, max health is scaled to your hearts, and the config entries get multiplier to match the max health
 	scaleMaxHealth = true
 	#If true, max health will be capped at 6 hearts and absorption at 2 hearts per limb. If false, the health cap will be much higher (64 hearts normal and 16 absorption)
-	capMaxHealth = true
+	capMaxHealth = false
 	#Specifies how the vanilla health is calculated. Affects the vanilla visual health bar, as well as the value other mods get to see when they query the player health.
 	#AVERAGE_ALL simply takes all limbs and calculates the average of it.
 	#AVERAGE_CRITICAL takes all critical limbs and calculates the average of it.
 	#MIN_CRITICAl takes the smallest health value of all critical limb.
 	#Does not have any effect if all critical limbs have been disabled.
 	#Allowed Values: AVERAGE_ALL, AVERAGE_CRITICAL, MIN_CRITICAL, CRITICAL_50_PERCENT_OTHER_50_PERCENT
-	vanillaHealthCalculation = "AVERAGE_ALL"
+	vanillaHealthCalculation = "CRITICAL_50_PERCENT_OTHER_50_PERCENT"
 	#If enabled, the default random damage distribution will be changed to leave critical limbs at 1hp if possible.
 	#When there is too much damage, the damage will still kill the player. Other distributions that defined are not affected by this.
 	useFriendlyRandomDistribution = false
@@ -165,14 +165,14 @@
 	#Enable FOV compression (tunnel vision) when in pain
 	enablePainFovCompression = true
 	#Enable severe pain audio effects (tinnitus sound)
-	enablePainAudioEffects = true
+	enablePainAudioEffects = false
 	#Persistent toggle for /firstaid suppression (dynamic vs mild)
 	lowSuppressionEnabled = false
 	#Visual suppression intensity multiplier used when /firstaid suppression mild is active
 	#Range: 0.0 ~ 1.0
-	lowSuppressionMultiplier = 0.4
+	lowSuppressionMultiplier = 0.4000000059604645
 	#Persistent toggle for /firstaid revivewakeup (on vs off)
-	rescueWakeUpEnabled = false
+	rescueWakeUpEnabled = true
 	#Persistent delay in seconds for /firstaid revivewakeup on [seconds]
 	#Range: 0.0 ~ 3600.0
 	rescueWakeUpDelaySeconds = 20.0
@@ -184,10 +184,10 @@
 	painkillerActivationDelaySeconds = 30.0
 	#Maximum health fraction natural regeneration can restore in limited modes
 	#Range: 0.0 ~ 1.0
-	naturalRegenLimitRatio = 0.85
+	naturalRegenLimitRatio = 0.8500000238418579
 	#Critical limb health fraction at or below which critical natural regeneration is prioritized
 	#Range: 0.0 ~ 1.0
-	naturalRegenCriticalPriorityRatio = 0.85
+	naturalRegenCriticalPriorityRatio = 0.8500000238418579
 	#Use duration of morphine in ticks (20 ticks = 1 second)
 	#Range: 1 ~ 72000
 	morphineUseDuration = 40
