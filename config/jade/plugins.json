@@ -54,6 +54,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
