@@ -159,7 +159,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.arphex.space_press:key.keyboard.space
-key_key.arphex.power_bind:key.keyboard.c
+key_key.arphex.power_bind:key.keyboard.unknown
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_tombstone.message.config:key.keyboard.unknown
 key_tombstone.message.compendium:key.keyboard.unknown
@@ -213,7 +213,7 @@ key_key.biomancy.equipped_armor_action:key.keyboard.v:CONTROL
 key_key.sethorse.desc:key.keyboard.p
 key_key.callhorse.desc:key.keyboard.v
 key_key.showstats.desc:key.keyboard.k
-key_chloride.zoom:key.keyboard.c
+key_chloride.zoom:key.keyboard.unknown
 key_key.cpm.gestureMenu:key.keyboard.g
 key_key.cpm.renderToggle:key.keyboard.unknown
 key_key.cpm.qa_1:key.keyboard.unknown
@@ -234,7 +234,7 @@ key_key.cpm.qa_15:key.keyboard.unknown
 key_key.cpm.qa_16:key.keyboard.unknown
 key_key.toastcontrol.clear:key.keyboard.j
 key_key.spartanshields.alt_shield_bash:key.keyboard.unknown
-key_justzoom.keybinds.keybind.zoom:key.keyboard.z
+key_justzoom.keybinds.keybind.zoom:key.keyboard.c
 key_key.irons_spellbooks.spell_wheel:key.keyboard.r
 key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v
