@@ -1026,7 +1026,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a5852bab1fa00a6171939ac5651702e28818b7a194db96486d4ddbb46dae53d7"
+hash = "cdecf9052d2a98c25aae2786054dd6971fcb3a63cea38a7d60242a4c29eba69b"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1134,7 +1134,7 @@ hash = "57e68ace9d8c67600ad7df3efd75b3ee65d41aed7799ee11efcb9afc23bedb3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/overworld.snbt"
-hash = "de6ec70a7d393a0ab58f6af08dd52013f6984ff70fd16887840008fdda874d3a"
+hash = "3219460696eb127c1a3c563ae79f4e3bf9542621587898c360725e101757047c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1590,7 +1590,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4b3046976c823eacd989b8469102f4a5ceb34f0535c167b897ef61f112529de8"
+hash = "6bb533b21bd288e51fb64f275032b580b52837ca17679cac5d0abe6ada378f77"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1618,7 +1618,7 @@ hash = "d5d39b2a04b9fb328dc24108f59514abcc5e9029f14628bc26c124427291c286"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "05387c4908fad33be3b9ec490541daf8d40ee8afa26266896cd644d773c308b4"
+hash = "16d14958daeb379d414040c88ea00e2616d8cf6f51251b080200ac3f34b9c2bc"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1894,7 +1894,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ccb9f33d82b0cd507b1f05f9964c0bdf5463d4027fc1ac3b7259c69ce8a35c1c"
+hash = "962daf8cee81afebb15ecb498d885d03ac13539ec464912a9faa54f19f082099"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2079,6 +2079,10 @@ hash = "f939b3c7e04ac677da5a6f83ef56d52ddaeb869cd98d7ff2dccfa3ef83ef63d8"
 [[files]]
 file = "config/simplyswords_main/weapon_attributes.json5"
 hash = "6f794ab26ccec8d189c3e15374cb1ad965acaff5f3dcf0402387218ee02638cb"
+
+[[files]]
+file = "config/simplytents-common.toml"
+hash = "b14c0e8dd795fe55a30cb05bcde35e16e808d08c8e7af0b619ba6e96346efc37"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -3953,6 +3957,11 @@ hash = "98de8a72ca0be3d5a16786b44ed5fc924c6e6a29d20aed1e71f1224a44883552"
 metafile = true
 
 [[files]]
+file = "mods/sit-everywhere.pw.toml"
+hash = "6ca8b54c1f974da5c46986b364963a2e61dd914fa164ad9b60cfcf9b0940c8fc"
+metafile = true
+
+[[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "0b79b0cdd0c2dfbab6d881094bf8fc52d1921322097976be848778533b158c47"
 metafile = true
@@ -4394,7 +4403,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "92b0e549ef8f4c4818297b8d9a876a295ed20671318eaa069e31e2ed502e68eb"
+hash = "2dbaa7de62abf67f9328fb5635715dc677231027478202361ab2cf20aec7d851"
 
 [[files]]
 file = "resourcepacks/analog-horror-music.pw.toml"
