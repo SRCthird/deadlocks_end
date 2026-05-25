@@ -1,2 +1,3 @@
 *.zip
 /config/spark/tmp
+/config/jei/world/local
