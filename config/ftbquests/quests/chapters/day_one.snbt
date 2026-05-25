@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "day_one"
+	group: ""
+	icon: {
+		Count: 1
+		id: "notreepunching:flint_axe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "07FBC940423C05D3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You wake beneath a sky that does not know your name."
+				""
+				"An icy chill breahes from the lanters on your left."
+				""
+				"The trees stand silent. They will not yield to touch."
+				""
+				"If you want to see sunrise, you will need to learn the old way: stone, fiber, splinters, and flame."
+			]
+			id: "714048331407D7A8"
+			subtitle: "&8The world is listening."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "78DF3F16CB0647A3"
+				title: "Enter the Overworld"
+				type: "dimension"
+			}]
+			title: "&6New Adventure"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["714048331407D7A8"]
+			description: [
+				"The forest watches, but it does not help."
+				""
+				"Break leaves for dead twigs. Strip saplings into sticks. Tear at gravel until the earth gives up flint."
+				""
+				"Do not waste daylight. It is already bleeding away."
+			]
+			icon: "minecraft:flint"
+			id: "1D1A1D0A4A5E1001"
+			rewards: [{
+				id: "1D1A1D0A4A5E1004"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&8No logs. No mercy."
+			tasks: [
+				{
+					id: "1D1A1D0A4A5E1002"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "1D1A1D0A4A5E1003"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "&7Scavenge the Ground"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D1A1D0A4A5E1001"]
+			description: [
+				"Stone remembers every hand that has broken against it."
+				""
+				"Right-click flint against exposed stone. Let the sharp pieces fall."
+				""
+				"The first cut belongs to the rock. The next one belongs to you."
+			]
+			icon: "notreepunching:flint_shard"
+			id: "2E2B2E0B5B6F2001"
+			rewards: [
+				{
+					id: "428F9C560644E206"
+					item: "horror_element_mod:blood_1"
+					type: "item"
+				}
+				{
+					id: "2E2B2E0B5B6F2003"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "&8Make the stone bleed."
+			tasks: [{
+				count: 2L
+				id: "2E2B2E0B5B6F2002"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "&7Knap Flint"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E2B2E0B5B6F2001"]
+			description: [
+				"A shard is only a promise."
+				""
+				"Bind flint to stick and make a knife."
+				""
+				"It is crude, ugly, and hungry enough to matter."
+			]
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F3C3F0C6C703001"
+			rewards: [{
+				id: "3F3C3F0C6C703003"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&8A little tooth for the dark."
+			tasks: [{
+				id: "3F3C3F0C6C703002"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7A Sharp Edge"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F3C3F0C6C703001"]
+			description: [
+				"The grass whispers when cut."
+				""
+				"Use the flint knife on grass or plant matter to gather fibers."
+				""
+				"Twist the fibers into string. Weak things become strong when bound together."
+			]
+			icon: "notreepunching:plant_fiber"
+			id: "4A4D4A0D7D814001"
+			rewards: [
+				{
+					id: "4A4D4A0D7D814004"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "79D35CAF0EEFB2D6"
+					item: "horror_element_mod:blood_9"
+					type: "item"
+				}
+			]
+			subtitle: "&8Harvest the green veins."
+			tasks: [
+				{
+					count: 3L
+					id: "4A4D4A0D7D814002"
+					item: "notreepunching:plant_fiber"
+					type: "item"
+				}
+				{
+					id: "4A4D4A0D7D814003"
+					item: "notreepunching:plant_string"
+					type: "item"
+				}
+			]
+			title: "&2Plant Fiber"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A4D4A0D7D814001"]
+			description: [
+				"The trees have denied your hands."
+				""
+				"Answer them with flint, string, and spite."
+				""
+				"Craft a flint axe. Tonight, the forest gives something back."
+			]
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B5E5B0E8E925001"
+			rewards: [{
+				id: "5B5E5B0E8E925003"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&8The trees can be opened."
+			tasks: [{
+				id: "5B5E5B0E8E925002"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Your First Axe"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B5E5B0E8E925001"]
+			description: [
+				"Wood falls like a body in the dusk."
+				""
+				"Cut logs, make planks, and build a crafting table."
+				""
+				"A flat surface. Four legs. One small island of order in a world that wants you lost."
+			]
+			icon: "minecraft:crafting_table"
+			id: "6C6F6C0F9F036001"
+			rewards: [{
+				id: "6C6F6C0F9F036003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Build before the dark builds around you."
+			tasks: [{
+				id: "6C6F6C0F9F036002"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6Real Woodworking"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C6F6C0F9F036001"]
+			description: [
+				"Below the soil, the world has bones."
+				""
+				"Make a flint pickaxe and pry them loose."
+				""
+				"The deeper you dig, the less certain you become that you are alone."
+			]
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D708D10A0147001"
+			rewards: [{
+				id: "7D708D10A0147003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Scratch at the bones below."
+			tasks: [{
+				id: "7D708D10A0147002"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Crude Mining"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7D708D10A0147001"
+				"0CBE0FDA5D7EBA22"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Cobblestone is not comfort, but it is weight."
+				""
+				"Collect enough to build, cook, and anchor yourself against the night."
+				""
+				"Eight stones. Eight small refusals to die."
+			]
+			icon: "minecraft:cobblestone"
+			id: "7A611A712480E179"
+			rewards: [{
+				id: "51C2B4614A410807"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&8The ground gives up its teeth."
+			tasks: [{
+				count: 8L
+				id: "5E44F540FEF68FD2"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "&8Stone Age"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B5E5B0E8E925001"]
+			description: [
+				"Night is not coming."
+				""
+				"It has been following you since spawn."
+				""
+				"Make a fire starter. Throw 4 sticks and any log on the ground. Then use the fire starter to wake a campfire before the dark gets close enough to breathe on you."
+			]
+			icon: "minecraft:campfire"
+			id: "59740CB4D4C1E354"
+			rewards: [
+				{
+					id: "028ACBF390EEE588"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "3A3DAA804E8A1E89"
+					item: "firstaid:bandage"
+					type: "item"
+				}
+			]
+			subtitle: "&4Light is a warning."
+			tasks: [
+				{
+					id: "4D4CF8EA61FA18EF"
+					item: {
+						Count: 1
+						id: "notreepunching:fire_starter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A1E528A984A3705"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "3D62050D479FAEB6"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&4Fire Before Nightfall"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C6F6C0F9F036001"]
+			description: [
+				"Not every survivor digs."
+				""
+				"Some crawl across the surface and collect what the hills shed."
+				""
+				"Gather loose rocks and sticks. Crude does not mean useless."
+			]
+			icon: "notreepunching:stone_loose_rock"
+			id: "0CBE0FDA5D7EBA22"
+			rewards: [
+				{
+					id: "1C75C240E86827EC"
+					item: "horror_element_mod:blood_4"
+					type: "item"
+				}
+				{
+					id: "5385061390180249"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "&8Take what the earth drops."
+			tasks: [
+				{
+					count: 12L
+					id: "64312666AB37B5B7"
+					item: { Count: 12, id: "notreepunching:stone_loose_rock" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7306F4DBDAA0DDD5"
+					item: { Count: 2, id: "minecraft:stick" }
+					type: "item"
+				}
+			]
+			title: "&8Scavenger's Upgrade"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A611A712480E179"]
+			description: [
+				"The stomach yerns for food."
+				""
+				"Reduce some logs down into hot black charcoal. "
+			]
+			id: "17554D23CD187863"
+			rewards: [{
+				id: "3ADECBF607C46A3D"
+				item: {id: "simplytents:zip_tent", tag: {InteriorData: [{State: {Name: "minecraft:lantern", Properties: {hanging: "true", waterlogged: "false"}}, Offset: [I; 0, -1, -1]}, {NBT: {y: 69, ForgeCaps: {}, id: "minecraft:bed", z: -281, x: 529}, State: {Name: "minecraft:white_bed", Properties: {occupied: "false", facing: "north", part: "head"}}, Offset: [I; 1, -3, 1]}, {NBT: {y: 69, ForgeCaps: {}, id: "minecraft:bed", z: -280, x: 529}, State: {Name: "minecraft:white_bed", Properties: {occupied: "false", facing: "north", part: "foot"}}, Offset: [I; 1, -3, 0]}, {NBT: {Items: [], y: 69, ForgeCaps: {}, id: "minecraft:barrel", z: -279, x: 529}, State: {Name: "minecraft:barrel", Properties: {facing: "east", open: "false"}}, Offset: [I; 1, -3, -1]}], EntityData: [{relX: 1.0d, EntityTag: {CanUpdate: 1b, DeathTime: 0s, OnGround: 1b, AbsorptionAmount: 0.0f, Attributes: [{Name: "minecraft:generic.max_health", Base: 20.0d, Modifiers: [{Amount: 0.0d, Operation: 0, UUID: [I; -307109596, -1454290755, -1223591890, -1053407454], Name: "ChestCavityHeartMaxHP"}]}, {Name: "minecraft:generic.armor", Base: 0.0d}, {Name: "obscure_api:regeneration", Base: 0.0d}, {Name: "forge:step_height_addition", Base: 0.0d}, {Name: "minecraft:generic.knockback_resistance", Base: 0.0d}, {Name: "minecraft:generic.movement_speed", Base: 0.699999988079071d, Modifiers: [{Amount: 0.0d, Operation: 1, UUID: [I; -1751473834, 1057048019, -2021370344, 1592719725], Name: "ChestCavityMovementSpeed"}, {Amount: 0.0d, Operation: 2, UUID: [I; -1890124051, 1486831983, -2033897129, 1708400471], Name: "ChestCavitySpineMovement"}]}, {Name: "forge:entity_gravity", Base: 0.08d}], Invulnerable: 0b, Brain: {memories: {}}, ForgeCaps: {"cataclysm:render_rush_cap": {isRush: 0b, timer: 0, damage: 0.0f}, "mowziesmobs:last_damage": {}, "mowziesmobs:frozen": {frozenWalkAnimPosition: 0.0f, freezeDecayDelay: 0, frozenYawHead: 0.0f, frozen: 0b, frozenPitch: 0.0f, prevFrozen: 0b, freezeProgress: 0.0f, prevHasAI: 1b, frozenWalkAnimSpeed: 0.0f, frozenSwingProgress: 0.0f, frozenYaw: 0.0f, frozenRenderYawOffset: 0.0f}, "the_bumblezone:original_flying_speed": {original_flying_speed: 0.2f}, "cataclysm:tentacle_cap": {getLastTentacleID: 0, hasTentacle: 0b}, "mowziesmobs:living_cap": {}, "cataclysm:charge_cap": {ChargeTime: 0, isCharge: 0b, timer: 0, dx: 0.0f, dz: 0.0f, ChargeDamage: 0.0f, KnockbackSpeed: 0.0f}, "the_bumblezone:entity_dim_component": {non_bz_dimensiontype_namespace: "minecraft", non_bz_dmensiontype_path: "overworld"}, "cataclysm:hook_cap": {hasHook: 0b}, "cataclysm:parry_cap": {frame: 0}, "structure_gel:gel_entity": {portal: "structure_gel:empty"}, "mowziesmobs:ability": {}, "the_bumblezone:living_entity_data": {missed_paralysis: 0}, "iceandfire:entity_data": {frozenData: {isFrozen: 0b, frozenTicks: 0}, chainedData: {}, chickenData: {timeUntilNextEgg: -1}, miscData: {lungeTicks: 0, hasDismounted: 0b, loveTicks: 0}, sirenData: {isCharmed: 0b, charmTime: 0, charmedById: -1}}, "mowziesmobs:frozen_cap": {frozenWalkAnimPosition: 0.0f, freezeDecayDelay: 0, frozenYawHead: 0.0f, frozen: 0b, frozenPitch: 0.0f, prevFrozen: 0b, freezeProgress: 0.0f, prevHasAI: 1b, frozenWalkAnimSpeed: 0.0f, frozenSwingProgress: 0.0f, frozenYaw: 0.0f, frozenRenderYawOffset: 0.0f}, "curios:inventory": {Curios: []}}, Pose: {}, HurtByTimestamp: 0, Rotation: [45.0f, 0.0f], "treechop:chopSettings": {sneakBehavior: "INVERT_CHOPPING", choppingEnabled: 1b, chopInCreativeMode: 0b, isSynced: 0b, treesMustHaveLeaves: 1b, fellingEnabled: 1b}, BalmData: {}, CitadelData: {}, ArmorItems: [{}, {}, {}, {}], ChestCavity: {HeartTimer: 0, LungRemainder: 0.0f, FurnaceProgress: 0, LiverTimer: 0, opened: 0b, MetabolismRemainder: 0.0f, PhotosynthesisProgress: 0, compatibility_id: [I; -1766434152, -1163836203, -1245211729, 521390579], KidneyTimer: 0, Inventory: []}, Invisible: 0b, Air: 300s, HandItems: [{}, {}], ForgeData: {}, UUID: [I; -1766434152, -1163836203, -1245211729, 521390579], Fire: -1s, FallFlying: 0b, FallDistance: 0.0f, Motion: [0.0d, -0.0784000015258789d, 0.0d], id: "minecraft:armor_stand", NoBasePlate: 0b, HurtTime: 0s, DisabledSlots: 0, Health: 20.0f, ShowArms: 1b, Pos: [531.5d, 69.0d, -280.5d], BaguData: {}, PortalCooldown: 0, Small: 0b}, relZ: -1.0d, relY: -3.0d}], TentColor: 11105371, OriginalFacing: "south", FrameBlockId: "minecraft:stripped_oak_wood", OwnerUUID: [I; 1118346800, 1601456355, -1429705931, 1824466414]}, Count: 1b}
+				type: "item"
+			}]
+			subtitle: "The warmth is calling"
+			tasks: [
+				{
+					id: "5C051EC855966950"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "07BB36108920D632"
+					item: { Count: 4, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			title: "A home takes place"
+			x: 7.5d
+			y: 6.5d
+		}
+	]
+	title: " &4&lDay One: &8The Long Dusk"
+}
