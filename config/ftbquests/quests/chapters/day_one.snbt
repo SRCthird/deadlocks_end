@@ -422,7 +422,350 @@
 			id: "17554D23CD187863"
 			rewards: [{
 				id: "3ADECBF607C46A3D"
-				item: {id: "simplytents:zip_tent", tag: {InteriorData: [{State: {Name: "minecraft:lantern", Properties: {hanging: "true", waterlogged: "false"}}, Offset: [I; 0, -1, -1]}, {NBT: {y: 69, ForgeCaps: {}, id: "minecraft:bed", z: -281, x: 529}, State: {Name: "minecraft:white_bed", Properties: {occupied: "false", facing: "north", part: "head"}}, Offset: [I; 1, -3, 1]}, {NBT: {y: 69, ForgeCaps: {}, id: "minecraft:bed", z: -280, x: 529}, State: {Name: "minecraft:white_bed", Properties: {occupied: "false", facing: "north", part: "foot"}}, Offset: [I; 1, -3, 0]}, {NBT: {Items: [], y: 69, ForgeCaps: {}, id: "minecraft:barrel", z: -279, x: 529}, State: {Name: "minecraft:barrel", Properties: {facing: "east", open: "false"}}, Offset: [I; 1, -3, -1]}], EntityData: [{relX: 1.0d, EntityTag: {CanUpdate: 1b, DeathTime: 0s, OnGround: 1b, AbsorptionAmount: 0.0f, Attributes: [{Name: "minecraft:generic.max_health", Base: 20.0d, Modifiers: [{Amount: 0.0d, Operation: 0, UUID: [I; -307109596, -1454290755, -1223591890, -1053407454], Name: "ChestCavityHeartMaxHP"}]}, {Name: "minecraft:generic.armor", Base: 0.0d}, {Name: "obscure_api:regeneration", Base: 0.0d}, {Name: "forge:step_height_addition", Base: 0.0d}, {Name: "minecraft:generic.knockback_resistance", Base: 0.0d}, {Name: "minecraft:generic.movement_speed", Base: 0.699999988079071d, Modifiers: [{Amount: 0.0d, Operation: 1, UUID: [I; -1751473834, 1057048019, -2021370344, 1592719725], Name: "ChestCavityMovementSpeed"}, {Amount: 0.0d, Operation: 2, UUID: [I; -1890124051, 1486831983, -2033897129, 1708400471], Name: "ChestCavitySpineMovement"}]}, {Name: "forge:entity_gravity", Base: 0.08d}], Invulnerable: 0b, Brain: {memories: {}}, ForgeCaps: {"cataclysm:render_rush_cap": {isRush: 0b, timer: 0, damage: 0.0f}, "mowziesmobs:last_damage": {}, "mowziesmobs:frozen": {frozenWalkAnimPosition: 0.0f, freezeDecayDelay: 0, frozenYawHead: 0.0f, frozen: 0b, frozenPitch: 0.0f, prevFrozen: 0b, freezeProgress: 0.0f, prevHasAI: 1b, frozenWalkAnimSpeed: 0.0f, frozenSwingProgress: 0.0f, frozenYaw: 0.0f, frozenRenderYawOffset: 0.0f}, "the_bumblezone:original_flying_speed": {original_flying_speed: 0.2f}, "cataclysm:tentacle_cap": {getLastTentacleID: 0, hasTentacle: 0b}, "mowziesmobs:living_cap": {}, "cataclysm:charge_cap": {ChargeTime: 0, isCharge: 0b, timer: 0, dx: 0.0f, dz: 0.0f, ChargeDamage: 0.0f, KnockbackSpeed: 0.0f}, "the_bumblezone:entity_dim_component": {non_bz_dimensiontype_namespace: "minecraft", non_bz_dmensiontype_path: "overworld"}, "cataclysm:hook_cap": {hasHook: 0b}, "cataclysm:parry_cap": {frame: 0}, "structure_gel:gel_entity": {portal: "structure_gel:empty"}, "mowziesmobs:ability": {}, "the_bumblezone:living_entity_data": {missed_paralysis: 0}, "iceandfire:entity_data": {frozenData: {isFrozen: 0b, frozenTicks: 0}, chainedData: {}, chickenData: {timeUntilNextEgg: -1}, miscData: {lungeTicks: 0, hasDismounted: 0b, loveTicks: 0}, sirenData: {isCharmed: 0b, charmTime: 0, charmedById: -1}}, "mowziesmobs:frozen_cap": {frozenWalkAnimPosition: 0.0f, freezeDecayDelay: 0, frozenYawHead: 0.0f, frozen: 0b, frozenPitch: 0.0f, prevFrozen: 0b, freezeProgress: 0.0f, prevHasAI: 1b, frozenWalkAnimSpeed: 0.0f, frozenSwingProgress: 0.0f, frozenYaw: 0.0f, frozenRenderYawOffset: 0.0f}, "curios:inventory": {Curios: []}}, Pose: {}, HurtByTimestamp: 0, Rotation: [45.0f, 0.0f], "treechop:chopSettings": {sneakBehavior: "INVERT_CHOPPING", choppingEnabled: 1b, chopInCreativeMode: 0b, isSynced: 0b, treesMustHaveLeaves: 1b, fellingEnabled: 1b}, BalmData: {}, CitadelData: {}, ArmorItems: [{}, {}, {}, {}], ChestCavity: {HeartTimer: 0, LungRemainder: 0.0f, FurnaceProgress: 0, LiverTimer: 0, opened: 0b, MetabolismRemainder: 0.0f, PhotosynthesisProgress: 0, compatibility_id: [I; -1766434152, -1163836203, -1245211729, 521390579], KidneyTimer: 0, Inventory: []}, Invisible: 0b, Air: 300s, HandItems: [{}, {}], ForgeData: {}, UUID: [I; -1766434152, -1163836203, -1245211729, 521390579], Fire: -1s, FallFlying: 0b, FallDistance: 0.0f, Motion: [0.0d, -0.0784000015258789d, 0.0d], id: "minecraft:armor_stand", NoBasePlate: 0b, HurtTime: 0s, DisabledSlots: 0, Health: 20.0f, ShowArms: 1b, Pos: [531.5d, 69.0d, -280.5d], BaguData: {}, PortalCooldown: 0, Small: 0b}, relZ: -1.0d, relY: -3.0d}], TentColor: 11105371, OriginalFacing: "south", FrameBlockId: "minecraft:stripped_oak_wood", OwnerUUID: [I; 1118346800, 1601456355, -1429705931, 1824466414]}, Count: 1b}
+				item: {
+					Count: 1
+					id: "simplytents:zip_tent"
+					tag: {
+						EntityData: [{
+							EntityTag: {
+								AbsorptionAmount: 0.0f
+								Air: 300s
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 20.0d
+										Modifiers: [{
+											Amount: 0.0d
+											Name: "ChestCavityHeartMaxHP"
+											Operation: 0
+											UUID: [I;
+												-307109596
+												-1454290755
+												-1223591890
+												-1053407454
+											]
+										}]
+										Name: "minecraft:generic.max_health"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.armor"
+									}
+									{
+										Base: 0.0d
+										Name: "obscure_api:regeneration"
+									}
+									{
+										Base: 0.0d
+										Name: "forge:step_height_addition"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.knockback_resistance"
+									}
+									{
+										Base: 0.699999988079071d
+										Modifiers: [
+											{
+												Amount: 0.0d
+												Name: "ChestCavityMovementSpeed"
+												Operation: 1
+												UUID: [I;
+													-1751473834
+													1057048019
+													-2021370344
+													1592719725
+												]
+											}
+											{
+												Amount: 0.0d
+												Name: "ChestCavitySpineMovement"
+												Operation: 2
+												UUID: [I;
+													-1890124051
+													1486831983
+													-2033897129
+													1708400471
+												]
+											}
+										]
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 0.08d
+										Name: "forge:entity_gravity"
+									}
+								]
+								BaguData: { }
+								BalmData: { }
+								Brain: {
+									memories: { }
+								}
+								CanUpdate: 1b
+								ChestCavity: {
+									FurnaceProgress: 0
+									HeartTimer: 0
+									Inventory: [ ]
+									KidneyTimer: 0
+									LiverTimer: 0
+									LungRemainder: 0.0f
+									MetabolismRemainder: 0.0f
+									PhotosynthesisProgress: 0
+									compatibility_id: [I;
+										-1766434152
+										-1163836203
+										-1245211729
+										521390579
+									]
+									opened: 0b
+								}
+								CitadelData: { }
+								DeathTime: 0s
+								DisabledSlots: 0
+								FallDistance: 0.0f
+								FallFlying: 0b
+								Fire: -1s
+								ForgeCaps: {
+									"cataclysm:charge_cap": {
+										ChargeDamage: 0.0f
+										ChargeTime: 0
+										KnockbackSpeed: 0.0f
+										dx: 0.0f
+										dz: 0.0f
+										isCharge: 0b
+										timer: 0
+									}
+									"cataclysm:hook_cap": {
+										hasHook: 0b
+									}
+									"cataclysm:parry_cap": {
+										frame: 0
+									}
+									"cataclysm:render_rush_cap": {
+										damage: 0.0f
+										isRush: 0b
+										timer: 0
+									}
+									"cataclysm:tentacle_cap": {
+										getLastTentacleID: 0
+										hasTentacle: 0b
+									}
+									"curios:inventory": {
+										Curios: [ ]
+									}
+									"iceandfire:entity_data": {
+										chainedData: { }
+										chickenData: {
+											timeUntilNextEgg: -1
+										}
+										frozenData: {
+											frozenTicks: 0
+											isFrozen: 0b
+										}
+										miscData: {
+											hasDismounted: 0b
+											loveTicks: 0
+											lungeTicks: 0
+										}
+										sirenData: {
+											charmTime: 0
+											charmedById: -1
+											isCharmed: 0b
+										}
+									}
+									"mowziesmobs:ability": { }
+									"mowziesmobs:frozen": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:frozen_cap": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:last_damage": { }
+									"mowziesmobs:living_cap": { }
+									"structure_gel:gel_entity": {
+										portal: "structure_gel:empty"
+									}
+									"the_bumblezone:entity_dim_component": {
+										non_bz_dimensiontype_namespace: "minecraft"
+										non_bz_dmensiontype_path: "overworld"
+									}
+									"the_bumblezone:living_entity_data": {
+										missed_paralysis: 0
+									}
+									"the_bumblezone:original_flying_speed": {
+										original_flying_speed: 0.2f
+									}
+								}
+								ForgeData: { }
+								HandItems: [
+									{ }
+									{ }
+								]
+								Health: 20.0f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								Invisible: 0b
+								Invulnerable: 0b
+								Motion: [
+									0.0d
+									-0.0784000015258789d
+									0.0d
+								]
+								NoBasePlate: 0b
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									531.5d
+									69.0d
+									-280.5d
+								]
+								Pose: { }
+								Rotation: [
+									45.0f
+									0.0f
+								]
+								ShowArms: 1b
+								Small: 0b
+								UUID: [I;
+									-1766434152
+									-1163836203
+									-1245211729
+									521390579
+								]
+								id: "minecraft:armor_stand"
+								"treechop:chopSettings": {
+									chopInCreativeMode: 0b
+									choppingEnabled: 1b
+									fellingEnabled: 1b
+									isSynced: 0b
+									sneakBehavior: "INVERT_CHOPPING"
+									treesMustHaveLeaves: 1b
+								}
+							}
+							relX: 1.0d
+							relY: -3.0d
+							relZ: -1.0d
+						}]
+						FrameBlockId: "minecraft:stripped_oak_wood"
+						InteriorData: [
+							{
+								Offset: [I;
+									0
+									-1
+									-1
+								]
+								State: {
+									Name: "minecraft:lantern"
+									Properties: {
+										hanging: "true"
+										waterlogged: "false"
+									}
+								}
+							}
+							{
+								NBT: {
+									ForgeCaps: { }
+									id: "minecraft:bed"
+									x: 529
+									y: 69
+									z: -281
+								}
+								Offset: [I;
+									1
+									-3
+									1
+								]
+								State: {
+									Name: "minecraft:white_bed"
+									Properties: {
+										facing: "north"
+										occupied: "false"
+										part: "head"
+									}
+								}
+							}
+							{
+								NBT: {
+									ForgeCaps: { }
+									id: "minecraft:bed"
+									x: 529
+									y: 69
+									z: -280
+								}
+								Offset: [I;
+									1
+									-3
+									0
+								]
+								State: {
+									Name: "minecraft:white_bed"
+									Properties: {
+										facing: "north"
+										occupied: "false"
+										part: "foot"
+									}
+								}
+							}
+							{
+								NBT: {
+									ForgeCaps: { }
+									Items: [ ]
+									id: "minecraft:barrel"
+									x: 529
+									y: 69
+									z: -279
+								}
+								Offset: [I;
+									1
+									-3
+									-1
+								]
+								State: {
+									Name: "minecraft:barrel"
+									Properties: {
+										facing: "east"
+										open: "false"
+									}
+								}
+							}
+						]
+						OriginalFacing: "south"
+						OwnerUUID: [I;
+							1118346800
+							1601456355
+							-1429705931
+							1824466414
+						]
+						TentColor: 11105371
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "The warmth is calling"
