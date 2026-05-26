@@ -1,0 +1,447 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "day_two"
+	group: ""
+	icon: "firstaid:bandage"
+	id: "2DA7000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17554D23CD187863"]
+			description: [
+				"You made it through the first night."
+				""
+				"That does not mean you are whole."
+				""
+				"The world has learned where you bleed. Day Two is about learning how to close the wound before it learns again."
+			]
+			id: "2DA7010000000001"
+			rewards: [{
+				id: "4E98CF218E8BBB34"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&8You are alive. Check again."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:sunflower"
+				id: "2DA7010000000002"
+				title: "Wake to Day Two"
+				type: "dimension"
+			}]
+			title: "&6The Morning After"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7010000000001"]
+			description: [
+				"The stone tools got you through the dark."
+				""
+				"Now you need metal. Not for glory. Not for war."
+				""
+				"For shears. For wool. For bandages. For the parts of you that keep splitting open."
+			]
+			icon: "minecraft:raw_iron"
+			id: "2DA7020000000001"
+			rewards: [{
+				id: "2DA7020000000003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Find the red-stained stone."
+			tasks: [{
+				count: 3L
+				id: "2DA7020000000002"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "&7Blood in the Stone"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7020000000001"]
+			description: [
+				"Ore is only a corpse waiting for fire."
+				""
+				"Smelt the raw iron until it hardens into something useful."
+				""
+				"Three ingots. Enough for the first clean cut."
+			]
+			icon: "minecraft:iron_ingot"
+			id: "2DA7030000000001"
+			rewards: [{
+				id: "2DA7030000000003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Cook the blood out of it."
+			tasks: [{
+				count: 3L
+				id: "2DA7030000000002"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "&7Smelt the Iron"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7030000000001"]
+			description: [
+				"A blade with two mouths."
+				""
+				"Craft shears. They are not a weapon, but they will open the world in quieter ways."
+				""
+				"Leaves. Wool. Bandages. Armor made from the things that usually fall beneath your feet."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2DA7040000000001"
+			rewards: [{
+				id: "2DA7040000000003"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&8Two bites of iron."
+			tasks: [{
+				id: "2DA7040000000002"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7The Silver Bite"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7040000000001"]
+			description: [
+				"The sheep do not scream for long."
+				""
+				"Use shears to gather wool, then turn some of that wool into string."
+				""
+				"Keep both. The soft part and the binding part are both needed."
+			]
+			icon: "minecraft:white_wool"
+			id: "2DA7050000000001"
+			rewards: [{
+				id: "2DA7050000000004"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Soft things still remember pain."
+			tasks: [
+				{
+					count: 3L
+					id: "2DA7050000000002"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2DA7050000000003"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "&fFleece and Thread"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7050000000001"]
+			description: [
+				"Small wounds become big problems when ignored."
+				""
+				"Craft plaster from wool and string."
+				""
+				"It is not comfort. It is permission to keep moving."
+			]
+			icon: "firstaid:plaster"
+			id: "2DA7060000000001"
+			rewards: [{
+				id: "2DA7060000000003"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&8Seal the little cuts."
+			tasks: [{
+				count: 2L
+				id: "2DA7060000000002"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			title: "&cPlaster Work"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7060000000001"]
+			description: [
+				"The deeper wounds need more than a patch."
+				""
+				"Craft bandages from wool and string."
+				""
+				"Wrap the body before the body remembers how easily it comes apart."
+			]
+			icon: "firstaid:bandage"
+			id: "2DA7070000000001"
+			rewards: [{
+				id: "2DA7070000000003"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&8Hold yourself together."
+			tasks: [{
+				count: 2L
+				id: "2DA7070000000002"
+				item: "firstaid:bandage"
+				type: "item"
+			}]
+			title: "&cBandages"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7040000000001"]
+			description: [
+				"The trees would not give wood to your fists."
+				""
+				"Now they give leaves to your shears."
+				""
+				"Take enough from the canopy to wear the forest like a warning."
+			]
+			icon: "minecraft:oak_leaves"
+			id: "2DA7080000000001"
+			rewards: [{
+				id: "2DA7080000000003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Harvest the green skin."
+			tasks: [{
+				count: 24L
+				id: "2DA7080000000002"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			title: "&2Shear the Canopy"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DA7080000000001"]
+			description: [
+				"Armor does not need to be iron to matter."
+				""
+				"Craft a full set of leaf armor from Tough As Nails."
+				""
+				"It will not make you brave. It will only make you harder to kill."
+			]
+			icon: {
+				Count: 1
+				id: "toughasnails:leaf_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2DA7090000000001"
+			rewards: [{
+				id: "2DA7090000000006"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "&8Wear the forest's corpse."
+			tasks: [
+				{
+					id: "2DA7090000000002"
+					item: {
+						Count: 1
+						id: "toughasnails:leaf_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA7090000000003"
+					item: {
+						Count: 1
+						id: "toughasnails:leaf_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA7090000000004"
+					item: {
+						Count: 1
+						id: "toughasnails:leaf_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA7090000000005"
+					item: {
+						Count: 1
+						id: "toughasnails:leaf_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Leaf Armor"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2DA7070000000001"
+				"2DA7090000000001"
+				"50FE3D65B3DA5A5F"
+			]
+			description: [
+				"You have iron-cut wool, field dressings, and armor made from leaves."
+				""
+				"You are still fragile."
+				""
+				"But now the next thing that bites you will have to chew through preparation first."
+			]
+			icon: "firstaid:bandage"
+			id: "2DA7100000000001"
+			rewards: [
+				{
+					id: "2DA7100000000003"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7B799AD40EFB0FA9"
+					item: "born_in_chaos_v1:creepy_gift"
+					type: "item"
+				}
+			]
+			subtitle: "&8Prepared is not safe. Prepared is alive."
+			tasks: [{
+				id: "2DA7100000000002"
+				item: "firstaid:bandage"
+				type: "item"
+			}]
+			title: "&4The Body Keeps Score"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7010000000001"]
+			id: "6462AA5243320501"
+			tasks: [{
+				count: 3L
+				id: "1C0EE5F7DFF3CC34"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6462AA5243320501"]
+			id: "70AB8F6829300CA1"
+			tasks: [{
+				count: 3L
+				id: "6173591A58AD0DD9"
+				item: { Count: 3, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA7050000000001"]
+			description: [
+				"As you leave the fire the chill of the wintery landscape burns your skin."
+				""
+				"You will have to craft a suit of Wool to survive any longer."
+			]
+			id: "50FE3D65B3DA5A5F"
+			rewards: [{
+				count: 3
+				id: "09997A7025AD7049"
+				item: "toughasnails:apple_juice"
+				type: "item"
+			}]
+			subtitle: "Your body aches for warmth"
+			tasks: [
+				{
+					id: "79D592D66680082F"
+					item: {
+						Count: 1
+						id: "toughasnails:wool_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FCC0258F00B0CA4"
+					item: {
+						Count: 1
+						id: "toughasnails:wool_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D2F940535B5E94D"
+					item: {
+						Count: 1
+						id: "toughasnails:wool_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6122B985B7BF28E3"
+					item: {
+						Count: 1
+						id: "toughasnails:wool_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Chill of Winter"
+			x: 9.5d
+			y: -1.5d
+		}
+	]
+	title: " &4&lDay Two: &8The Body Keeps Score"
+}
