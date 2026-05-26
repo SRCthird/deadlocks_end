@@ -1026,7 +1026,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8a7b8602ff902dea3a18d8c8e1a3b0fea1975d5f34abdcfa0dc87bbd1275bd89"
+hash = "9bf268924044d4cfd082b10306439c326ccce0b501021a3c7cf7d51f7013ece6"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1130,7 +1130,7 @@ hash = "6e6c6a57c1c7bf2391a298e149ee2339606210edd6d309feb549a9f3c0bb72ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "57e68ace9d8c67600ad7df3efd75b3ee65d41aed7799ee11efcb9afc23bedb3d"
+hash = "c5077acd03dd973c5ed7f05b6e579da4bb73713ba54e18f7c4e7837d8158be23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_one.snbt"
@@ -1138,7 +1138,7 @@ hash = "5c524921f64a83a3cad93ccea4506b24c2a0ee448eeab0ecee2a8b1ce70c4b0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_two.snbt"
-hash = "dce0692a81f45f0f25fb69fca05cf65a195f2bb3193b2e5a01dce4de675dca1a"
+hash = "3f43c6efe70b1367cb2886c8d05826697603b3360d902c9b30b31435019474f7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1622,7 +1622,7 @@ hash = "d5d39b2a04b9fb328dc24108f59514abcc5e9029f14628bc26c124427291c286"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "2eaa962dc759ce7cce3c8a1f89831e854f91cc29753220f94724a17600bf8216"
+hash = "ccfab1ce6afa33f646a2480ac64e2b91f6d8b5bd815d48346d34c85718520c29"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1898,7 +1898,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f0021b02cb722b69c3f8c5c3f62aa0a68522dd815730205c95c71a5e8370dfea"
+hash = "ccb9f33d82b0cd507b1f05f9964c0bdf5463d4027fc1ac3b7259c69ce8a35c1c"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2570,11 +2570,11 @@ hash = "478c4b58f79c11704e17e7490370e0d14a3cd28a84dd51c34119033937bce921"
 
 [[files]]
 file = "kubejs/data/reskillable/skill_locks.json"
-hash = "6521f47853ffe3d41119f982373630bb70569baad1ceab2c57bdab410aea1205"
+hash = "b36de34982ff93eae78db858d956fa2f16c3d6a840b4b996cee033a4ea3d31bb"
 
 [[files]]
 file = "kubejs/data/reskillable_by_material_skill_locks.json"
-hash = "6521f47853ffe3d41119f982373630bb70569baad1ceab2c57bdab410aea1205"
+hash = "b36de34982ff93eae78db858d956fa2f16c3d6a840b4b996cee033a4ea3d31bb"
 
 [[files]]
 file = "kubejs/data/reskillable_defaults_locks.json"
@@ -4201,11 +4201,6 @@ hash = "220a5aa1c851a5508e9cd30215084cba485ffbb7ae4bf0db47108054fab1b948"
 metafile = true
 
 [[files]]
-file = "mods/tough-as-nails-plus.pw.toml"
-hash = "8e72fdb7a378b2be070d910f6ed2ea2cc9aa8e3c4cff4845d11bb16c9de5f5d8"
-metafile = true
-
-[[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "64269f25f4ed579f30f8de32260262fa376ccfb0c73d634c6dc5a482f2af66ab"
 metafile = true
@@ -4417,7 +4412,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "206f978a5cf1e779634d6becc7485ecc34a93aa8bdcde0668cd0befb60535cfa"
+hash = "4060c2fa4077417d7a5199b1e560a2b29cc63ae51db677881abff49d0908f881"
 
 [[files]]
 file = "resourcepacks/analog-horror-music.pw.toml"
@@ -4620,7 +4615,7 @@ hash = "c17f8d238cf6445a59d1ea38d7fc9237d292a1704c8b23f84c1da64c60e73016"
 
 [[files]]
 file = "scripts/item.zs"
-hash = "0c48e7de1cc3f8785f1722a56a5720bff09fe2ca099c238dfddeb8df8b4d9970"
+hash = "b841534c098cc798de9302c6d8ca4dee4da4bb03cd1ed67944d207916b9c2c0c"
 
 [[files]]
 file = "scripts/sentient.zs"
