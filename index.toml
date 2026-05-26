@@ -1026,7 +1026,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cdecf9052d2a98c25aae2786054dd6971fcb3a63cea38a7d60242a4c29eba69b"
+hash = "8a7b8602ff902dea3a18d8c8e1a3b0fea1975d5f34abdcfa0dc87bbd1275bd89"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1126,15 +1126,19 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "41d285b9f48224111f38119530a4707671c9aa72373a05f746ea9a42b60d6180"
+hash = "6e6c6a57c1c7bf2391a298e149ee2339606210edd6d309feb549a9f3c0bb72ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "57e68ace9d8c67600ad7df3efd75b3ee65d41aed7799ee11efcb9afc23bedb3d"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/overworld.snbt"
-hash = "3219460696eb127c1a3c563ae79f4e3bf9542621587898c360725e101757047c"
+file = "config/ftbquests/quests/chapters/day_one.snbt"
+hash = "5c524921f64a83a3cad93ccea4506b24c2a0ee448eeab0ecee2a8b1ce70c4b0c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/day_two.snbt"
+hash = "dce0692a81f45f0f25fb69fca05cf65a195f2bb3193b2e5a01dce4de675dca1a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1590,7 +1594,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6bb533b21bd288e51fb64f275032b580b52837ca17679cac5d0abe6ada378f77"
+hash = "143f19892eed745ddbe01d214565418326c149e514def150e1ddbb91443c56a6"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1618,7 +1622,7 @@ hash = "d5d39b2a04b9fb328dc24108f59514abcc5e9029f14628bc26c124427291c286"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "16d14958daeb379d414040c88ea00e2616d8cf6f51251b080200ac3f34b9c2bc"
+hash = "2eaa962dc759ce7cce3c8a1f89831e854f91cc29753220f94724a17600bf8216"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1894,7 +1898,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "962daf8cee81afebb15ecb498d885d03ac13539ec464912a9faa54f19f082099"
+hash = "f0021b02cb722b69c3f8c5c3f62aa0a68522dd815730205c95c71a5e8370dfea"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -4192,6 +4196,11 @@ hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
 metafile = true
 
 [[files]]
+file = "mods/tough-as-nails-compat.pw.toml"
+hash = "220a5aa1c851a5508e9cd30215084cba485ffbb7ae4bf0db47108054fab1b948"
+metafile = true
+
+[[files]]
 file = "mods/tough-as-nails-plus.pw.toml"
 hash = "8e72fdb7a378b2be070d910f6ed2ea2cc9aa8e3c4cff4845d11bb16c9de5f5d8"
 metafile = true
@@ -4408,7 +4417,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "2dbaa7de62abf67f9328fb5635715dc677231027478202361ab2cf20aec7d851"
+hash = "206f978a5cf1e779634d6becc7485ecc34a93aa8bdcde0668cd0befb60535cfa"
 
 [[files]]
 file = "resourcepacks/analog-horror-music.pw.toml"
@@ -4604,6 +4613,10 @@ metafile = true
 file = "resourcepacks/motschens-better-leaves.pw.toml"
 hash = "299d6dd7a87d7f486fead42603ec2abd715c92d37d78ae1b103cbd2ea9dd9b02"
 metafile = true
+
+[[files]]
+file = "scripts/furnace.zs"
+hash = "c17f8d238cf6445a59d1ea38d7fc9237d292a1704c8b23f84c1da64c60e73016"
 
 [[files]]
 file = "scripts/item.zs"
