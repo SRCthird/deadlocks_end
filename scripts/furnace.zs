@@ -1,0 +1,28 @@
+<recipetype:minecraft:smelting>.addRecipe(
+    "purify_water_canteen",
+    <item:toughasnails:purified_water_canteen>,
+    <item:toughasnails:water_canteen>,
+    0.0,
+    200
+);
+<recipetype:minecraft:smelting>.addRecipe(
+    "purify_dirty_water_canteen",
+    <item:toughasnails:purified_water_canteen>,
+    <item:toughasnails:dirty_water_canteen>,
+    0.0,
+    200
+);
+<recipetype:minecraft:smelting>.addRecipe(
+    "purify_water_bottle",
+    <item:toughasnails:purified_water_bottle>,
+    <item:minecraft:potion>.withTag({Potion: "minecraft:water"}),
+    0.0,
+    200
+);
+<recipetype:minecraft:smelting>.addRecipe(
+    "purify_dirty_water_bottle",
+    <item:toughasnails:purified_water_bottle>,
+    <item:toughasnails:dirty_water_bottle>,
+    0.0,
+    200
+);
