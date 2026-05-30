@@ -33,7 +33,7 @@
 			}]
 			title: "&6The Morning After"
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DA7010000000001"]
@@ -87,7 +87,7 @@
 			}]
 			title: "&7Smelt the Iron"
 			x: 3.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DA7030000000001"]
@@ -125,7 +125,7 @@
 			}]
 			title: "&7The Silver Bite"
 			x: 4.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2DA7040000000001"]
@@ -159,8 +159,8 @@
 				}
 			]
 			title: "&fFleece and Thread"
-			x: 6.5d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2DA7050000000001"]
@@ -169,7 +169,7 @@
 				""
 				"Craft plaster from wool and string."
 				""
-				"It is not comfort. It is permission to keep moving."
+				"It will not save you from the thing in the dark, but it may keep you standing long enough to run."
 			]
 			icon: "firstaid:plaster"
 			id: "2DA7060000000001"
@@ -185,9 +185,9 @@
 				item: "firstaid:plaster"
 				type: "item"
 			}]
-			title: "&cPlaster Work"
-			x: 8.5d
-			y: 0.0d
+			title: "&cPlaster for the Small Hurts"
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2DA7060000000001"]
@@ -212,9 +212,9 @@
 				item: "firstaid:bandage"
 				type: "item"
 			}]
-			title: "&cBandages"
-			x: 10.5d
-			y: 0.0d
+			title: "&cBandage the Deep Ones"
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2DA7040000000001"]
@@ -240,8 +240,8 @@
 				type: "item"
 			}]
 			title: "&2Shear the Canopy"
-			x: 7.5d
-			y: 1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2DA7080000000001"]
@@ -312,9 +312,9 @@
 					type: "item"
 				}
 			]
-			title: "&2Leaf Armor"
-			x: 9.5d
-			y: 1.5d
+			title: "&2Borrowed Skin"
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -323,7 +323,7 @@
 				"50FE3D65B3DA5A5F"
 			]
 			description: [
-				"You have iron-cut wool, field dressings, and armor made from leaves."
+				"You have iron-cut wool, field dressings, leaf armor, and a little warmth left in your hands."
 				""
 				"You are still fragile."
 				""
@@ -350,40 +350,80 @@
 				type: "item"
 			}]
 			title: "&4The Body Keeps Score"
-			x: 12.5d
-			y: 0.0d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2DA7010000000001"]
+			description: [
+				"Iron keeps wounds closed. Copper keeps your hands busy."
+				""
+				"Search the stone for raw copper."
+				""
+				"It is softer than iron, but soft metal is still metal, and the day is still young enough to use it."
+			]
+			icon: "minecraft:raw_copper"
 			id: "6462AA5243320501"
+			rewards: [{
+				count: 3
+				id: "2266CEC862A127CC"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "&8Green blood in the walls."
 			tasks: [{
 				count: 3L
 				id: "1C0EE5F7DFF3CC34"
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
+			title: "&6Green Veins"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6462AA5243320501"]
+			description: [
+				"Raw copper is dull and dirty, but fire knows how to clean a secret."
+				""
+				"Smelt the ore into ingots."
+				""
+				"Every bar is a promise that tomorrow may have sharper edges."
+			]
+			icon: "minecraft:copper_ingot"
 			id: "70AB8F6829300CA1"
+			rewards: [{
+				id: "0E8FECC12FB7A920"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8Let the furnace teach it shape."
 			tasks: [{
 				count: 3L
 				id: "6173591A58AD0DD9"
 				item: { Count: 3, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
+			title: "&6Smelt the Verdigris"
 			x: -3.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DA7050000000001"]
 			description: [
-				"As you leave the fire the chill of the wintery landscape burns your skin."
+				"The fire fades, and the air finds every gap in your clothing."
 				""
-				"You will have to craft a suit of Wool to survive any longer."
+				"The cold does not stab. It settles in, slow and patient, until your body forgets how to be warm."
+				""
+				"Craft a full suit of wool armor before the weather starts taking pieces of you."
 			]
+			icon: {
+				Count: 1
+				id: "toughasnails:wool_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "50FE3D65B3DA5A5F"
 			rewards: [{
 				count: 3
@@ -391,7 +431,7 @@
 				item: "toughasnails:apple_juice"
 				type: "item"
 			}]
-			subtitle: "Your body aches for warmth"
+			subtitle: "&8Your body aches for warmth."
 			tasks: [
 				{
 					id: "79D592D66680082F"
@@ -438,9 +478,226 @@
 					type: "item"
 				}
 			]
-			title: "The Chill of Winter"
-			x: 9.5d
-			y: -1.5d
+			title: "&fThe Chill Under Your Skin"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70AB8F6829300CA1"]
+			description: [
+				"Iron is precious. Leather is thin. Leaves are desperate."
+				""
+				"Copper sits between them, heavy enough to matter and cheap enough to risk."
+				""
+				"Forge a full set of copper armor. It will tarnish before it saves you, but it may still save you."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:armor_copper_metal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CC3D7D55F1F99CD"
+			rewards: [{
+				id: "5435E2EDBDD91AEA"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&8A second skin of dull metal."
+			tasks: [
+				{
+					id: "68782045A6A54172"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "178DF73D322EF67A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C294AB0C5645503"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC70DFECB994E2F"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Tarnished Protection"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70AB8F6829300CA1"]
+			description: [
+				"Stone breaks. Flint chips. Bare hands fail."
+				""
+				"Copper tools are not elegant, but elegance is for people who sleep safely."
+				""
+				"Forge a sword, shovel, pickaxe, and axe. Give your hands better teeth."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:copper_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24DF0AAD594B08FC"
+			rewards: [{
+				id: "08817970C685A3E3"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&8Better teeth for tired hands."
+			tasks: [
+				{
+					id: "1D59A34EA4A65F9B"
+					item: {
+						Count: 1
+						id: "iceandfire:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D057CB7050DAD3C"
+					item: {
+						Count: 1
+						id: "iceandfire:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "174E99865B0D3C10"
+					item: {
+						Count: 1
+						id: "iceandfire:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DB1DD81A3BA620F"
+					item: {
+						Count: 1
+						id: "iceandfire:copper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Copper Teeth"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DA7010000000001"]
+			description: [
+				"Thirst is quieter than hunger."
+				""
+				"It waits behind your tongue and makes your knees weak when you need them most."
+				""
+				"Craft an empty canteen from leather. Cows and horses carry what you need, but taking it will not feel clean, watch your sanity."
+			]
+			icon: "toughasnails:empty_canteen"
+			id: "5B0B00E769C19C3D"
+			rewards: [
+				{
+					id: "46FCF30142192125"
+					item: "horror_element_mod:dead_cow"
+					type: "item"
+				}
+				{
+					id: "798D6962F47A03ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "&8Carry water before the dry mouth starts talking."
+			tasks: [{
+				id: "307B7DB2ED81E005"
+				item: "toughasnails:empty_canteen"
+				type: "item"
+			}]
+			title: "&3A Thirst That Watches"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B0B00E769C19C3D"]
+			description: [
+				"Not all water wants to help you."
+				""
+				"Fill your canteen, then cook the sickness out of it."
+				""
+				"Clean water will not make the world kinder, but it will keep your body from joining the list of things trying to kill you."
+			]
+			icon: {
+				Count: 1
+				id: "toughasnails:purified_water_canteen"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "083FD26C4536D2C4"
+			rewards: [{
+				id: "099E0EDB2AF886BB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&8Boil until the water stops whispering."
+			tasks: [{
+				id: "29B7F731E09225D6"
+				item: {
+					Count: 1
+					id: "toughasnails:purified_water_canteen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3The Clean Drink"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: " &4&lDay Two: &8The Body Keeps Score"
