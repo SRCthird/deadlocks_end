@@ -2233,7 +2233,7 @@
 			"gathering:1"
 		],
 		"minecraft:flint_and_steel": [
-			"attack:10"
+			"gathering:3"
 		],
 		"minecraft:golden_axe": [
 			"gathering:5",
