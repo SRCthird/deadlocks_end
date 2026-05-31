@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "4dcf514a68221692372fca5eeed355c24d4a442adb59109ad47348a8557c64c8"
-
-[[files]]
-file = "README.md"
-hash = "20f0a8fe45619cadf298684b2d5829400949d28f8b4ba42a5d966ab1e70e87f4"
-
-[[files]]
 file = "config/AqMods/caracal.config"
 hash = "d3b0dae8b081020bbf5f172c8a3690507bb8c3c644bbe9ca7f921b43c3aecf14"
 
