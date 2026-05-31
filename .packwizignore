@@ -1,0 +1,42 @@
+# .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
+# See https://git-scm.com/docs/gitignore
+
+/.git/
+/.hooks/
+/.probe/
+/.vs/
+/.vscode/
+/docs/
+/kubejs/probe/
+/icon-exports-x32/
+/kubejs/config/probe-settings.json
+/LICENSE
+/README.md
+/UPDATING.md
+/CHANGELOG.md
+/overrides
+/bth*-server-output
+
+# Exclude build scripts + executables.
+*.bat
+*.sh
+*.exe
+
+# Exclude jsconfig files.
+**/jsconfig.json
+
+# Exclude macOS folder metadata
+**/.DS_Store
+**/__MACOSX
+
+# Exclude VS Code datapack helper config file
+spyglass.json
+
+# Exclude World Data
+/config/spark/tmp
+/config/jei/world/local
+/config/jei/world/server
+
+# Exclude temp and pack metadata
+/tmp
+/pack-meta

@@ -1058,7 +1058,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/me.frigidambiance.customization.txt"
-hash = "b5ca82d012c8b3c3dcfb4aa489e85714e231a5dd72a5c143474c22da6ad98d80"
+hash = "35bc72a1c97acc8e4e076176a35a6663654c55b9683116c2eff9cd6a5ff63a0a"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1631,26 +1631,6 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "d5d39b2a04b9fb328dc24108f59514abcc5e9029f14628bc26c124427291c286"
-
-[[files]]
-file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "ccfab1ce6afa33f646a2480ac64e2b91f6d8b5bd815d48346d34c85718520c29"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/bookmarks.ini"
-hash = "12bb3064021b2ea5840af8431cdea28ac81ec2ccaee2da38d9fdd82ecc7f512c"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/lookupHistory.ini"
-hash = "9e222856861e6365f8934d78957ab20e672d8e6bc588bb8fd4de39bcb60800ed"
-
-[[files]]
-file = "config/jei/world/server/Minecraft_Server_b137aa70/bookmarks.ini"
-hash = "f7595fdd2fee2993b6b4ceaee0df5856317d31e2f6ee66f569c62eb6533cf444"
-
-[[files]]
-file = "config/jei/world/server/Minecraft_Server_b137aa70/lookupHistory.ini"
-hash = "cde28e4f21e1767e444558054a38f4e979f662cbd7a2258b32d417317c4e76b8"
 
 [[files]]
 file = "config/jeresources-common.toml"
