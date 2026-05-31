@@ -881,6 +881,18 @@ file = "config/defaultoptions-common.toml"
 hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "7699f1d68a4ab710376a9cae23848650060b5f2cad3953f898d0e9e3b0309f24"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "8c8da023452509ac5a1f67ac4f765b6d1929be860ee96e5c9e307d06bca1f1a3"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "79a419777cdf7ac1caa4ca33aec32e2adfae69ed004db6ddeff2e9cf83873f89"
+
+[[files]]
 file = "config/dimdoors-config.json5"
 hash = "debf0d9fa5aefe23d94101b9604b448d4889c9586c65c47c089d2778cd6fed1c"
 
@@ -946,7 +958,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "301ffed9f54402c6d448d6105d31004844c5d0e94e3307d720c43667e8080db0"
+hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -4419,10 +4431,6 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "101929c33a577fa3baddf99b6cc4e05dd05fa9b85fef98214b42d67414eecd4a"
 
 [[files]]
 file = "resourcepacks/analog-horror-music.pw.toml"
