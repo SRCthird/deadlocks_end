@@ -754,7 +754,7 @@ hash = "b6a72fb8382cddf0c8c07994895adfa03dde561c377e50d451a745c415e878ce"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "ed8c75900f5811e00e50f28f736fbe298e1779831fe068c4ca1e6f6dacd8873f"
+hash = "6e83486c3952285a361688a558b66aa4a1d3fcad0d0dd147aa06dd87bc0d4d94"
 
 [[files]]
 file = "config/chunksending.json"
@@ -946,7 +946,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "301ffed9f54402c6d448d6105d31004844c5d0e94e3307d720c43667e8080db0"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -1090,7 +1090,7 @@ hash = "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6"
 
 [[files]]
 file = "config/firstaid-client.toml"
-hash = "d3928fa8a0bca02f36e4f0fb215f752d0f37c69f02d31b5024f40132e8e9d8cc"
+hash = "afbef23304a4dda506413db6be5c440528f9cec86a2911d894f879aa9e5495f6"
 
 [[files]]
 file = "config/firstaid-common.toml"
@@ -1138,7 +1138,7 @@ hash = "5c524921f64a83a3cad93ccea4506b24c2a0ee448eeab0ecee2a8b1ce70c4b0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_two.snbt"
-hash = "3f43c6efe70b1367cb2886c8d05826697603b3360d902c9b30b31435019474f7"
+hash = "5221d783c0b8609184b3a1ea1a3f138b7e8321b6d55df82a383e3345aae3be58"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1354,7 +1354,7 @@ hash = "a4dcf9cc2e7f541fe73ee2f9780694cb8e9c7738a0a06e2a456453c3a47a8b9d"
 
 [[files]]
 file = "config/iceandfire-common.toml"
-hash = "f4f30bb8fc7e695be65bad46edf7233faa1d45ab92dd052a7e6891f0e0b97aa4"
+hash = "f5818552ab47dd6b8c4d3404de16ea4e0d2f55c6be0ec9f28d12489f095f759d"
 
 [[files]]
 file = "config/iceandfire/amphithere_biomes.json"
@@ -1623,6 +1623,22 @@ hash = "d5d39b2a04b9fb328dc24108f59514abcc5e9029f14628bc26c124427291c286"
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.ini"
 hash = "ccfab1ce6afa33f646a2480ac64e2b91f6d8b5bd815d48346d34c85718520c29"
+
+[[files]]
+file = "config/jei/world/local/New_World__1/bookmarks.ini"
+hash = "12bb3064021b2ea5840af8431cdea28ac81ec2ccaee2da38d9fdd82ecc7f512c"
+
+[[files]]
+file = "config/jei/world/local/New_World__1/lookupHistory.ini"
+hash = "9e222856861e6365f8934d78957ab20e672d8e6bc588bb8fd4de39bcb60800ed"
+
+[[files]]
+file = "config/jei/world/server/Minecraft_Server_b137aa70/bookmarks.ini"
+hash = "f7595fdd2fee2993b6b4ceaee0df5856317d31e2f6ee66f569c62eb6533cf444"
+
+[[files]]
+file = "config/jei/world/server/Minecraft_Server_b137aa70/lookupHistory.ini"
+hash = "cde28e4f21e1767e444558054a38f4e979f662cbd7a2258b32d417317c4e76b8"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -2002,7 +2018,7 @@ hash = "910c0649cc9a465a19fb33edfd73d31b6b96d527724707dfb70acbe807632d3d"
 
 [[files]]
 file = "config/reskillable/skill_locks.json"
-hash = "6521f47853ffe3d41119f982373630bb70569baad1ceab2c57bdab410aea1205"
+hash = "bd3fd6f94ae23316aa924c8a60fe78a26703edf2b9ce65f9d9b9fa62c84b3767"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -2394,7 +2410,7 @@ hash = "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
 
 [[files]]
 file = "config/vivecraft-client-config.json"
-hash = "ac2ae6f68d604ce8d7b57e23fb4d876de57844ca6984972828d592f1ec498cff"
+hash = "99ab15cf809a4821de9277a9df4341420a52b0e342bbdb2caba03af2ae5ee2b9"
 
 [[files]]
 file = "config/vivecraft-server-config.toml"
@@ -2491,6 +2507,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
+
+[[files]]
+file = "defaultconfigs/firstaid-server.toml"
+hash = "0cc5244e0d489ae08ea633d620500eb3438eaa7139386a5a48c1bfa5edf9d19e"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -2987,7 +3007,7 @@ metafile = true
 
 [[files]]
 file = "mods/corail-tombstone.pw.toml"
-hash = "573f7ce1bf107aab207b80e6d10df78a1e33f1e6126e5563ad5ee48f7586747c"
+hash = "e4c8b1ff41e9c08f8ca37b7e73da6489755a3f05f9ec144a3052f1df5dee2bd8"
 metafile = true
 
 [[files]]
@@ -3251,8 +3271,8 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
-file = "mods/first-aid-new.pw.toml"
-hash = "af30ba8b7f8013f9c99c7c0650c4e35ace17fcd23724683fca3c985a2b22d101"
+file = "mods/first-aid-revived.pw.toml"
+hash = "8ddb94a54b878bc54f0b0239af3cc8f88ea9674f7305b08f6edadc111690ff09"
 metafile = true
 
 [[files]]
@@ -3518,11 +3538,6 @@ metafile = true
 [[files]]
 file = "mods/kurolib.pw.toml"
 hash = "c773df0734d305bcbdbb0ba010ff1d75fb7d83f3866b25ddf22d8b11577dbc28"
-metafile = true
-
-[[files]]
-file = "mods/lc2h.pw.toml"
-hash = "5e7803ff31b2fb435ce333550762dbede88d8e5a83e3154e3bd629e82d0c5ab4"
 metafile = true
 
 [[files]]
@@ -3828,11 +3843,6 @@ metafile = true
 [[files]]
 file = "mods/quality-equipment.pw.toml"
 hash = "ef36064378e18acbeb078fae869d5c02aa84385b3eccb40ab2d8f081bd1e0966"
-metafile = true
-
-[[files]]
-file = "mods/quantified-api.pw.toml"
-hash = "2df8176aa2f37e3ebe78655ea48cd11f257e5037672476e82b6c34484bdf9e91"
 metafile = true
 
 [[files]]
@@ -4412,7 +4422,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4060c2fa4077417d7a5199b1e560a2b29cc63ae51db677881abff49d0908f881"
+hash = "101929c33a577fa3baddf99b6cc4e05dd05fa9b85fef98214b42d67414eecd4a"
 
 [[files]]
 file = "resourcepacks/analog-horror-music.pw.toml"

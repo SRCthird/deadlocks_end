@@ -1,0 +1,80 @@
+["Damage System"]
+	maxHealthHead = 4
+	maxHealthLeft_Arm = 4
+	maxHealthLeft_Leg = 4
+	maxHealthLeft_Foot = 4
+	maxHealthBody = 6
+	maxHealthRight_Arm = 4
+	maxHealthRight_Leg = 4
+	maxHealthRight_Foot = 4
+	causeDeathHead = true
+	causeDeathBody = true
+["Locational Armor"]
+	["Locational Armor".Armor]
+		multiplierHead = 6.0
+		multiplierChest = 2.5
+		multiplierLegs = 3.0
+		multiplierFeet = 6.0
+		offsetHead = 1.0
+		offsetChest = 0.0
+		offsetLegs = 0.0
+		offsetFeet = 0.0
+	["Locational Armor".Toughness]
+		multiplierHead = 4.0
+		multiplierChest = 3.0
+		multiplierLegs = 3.0
+		multiplierFeet = 3.5
+		offsetHead = 0.0
+		offsetChest = 0.0
+		offsetLegs = 0.0
+		offsetFeet = 0.0
+["Internal Healing"]
+	["Internal Healing".bandage]
+		totalsHeals = 4
+		secondsPerHeal = 9
+		applyTime = 2500
+	["Internal Healing".plaster]
+		totalsHeals = 2
+		secondsPerHeal = 18
+		applyTime = 3000
+["External Healing"]
+	allowNaturalRegeneration = false 
+	allowOtherHealingItems = true
+	sleepHealPercentage = 0.5
+	otherRegenMultiplier = 0.75
+	naturalRegenMultiplier = 0.5
+	naturalRegenMode = "LIMITED"
+	naturalRegenStrategy = "CRITICAL"
+	resistanceReductionPercentPerLevel = 20
+
+[misc]
+	scaleMaxHealth = true
+	capMaxHealth = false 
+	vanillaHealthCalculation = "CRITICAL_50_PERCENT_OTHER_50_PERCENT"
+	useFriendlyRandomDistribution = false
+	armorEnchantmentMode = "LOCAL_ENCHANTMENTS"
+
+["Command Settings"]
+	dynamicPainEnabled = true
+	mildPainLevel = 1
+	enablePainVignette = true
+	enablePainFovCompression = true
+	enablePainAudioEffects = false
+	lowSuppressionEnabled = false
+	lowSuppressionMultiplier = 0.4000000059604645
+	rescueWakeUpEnabled = true
+	rescueWakeUpDelaySeconds = 20.0
+	morphineActivationDelaySeconds = 10.0
+	painkillerActivationDelaySeconds = 30.0
+	naturalRegenLimitRatio = 0.8500000238418579
+	naturalRegenCriticalPriorityRatio = 0.8500000238418579
+	morphineUseDuration = 40
+	painkillersUseDuration = 32
+	adrenalineUseDuration = 40
+	suppressionEntityBlacklist = ["minecraft:potion"]
+	commandTipsEnabled = true
+
+["Enchantment Handling"]
+	enchantmentMultiplier = 4
+	resourceLocations = ["minecraft:feather_falling"]
+	overrideMultiplier = [2]
