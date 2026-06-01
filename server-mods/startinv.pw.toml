@@ -1,0 +1,13 @@
+name = "StartInv | Seconds of Immortality!"
+filename = "forge-startinv-1.0.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d64569bb36b944e16fc8fe3102c1fb8249b372e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4909754
+project-id = 944149

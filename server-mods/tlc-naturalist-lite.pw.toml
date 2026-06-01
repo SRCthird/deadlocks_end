@@ -1,0 +1,13 @@
+name = "The Lost City and Naturalist Lite"
+filename = "lostcity_and_naturalist_lite-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06344bdc8b6a53ed8b6294df4affd5cd433ec17b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6809962
+project-id = 1313892

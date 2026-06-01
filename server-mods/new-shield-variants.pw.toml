@@ -1,0 +1,13 @@
+name = "New Shield Variants | Shields with Effects!"
+filename = "new_shield_variants-merged-1.20.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff7ea2d6ab9f3d74e0b7be2dc95c70f834967979"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6835805
+project-id = 884272

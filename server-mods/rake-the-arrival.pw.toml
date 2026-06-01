@@ -1,0 +1,13 @@
+name = "Rake: The Arrival"
+filename = "RakeArrival-forge-1.20.1-1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2cf758bd5437b23db90d62b733d9fb6d893bf8ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6680454
+project-id = 1058551

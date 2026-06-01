@@ -1,0 +1,13 @@
+name = "Slime Jump"
+filename = "slime-jump-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "306296c6c7d9283215b5dc5cb1a4b0a0ae8f0200"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6443466
+project-id = 1247376

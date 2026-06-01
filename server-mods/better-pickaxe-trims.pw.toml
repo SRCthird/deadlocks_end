@@ -1,0 +1,13 @@
+name = "Better Pickaxe Trims"
+filename = "betterpickaxetrims-forge-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9268d1a0b1e7b5494a66dc295ecb96373c860dcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5856565
+project-id = 1130125
