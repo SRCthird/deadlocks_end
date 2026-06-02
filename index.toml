@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "client/Deadlocks End-1.0.1.zip"
-hash = "2ab5622ad75db1a0fec38afd0b209af7148cbbf1b08d4589f6236eb0a22ec3a2"
-
-[[files]]
 file = "config/AqMods/caracal.config"
 hash = "d3b0dae8b081020bbf5f172c8a3690507bb8c3c644bbe9ca7f921b43c3aecf14"
 
@@ -4624,6 +4620,10 @@ hash = "b841534c098cc798de9302c6d8ca4dee4da4bb03cd1ed67944d207916b9c2c0c"
 [[files]]
 file = "scripts/sentient.zs"
 hash = "d7b5e9e29b9b7cbd88f52b13af1c950e98e9777c470680ba63e021d1ac4df433"
+
+[[files]]
+file = "server-icon.png"
+hash = "80d6a0eb77c410dbec397d1b0de4b46e0310aca9d07448c1f65a7477008fa95b"
 
 [[files]]
 file = "server-mods/advancement-plaques.pw.toml"
