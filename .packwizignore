@@ -40,4 +40,3 @@ spyglass.json
 # Exclude temp and pack metadata
 /tmp
 /pack-meta
-/server-mods
