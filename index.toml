@@ -482,7 +482,7 @@ hash = "ed68f0c0b35f9ebbb3d3f93a4913e314b04bfdeab480fc7683bd6ae392cd2e0e"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "5610e6ded5cb6a8263f3042846023a6a3b4b62cdcb9afdd23ed5b1825bdcb7ea"
+hash = "ed1b398794e7b112f1a0c79531ebc9cd56457638c88af0794ebef277b1a45504"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -614,7 +614,7 @@ hash = "a81804c2eef3f7ac38660e9e31c8eaa89b0e0f7663e1e9349f85b622a052ab97"
 
 [[files]]
 file = "config/betterfpsdist.json"
-hash = "ebcb5a08a5422cdf3a00bd6a143b5fe23c1fbfff6e64ed8e0140bb2411218f94"
+hash = "7410aa05bb28180a3d5389fe955affffa7e7842e330385d042eb78e7a73db017"
 
 [[files]]
 file = "config/betterjungletemples-forge-1_20.toml"
@@ -838,7 +838,7 @@ hash = "186e94e7d3f74e5d731cd69e30f8a1e0a300c3fbbfcf92dc5ddb9d8b9d96eeeb"
 
 [[files]]
 file = "config/cucumber-tags.json"
-hash = "7088623daff97e7bdc81acf1a19c2ccc520fa8d1e1c9cc856175b657b63285d9"
+hash = "ab1a142b08e16556f6c81f073a4fe03623f183ab3b5a463872e395c253fcde5e"
 
 [[files]]
 file = "config/cupboard.json"
@@ -1030,7 +1030,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fc9860386218e369a80f090a3ec78c2cd7dee0c7b71f3a32810ec89b9bbdf599"
+hash = "3c856e4eda1e59734882247b9ababffb98c344cbdcb06080cccfda83694982bb"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1598,7 +1598,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "143f19892eed745ddbe01d214565418326c149e514def150e1ddbb91443c56a6"
+hash = "622e4c867a2721ae53e48c93772579820be8348bb89875915d540872a99634e1"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1695,6 +1695,10 @@ hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
 [[files]]
 file = "config/loadingbackgrounds.json"
 hash = "c92cf6a9a1f4cad512e987e095d00e4ce38b4bd8f10dd5882390ae2fd3b593d8"
+
+[[files]]
+file = "config/lootintegrations.json"
+hash = "898873bac11398a75f7faddeb31410246d43be578868ba58d390b58667b44d31"
 
 [[files]]
 file = "config/lootr-client.toml"
@@ -1898,7 +1902,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "689ba1e7845454f08b04001da3fac9b8b5c0e90ca9682b9a9ab33d966621c2d8"
+hash = "07dc8ed406cf3bea165cadbd44e76d0726e204b103f7c54cbb559942108ee086"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2357,10 +2361,6 @@ file = "config/trinketsandbaubles-races.toml"
 hash = "4a3245d300ec8a9b28ae70e0b49cf5789cddf465b966a74372ba8af9ef4fb7d2"
 
 [[files]]
-file = "config/turtlecore-client.toml"
-hash = "a06d879162b6a51993e30f6aeee91f3e9447330660736158995d7387e53638e0"
-
-[[files]]
 file = "config/undergarden-client.toml"
 hash = "9bf3df7a7d80fc63a918bd9715383e995d50821acc2264ca3a0b3af8a0a0d486"
 
@@ -2398,7 +2398,7 @@ hash = "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
 
 [[files]]
 file = "config/vivecraft-client-config.json"
-hash = "ac2ae6f68d604ce8d7b57e23fb4d876de57844ca6984972828d592f1ec498cff"
+hash = "9bafbdbc2af00db719f871eb66cdc0966a081f0fb8895db06958e3f4cda8311b"
 
 [[files]]
 file = "config/vivecraft-server-config.toml"
@@ -3569,6 +3569,51 @@ hash = "1718af618febb2836b3e8854f52dcdc9edf9da2bbc66015dee544809aa26063f"
 metafile = true
 
 [[files]]
+file = "mods/loot-integrations-cataclysm.pw.toml"
+hash = "b66363bc8af99fdca57b3ad7446e346cac6258e462d495327889fae99730fdaa"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeon-crawl.pw.toml"
+hash = "d1ff2121c727ec01db3352aa00038ce31e850e79b74a438dd25ae2caac1edc6e"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeons-and-taverns.pw.toml"
+hash = "e3b2045d3a09d975c32544d397bcaa94296317db9f0fcc1a183c7c98c2b51689"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeons-plus.pw.toml"
+hash = "21f6795449c4fccdb13c250924955777fef58d76cfb026c7377aae2af5bb08fd"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-ice-and-fire.pw.toml"
+hash = "897c09910de92b99904f0ed7ea39f2e05cb9c619b5c2e74ef7974a492af11655"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-the-graveyard.pw.toml"
+hash = "f36239e8a278f81713d08432729c8fc9b4069f1b129ec24f4eab7e5340163ba1"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-towns-and-towers.pw.toml"
+hash = "792f29211a95c33f8dcc9f44d99b0330ce19c91096c0f53a52c1886f9b74b113"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "41a036a86db9c0cab20b9b8956b0749bdfea13942d6ca00668304e5d0731166f"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "de2643b3bb36e6b5fd97540bd79619e0844293b43487ecce1613165a409ce8cc"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "1cb3724c7ebb7f2aa92f0e5a0e422af6dfe74466135de0ca6bc282c8628bbd67"
 metafile = true
@@ -4351,6 +4396,11 @@ metafile = true
 [[files]]
 file = "mods/ydms-weapon-master.pw.toml"
 hash = "8f51051bbb0dd91439207f9e2a09c0fe5acc4ac12c46955f1c998dfd8f45d769"
+metafile = true
+
+[[files]]
+file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
+hash = "96f8af7d80e4ba87483d6a69b8fbd8bae787f38a5133038313ff0c1c28b0428f"
 metafile = true
 
 [[files]]
