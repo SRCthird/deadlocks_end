@@ -29,8 +29,6 @@ ServerEvents.tags('item', event => {
   const goodDrinks = [
     'survival_instinct:gallon_of_milk',
     'survival_instinct:milk',
-    'survival_instinct:monster_can',
-    'survival_instinct:energy_can',
     'the_bumblezone:sugar_water_bottle',
     'the_bumblezone:royal_jelly_bottle',
     'farmersdelight:milk_bottle'
@@ -45,7 +43,12 @@ ServerEvents.tags('item', event => {
     'trinketsandbaubles:titan_spirit'
   ]
 
-  const allDrinks = weakDrinks.concat(mildDrinks, goodDrinks, greatDrinks)
+  const energyDrinks = [
+    'survival_instinct:monster_can',
+    'survival_instinct:energy_can',
+  ]
+
+  const allDrinks = weakDrinks.concat(mildDrinks, goodDrinks, greatDrinks, energyDrinks)
 
   event.add('toughasnails:drinks', allDrinks)
 
@@ -60,4 +63,7 @@ ServerEvents.tags('item', event => {
 
   event.add('toughasnails:thirst/8_thirst_drinks', greatDrinks)
   event.add('toughasnails:hydration/60_hydration_drinks', greatDrinks)
+
+  event.add('toughasnails:thirst/10_thirst_drinks', energyDrinks)
+  event.add('toughasnails:hydration/20_hydration_drinks', energyDrinks)
 })

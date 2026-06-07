@@ -1,0 +1,2 @@
+craftingTable.addShapeless("energy_drink_crafting", <item:survival_instinct:energy_can>, [<item:born_in_chaos_v1:bottle_of_magical_energy>, <item:the_bumblezone:sugar_water_bottle>]);
+craftingTable.addShapeless("monster_energy_drink_crafting", <item:survival_instinct:monster_can>, [<item:born_in_chaos_v1:bottle_of_magical_energy>, <item:the_bumblezone:sugar_water_bottle>, <item:minecraft:rotten_flesh>]);
