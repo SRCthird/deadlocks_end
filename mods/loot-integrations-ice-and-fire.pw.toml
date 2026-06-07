@@ -1,0 +1,13 @@
+name = "Loot Integrations: Ice and Fire"
+filename = "lootintegrations_iceandfire-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4760d3dfbe2bd81edb55c7745a1332db1eeaf849"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7920079
+project-id = 1272782

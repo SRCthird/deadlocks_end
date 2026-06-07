@@ -1,0 +1,13 @@
+name = "Loot Integrations: Dungeons Plus"
+filename = "lootintegrations_dungeonsplus-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16221246d6a94fbb09cb2b6fda907e4c0129b602"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7914987
+project-id = 1146857
