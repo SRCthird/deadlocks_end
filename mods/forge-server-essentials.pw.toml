@@ -1,6 +1,6 @@
 name = "Forge Server Essentials"
 filename = "forgeessentials-1.0.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
