@@ -1,0 +1,13 @@
+name = "OreLibrary"
+filename = "OreLibrary-1.20.1-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55d20bb8aca7828ccc4c46f0e519e8c444aa1c62"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4642761
+project-id = 610510
