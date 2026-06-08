@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "day_three"
+	group: ""
+	icon: "minecraft:bell"
+	id: "3DA7000000000001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DA7100000000001"]
+			description: [
+				"Two mornings have found you alive."
+				""
+				"The first taught you to cut wood. The second taught you to close wounds."
+				""
+				"The third asks a worse question: are there still people out there, or only things pretending?"
+			]
+			icon: "minecraft:sunflower"
+			id: "3DA7010000000001"
+			rewards: [{
+				id: "3DA7010000000003"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&8Smoke means fire. Fire means people. Usually."
+			tasks: [{
+				id: "3DA7010000000002"
+				title: "Begin Day Three"
+				type: "checkmark"
+			}]
+			title: "&6The Road to Somewhere"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA7010000000001"]
+			description: [
+				"Do not wander blind."
+				""
+				"The world is too large, too hungry, and too willing to let you walk in circles until night catches up."
+				""
+				"Make a compass, a map, and a spyglass. Direction, memory, and distance are the first tools of anyone who means to come back."
+			]
+			icon: "minecraft:compass"
+			id: "3DA7020000000001"
+			rewards: [{
+				id: "3DA7020000000005"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&8A road is safer when it has a way back."
+			tasks: [
+				{
+					id: "3DA7020000000002"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "3DA7020000000003"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					id: "3DA7020000000004"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+			]
+			title: "&7Direction, Memory, Distance"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA7020000000001"]
+			description: [
+				"The compass points, but it does not understand what you need."
+				""
+				"Craft Nature's Compass. Use it to read the shape of the land and choose where your feet should go next."
+				""
+				"The forest has paths. It simply prefers not to show them."
+			]
+			icon: "naturescompass:naturescompass"
+			id: "3DA7030000000001"
+			rewards: [{
+				id: "3DA7030000000003"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&8Ask the land where it keeps its secrets."
+			tasks: [{
+				id: "3DA7030000000002"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "&2The Needle in the Trees"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C1A912EB856616"]
+			description: [
+				"Trust is not free."
+				""
+				"Give a villager something useful, kind, or valuable. Food. Flowers. Emeralds. Something that says you came as more than a thief."
+				""
+				"In a world full of teeth, a gift is almost suspicious."
+			]
+			icon: "minecraft:poppy"
+			id: "3DA7060000000001"
+			rewards: [{
+				id: "3DA7060000000003"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8Offer something before asking for shelter."
+			tasks: [{
+				id: "0562A94BB80DCEC1"
+				stat: "deadlocksstory:mca_gifts_given"
+				title: "Gift an item to a villager"
+				type: "stat"
+				value: 1
+			}]
+			title: "&dA Small Offering"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23C1A912EB856616"]
+			description: [
+				"Villages keep records because memory rots faster than paper."
+				""
+				"Craft an Blueprint. Use it to understand the village as more than a cluster of frightened houses."
+				""
+				"Every settlement has a shape. Every shape has weak points."
+			]
+			icon: "mca:blueprint"
+			id: "3DA7070000000001"
+			rewards: [{
+				id: "3DA7070000000003"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8The village has bones. Learn where they are."
+			tasks: [{
+				id: "3DA7070000000002"
+				item: "mca:blueprint"
+				type: "item"
+			}]
+			title: "&bThe Shape of a Settlement"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA7070000000001"]
+			description: [
+				"A village is not made from walls."
+				""
+				"It is made from people who expect those walls to hold."
+				""
+				"Use the Blueprint to inspect the village. Mark a building, learn who lives nearby, or begin planning what this place needs before the next bad night."
+			]
+			icon: "minecraft:lectern"
+			id: "3DA7080000000001"
+			rewards: [{
+				id: "3DA7080000000003"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8Count the doors before something else does."
+			tasks: [{
+				id: "3DA7080000000002"
+				title: "Use the Blueprint in a village"
+				type: "checkmark"
+			}]
+			title: "&bCensus of the Afraid"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0089044E641C9924"]
+			description: [
+				"Villages attract work the same way wounds attract flies."
+				""
+				"Find a Bounty Board. Read what the desperate have pinned there."
+				""
+				"Somebody wants something brought back. Somebody wants something dead. Either way, the board is hungry."
+			]
+			icon: "bountiful:bountyboard"
+			id: "3DA7090000000001"
+			rewards: [{
+				id: "3DA7090000000003"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8The board pays. The board does not care."
+			tasks: [{
+				id: "1EF52011B38AA919"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "&6A Board Full of Bad Ideas"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DA7090000000001"]
+			description: [
+				"Take a bounty you can survive."
+				""
+				"Do not be proud. Proud people choose the biggest reward and become someone else's warning."
+				""
+				"Accept a simple bounty and carry it with you. Let the village give your wandering a purpose."
+			]
+			icon: "minecraft:paper"
+			id: "3DA7100000000001"
+			rewards: [{
+				id: "3DA7100000000003"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "&8A promise written in someone else's hand."
+			tasks: [{
+				id: "1B4165FDC629D042"
+				title: "Grab a bounty"
+				type: "checkmark"
+			}]
+			title: "&6Work for the Living"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DA7100000000001"]
+			description: [
+				"Bring back what the board asks for, or kill what it says needs killing."
+				""
+				"Then return before the paper expires and before your luck does."
+				""
+				"The first reward is not the payment. The first reward is learning the village may have a use for you."
+			]
+			icon: "minecraft:emerald"
+			id: "3DA7110000000001"
+			rewards: [
+				{
+					id: "3DA7110000000003"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "3DA7110000000004"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "&8Come back with proof."
+			tasks: [{
+				id: "048BB99ACA7F9E4A"
+				stat: "deadlocksstory:bounties_completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "&6Paid in Proof"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0089044E641C9924"]
+			description: [
+				"The village eats better than you do."
+				""
+				"That should change."
+				""
+				"Build the tools for real cooking. A knife to prepare, a cutting board to work, and a skillet to turn scraps into something your body recognizes as mercy."
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DA7120000000001"
+			rewards: [{
+				id: "3DA7120000000005"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "&8Panic food keeps you alive. Meals keep you human."
+			tasks: [
+				{
+					id: "3DA7120000000002"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA7120000000003"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "3DA7120000000004"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6A Kitchen With a Pulse"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DA7120000000001"]
+			description: [
+				"Cook something that takes more thought than chewing."
+				""
+				"Soup, stew, a sandwich, a cooked cut of meat, anything that proves you are no longer eating like an animal cornered under a tree."
+				""
+				"Share it with the road. Or with the village. Or keep it close and call that wisdom."
+			]
+			icon: "farmersdelight:beef_stew"
+			id: "3DA7130000000001"
+			rewards: [
+				{
+					id: "3DA7130000000003"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "3DA7130000000004"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+			]
+			subtitle: "&8The stomach is easier to haunt when empty."
+			tasks: [{
+				id: "3DA7130000000002"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			title: "&6The First Real Meal"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3DA7060000000001"
+				"3DA7110000000001"
+			]
+			description: [
+				"Someone screams."
+				""
+				"Maybe it is outside the palisade. Maybe it is behind the church. Maybe it is only close enough that everyone stops talking at once."
+				""
+				"Kill your first monster. Not for glory. Not for loot. Because the village now has faces."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DA7140000000001"
+			rewards: [
+				{
+					id: "3DA7140000000003"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3DA7140000000004"
+					item: "firstaid:bandage"
+					type: "item"
+				}
+			]
+			subtitle: "&8The first thing you kill for someone else."
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "3DA7140000000002"
+				type: "advancement"
+			}]
+			title: "&4Monster Hunter"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA7140000000001"]
+			description: [
+				"When the thing falls, the village does not become safe."
+				""
+				"But the silence afterward is different."
+				""
+				"Return to a villager after killing a monster. Speak to them again. Let the living see that something answered the scream."
+			]
+			icon: "minecraft:bell"
+			id: "3DA7150000000001"
+			rewards: [{
+				id: "3DA7150000000003"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "&8A protector is only a survivor with witnesses."
+			tasks: [{
+				id: "3DA7150000000002"
+				title: "Speak to a villager after the kill"
+				type: "checkmark"
+			}]
+			title: "&aThe Bell Still Rings"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3DA7080000000001"
+				"3DA7110000000001"
+				"3DA7130000000001"
+				"3DA7150000000001"
+			]
+			description: [
+				"You found a village."
+				""
+				"You learned its names, read its board, cooked like you meant to live, and killed the first thing that came looking for easy prey."
+				""
+				"The village does not trust you yet. That would be foolish."
+				""
+				"But when you leave, someone watches the road behind you."
+			]
+			icon: "minecraft:bell"
+			id: "3DA7160000000001"
+			rewards: [
+				{
+					id: "3DA7160000000003"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3DA7160000000004"
+					item: "born_in_chaos_v1:creepy_gift"
+					type: "item"
+				}
+			]
+			subtitle: "&8A settlement is not home. Not yet."
+			tasks: [{
+				id: "3DA7160000000002"
+				title: "Day Three Complete"
+				type: "checkmark"
+			}]
+			title: "&4The Village That Noticed You"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA7030000000001"]
+			description: [
+				"Look for paths, lanterns, bells, fields, rooftops, smoke, or footprints that are not yours."
+				""
+				"A village means shelter. Trade. Names. Witnesses."
+				""
+				"It also means the things in the dark have more doors to scratch."
+			]
+			icon: "minecraft:bell"
+			id: "0089044E641C9924"
+			subtitle: "&8Find proof that you are not the last one."
+			tasks: [{
+				advancement: "mca:root"
+				criterion: ""
+				id: "4C0A55E08F2E26CD"
+				title: "Find a village"
+				type: "advancement"
+			}]
+			title: "&6Smoke on the Horizon"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0089044E641C9924"]
+			description: [
+				"The people here have names."
+				""
+				"That makes them harder to ignore."
+				""
+				"Speak to a villager. Learn a face. Learn a voice. Let the settlement become more than loot chests and doors."
+			]
+			id: "23C1A912EB856616"
+			subtitle: "&8A name is a dangerous thing to know."
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "7BD43E4F64DE8A5C"
+				title: "Trade with a villager"
+				type: "advancement"
+			}]
+			title: "&aThe Ones Who Still Answer"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: " &4&lDay Three: &8The Village That Noticed You"
+}
