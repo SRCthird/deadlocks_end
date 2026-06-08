@@ -1,0 +1,5 @@
+
+[deadlocksstory]
+	#Enable debug logging for Deadlocks Story.
+	debug = false
+
