@@ -13,3 +13,9 @@ craftingTable.addShaped("new_graybeard_staff", <item:irons_spellbooks:graybeard_
     [<item:minecraft:air>, <item:spartanweaponry:pole>, <item:minecraft:air>],
     [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+craftingTable.remove(<item:chipped:carpenters_table>);
+craftingTable.addShaped("new_carpenters_table", <item:chipped:carpenters_table>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
+    [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
+    [<item:handcrafted:hammer>, <tag:item:minecraft:planks>, <tag:items:minecraft:logs>]
+]);
