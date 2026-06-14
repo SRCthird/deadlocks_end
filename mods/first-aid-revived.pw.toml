@@ -1,13 +1,13 @@
 name = "First Aid - Revived"
-filename = "firstaid-1.20.1-1.2.1.jar"
+filename = "firstaid-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "79e27b73054720b901b03676dc18b8e152c9e0b9"
+hash = "8b8cc2aa5416cee8a810ae991205a2dc539fb347"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8188806
+file-id = 8239526
 project-id = 1559209

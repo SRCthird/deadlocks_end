@@ -212,6 +212,7 @@
   "renderDeviceAxes": "false",
   "seatedhmd": "false",
   "digitalMovementDeadzone": "0.5",
+  "sleepEffect": "true",
   "backpackMainHandKeybind": "vivecraft.key.quickSwap",
   "rightclickDelay": "VANILLA",
   "displayMirrorUseScreenshotCamera": "false",
