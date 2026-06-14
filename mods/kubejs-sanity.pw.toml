@@ -1,0 +1,13 @@
+name = "KubeJS Sanity"
+filename = "SanityJS-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b5952874295d1d69e1563a2300e593b4b30bcb9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7859038
+project-id = 1090570
