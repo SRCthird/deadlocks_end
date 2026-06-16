@@ -1,0 +1,5 @@
+
+["Gentle Picking Config"]
+	#Should plants be pickable only with an empty hand?
+	"Only Hand" = false
+

@@ -1,0 +1,13 @@
+name = "Gentle Picking (Forge)"
+filename = "gentlepicking-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ff47eaa1a30bc9df63bde641d95fe69f47c967d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4994133
+project-id = 818321
