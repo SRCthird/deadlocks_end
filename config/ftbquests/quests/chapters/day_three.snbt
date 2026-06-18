@@ -123,15 +123,15 @@
 				value: 1
 			}]
 			title: "&dA Small Offering"
-			x: 7.5d
-			y: -1.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23C1A912EB856616"]
 			description: [
 				"Villages keep records because memory rots faster than paper."
 				""
-				"Craft an Blueprint. Use it to understand the village as more than a cluster of frightened houses."
+				"Craft an MCA Blueprint. Use it to understand the village as more than a cluster of frightened houses."
 				""
 				"Every settlement has a shape. Every shape has weak points."
 			]
@@ -150,7 +150,7 @@
 			}]
 			title: "&bThe Shape of a Settlement"
 			x: 7.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DA7070000000001"]
@@ -170,13 +170,14 @@
 			}]
 			subtitle: "&8Count the doors before something else does."
 			tasks: [{
-				id: "3DA7080000000002"
-				title: "Use the Blueprint in a village"
-				type: "checkmark"
+				id: "1CEA34F51466CEA1"
+				stat: "deadlocksstory:mca_rooms_created"
+				type: "stat"
+				value: 5
 			}]
 			title: "&bCensus of the Afraid"
-			x: 9.0d
-			y: 0.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0089044E641C9924"]
@@ -202,7 +203,7 @@
 			}]
 			title: "&6A Board Full of Bad Ideas"
 			x: 6.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3DA7090000000001"]
@@ -223,8 +224,15 @@
 			subtitle: "&8A promise written in someone else's hand."
 			tasks: [{
 				id: "1B4165FDC629D042"
-				title: "Grab a bounty"
-				type: "checkmark"
+				item: {
+					Count: 1
+					id: "bountiful:bounty"
+					tag: {
+						"bountiful:bounty_info": "{}"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "&6Work for the Living"
 			x: 7.5d
@@ -307,13 +315,7 @@
 				}
 				{
 					id: "3DA7120000000004"
-					item: {
-						Count: 1
-						id: "farmersdelight:skillet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "farmersdelight:cooking_pot"
 					type: "item"
 				}
 			]
@@ -352,7 +354,7 @@
 				type: "item"
 			}]
 			title: "&6The First Real Meal"
-			x: 7.5d
+			x: 10.5d
 			y: 2.0d
 		}
 		{
@@ -360,6 +362,7 @@
 				"3DA7060000000001"
 				"3DA7110000000001"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Someone screams."
 				""
@@ -406,7 +409,7 @@
 				""
 				"But the silence afterward is different."
 				""
-				"Return to a villager after killing a monster. Speak to them again. Let the living see that something answered the scream."
+				"Return to an MCA villager after killing a monster. Speak to them again. Let the living see that something answered the scream."
 			]
 			icon: "minecraft:bell"
 			id: "3DA7150000000001"
@@ -427,10 +430,10 @@
 		}
 		{
 			dependencies: [
-				"3DA7080000000001"
 				"3DA7110000000001"
 				"3DA7130000000001"
 				"3DA7150000000001"
+				"3DA7080000000001"
 			]
 			description: [
 				"You found a village."
@@ -457,9 +460,10 @@
 			]
 			subtitle: "&8A settlement is not home. Not yet."
 			tasks: [{
-				id: "3DA7160000000002"
-				title: "Day Three Complete"
-				type: "checkmark"
+				advancement: "mca:friend"
+				criterion: ""
+				id: "41B29E1FD53ABA2A"
+				type: "advancement"
 			}]
 			title: "&4The Village That Noticed You"
 			x: 13.5d
@@ -495,7 +499,7 @@
 				""
 				"That makes them harder to ignore."
 				""
-				"Speak to a villager. Learn a face. Learn a voice. Let the settlement become more than loot chests and doors."
+				"Speak to an MCA villager. Learn a face. Learn a voice. Let the settlement become more than loot chests and doors."
 			]
 			id: "23C1A912EB856616"
 			subtitle: "&8A name is a dangerous thing to know."

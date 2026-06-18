@@ -1,0 +1,821 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "day_four"
+	group: ""
+	icon: "irons_spellbooks:arcane_essence"
+	id: "4DA7000000000001"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DA7160000000001"]
+			description: [
+				"The village has names. The road has teeth. The dead have started leaving useful things behind."
+				""
+				"By the fourth morning, survival is no longer enough."
+				""
+				"You begin studying the marks scratched into books, petals, bones, and flesh. Some powers are learned. Some are grown. Some are cut out of things that were still moving."
+			]
+			icon: "irons_spellbooks:arcane_essence"
+			id: "4DA7010000000001"
+			rewards: [{
+				id: "4DA7010000000003"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&8The world has rules. Some can be broken."
+			tasks: [{
+				id: "19F5B0926206E973"
+				title: "Begin Day Four"
+				type: "checkmark"
+			}]
+			title: "&5The First Forbidden Things"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DA7010000000001"]
+			description: [
+				"Sometimes magic doesn't begin with fire from your hands."
+				""
+				"It begins with a table, a book, and the bad idea that power can be organized."
+				""
+				"Craft an enchanting table, gather lapis, and surround the old thing with enough books to make it whisper back."
+			]
+			icon: "minecraft:enchanting_table"
+			id: "4DA7020000000001"
+			rewards: [{
+				id: "4DA7020000000005"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "&8Build the table that reads you first."
+			tasks: [
+				{
+					id: "4DA7020000000002"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4DA7020000000003"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4DA7020000000004"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "&5The Table That Knows"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DA7020000000001"]
+			description: [
+				"Place the item down. Pay the lapis. Spend the levels."
+				""
+				"This table feels off though, not like the ones from your past. The table offers more choices and pretends they are yours to keep."
+				""
+				"Enchant a tool, weapon, armor piece, or book. Let the first mark settle into something you plan to keep."
+			]
+			icon: "minecraft:enchanted_book"
+			id: "4DA7030000000001"
+			rewards: [{
+				id: "4DA7030000000003"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "&8A blessing is only a curse with better manners."
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "5CC822DB272B20C4"
+				type: "advancement"
+			}]
+			title: "&dThe First Mark"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DA7030000000001"]
+			description: [
+				"Power sticks to metal, cloth, and paper."
+				""
+				"That does not mean it belongs there."
+				""
+				"Use a grindstone to pull an enchantment from one thing and return it to experience."
+			]
+			icon: "minecraft:grindstone"
+			id: "4DA7040000000001"
+			rewards: [{
+				id: "4DA7040000000003"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "&8Unwrite the word, it will be missed."
+			tasks: [{
+				id: "35620EAE597A8298"
+				stat: "minecraft:interact_with_grindstone"
+				type: "stat"
+				value: 1
+			}]
+			title: "&5Unmake the Blessing"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D825083D365CC8D"]
+			description: [
+				"Not every enchanted thing is worth wearing."
+				""
+				"Some should be harvested. Some should be stripped. Some should be remembered only as a book on a shelf."
+				""
+				"Recover or obtain an enchanted book, then keep it for the next weapon that deserves teeth."
+			]
+			icon: "minecraft:enchanted_book"
+			id: "4DA7050000000001"
+			rewards: [{
+				id: "4DA7050000000003"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "&8The spell survives the tool."
+			tasks: [{
+				id: "4DA7050000000002"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
+			title: "&dA Spell Saved From Scrap"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DA7010000000001"]
+			description: [
+				"Magic leaves residue in places where people died believing they understood it."
+				""
+				"Search towers, ruins, dungeons, libraries, and the pockets of things that cast before they claw."
+				""
+				"Bring back Arcane Essence. It hums like a trapped insect."
+			]
+			icon: "irons_spellbooks:arcane_essence"
+			id: "4DA7060000000001"
+			rewards: [{
+				id: "4DA7060000000003"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "&8Collect the dust that remembers spells."
+			tasks: [{
+				count: 4L
+				id: "4DA7060000000002"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "&5Arcane Spoor"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA7060000000001"]
+			description: [
+				"A sword forgets after it cuts."
+				""
+				"A spell book remembers every word you feed it."
+				""
+				"Craft or find an Ironbound Tome. Hold it carefully. Books like this do not enjoy being owned."
+			]
+			icon: "irons_spellbooks:iron_spell_book"
+			id: "4DA7070000000001"
+			rewards: [{
+				id: "4DA7070000000003"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "&8The cover is closed for your safety."
+			tasks: [{
+				id: "4DA7070000000002"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "&5Ironbound Words"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA7070000000001"]
+			description: [
+				"Scrolls are screams written neatly."
+				""
+				"Find one in a ruin, tower, chest, or on the remains of someone who knew the syllables before you did."
+				""
+				"Any spell scroll will do. The first lesson is not power. The first lesson is that the page can burn without fire."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "4DA7080000000001"
+			rewards: [{
+				id: "4DA7080000000003"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "&8A loose spell is a loaded weapon."
+			tasks: [{
+				id: "63D31E15297A7B29"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:abyssal_shroud"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&5A Scroll With a Pulse"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DA7070000000001"
+				"4DA7080000000001"
+			]
+			description: [
+				"The book is hungry. The scroll is temporary."
+				""
+				"The Inscription Table is where temporary things are persuaded to stay."
+				""
+				"Craft the table, then prepare to move a spell from paper into something that can remember it more than once."
+			]
+			icon: "irons_spellbooks:inscription_table"
+			id: "4DA7090000000001"
+			rewards: [{
+				id: "4DA7090000000003"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "&8Teach the book a word it cannot forget."
+			tasks: [{
+				id: "4DA7090000000002"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "&5The Inscription Table"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA7090000000001"]
+			description: [
+				"Put the book down. Lay the scroll beside it."
+				""
+				"Do not think too hard about why the ink moves."
+				""
+				"Use the Inscription Table to place a spell into your spell book."
+			]
+			icon: "irons_spellbooks:iron_spell_book"
+			id: "4DA7100000000001"
+			rewards: [
+				{
+					id: "4DA7100000000003"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "4AC6F3B42E2401FA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&8The page learns your hand."
+			tasks: [{
+				id: "4DA7100000000002"
+				title: "Inscribe a spell into a spell book"
+				type: "checkmark"
+			}]
+			title: "&5A Word That Stays"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA7100000000001"]
+			description: [
+				"Now speak with something other than your mouth."
+				""
+				"Cast your first spell. Aim it somewhere sensible. Preferably away from villagers, livestock, and anything you cannot afford to anger."
+				""
+				"The world will hear you. That is the problem."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "4DA7110000000001"
+			rewards: [{
+				id: "4DA7110000000003"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&8The first spell always echoes too loud."
+			tasks: [{
+				id: "339FC07B60BA76D7"
+				stat: "deadlocksstory:spells_cast"
+				type: "stat"
+				value: 5
+			}]
+			title: "&5The First Casting"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA7010000000001"]
+			description: [
+				"Not every magic comes from old books."
+				""
+				"Some grows in damp soil, drinks sunlight, and waits patiently to be arranged into a pattern."
+				""
+				"Craft the Lexica Botania and let the flowers start explaining themselves."
+			]
+			icon: "botania:lexicon"
+			id: "4DA7120000000001"
+			rewards: [{
+				id: "4DA7120000000003"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "&8The flowers have a manual. That is not comforting."
+			tasks: [{
+				id: "4DA7120000000002"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "&2The Book of Green Instructions"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7120000000001"]
+			description: [
+				"The petals are not ingredients."
+				""
+				"They are little colored organs of the earth, and the Apothecary knows how to arrange them."
+				""
+				"Craft a Petal Apothecary. Place it somewhere you will not mind hearing water move at night."
+			]
+			icon: "botania:apothecary_default"
+			id: "4DA7130000000001"
+			rewards: [{
+				id: "4DA7130000000003"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "&8A basin for flowers and bad decisions."
+			tasks: [{
+				id: "4DA7130000000002"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "&2Petal Apothecary"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7130000000001"]
+			description: [
+				"The Pure Daisy is patient magic."
+				""
+				"It does not crackle. It does not scream. It simply changes the world by standing near it long enough."
+				""
+				"Create a Pure Daisy, then let it teach stone and wood to become something stranger."
+			]
+			icon: "botania:pure_daisy"
+			id: "4DA7140000000001"
+			rewards: [{
+				id: "4DA7140000000003"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "&8A quiet flower is still a ritual."
+			tasks: [{
+				id: "4DA7140000000002"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "&fThe Flower That Rewrites"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7140000000001"]
+			description: [
+				"Place ordinary wood and stone around the Pure Daisy."
+				""
+				"Wait."
+				""
+				"Magic that happens slowly is still magic. Maybe worse."
+			]
+			icon: "botania:livingrock"
+			id: "4DA7150000000001"
+			rewards: [{
+				id: "4DA7150000000004"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "&8Stone with breath. Wood with memory."
+			tasks: [
+				{
+					count: 8L
+					id: "4DA7150000000002"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4DA7150000000003"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			title: "&2Living Rock, Living Wood"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7150000000001"]
+			description: [
+				"Mana needs a path."
+				""
+				"Craft a Wand of the Forest, a Mana Spreader, and a Mana Pool."
+				""
+				"This is not storage. This is a vein, a heart, and the hand that points them at each other."
+			]
+			icon: "botania:mana_pool"
+			id: "4DA7160000000001"
+			rewards: [{
+				id: "4DA7160000000005"
+				type: "xp"
+				xp: 85
+			}]
+			subtitle: "&8Teach the green light where to go."
+			tasks: [
+				{
+					id: "4DA7160000000002"
+					item: "botania:twig_wand"
+					type: "item"
+				}
+				{
+					id: "4DA7160000000003"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "4DA7160000000004"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "&2A Path for Mana"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7160000000001"]
+			description: [
+				"The Endoflame eats what burns."
+				""
+				"Coal, charcoal, wood, anything willing to become ash can become mana first."
+				""
+				"Create an Endoflame and feed it. Watch the flower make hunger look beautiful."
+			]
+			icon: "botania:endoflame"
+			id: "4DA7170000000001"
+			rewards: [{
+				id: "4DA7170000000003"
+				type: "xp"
+				xp: 90
+			}]
+			subtitle: "&8A flower that eats fire."
+			tasks: [{
+				id: "4DA7170000000002"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "&2Feed the Flame"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7170000000001"]
+			description: [
+				"When iron drinks mana, it stops being ordinary."
+				""
+				"Drop iron into a Mana Pool with enough power and recover Manasteel."
+				""
+				"It looks like metal. It feels like a promise the earth did not mean to make."
+			]
+			icon: "botania:manasteel_ingot"
+			id: "4DA7180000000001"
+			rewards: [{
+				id: "4DA7180000000003"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&8Iron after the green light gets inside."
+			tasks: [{
+				count: 2L
+				id: "4DA7180000000002"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			title: "&bManasteel"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA7010000000001"]
+			description: [
+				"Books and flowers are clean magic."
+				""
+				"This is not."
+				""
+				"Biomancy begins where the body stops being sacred and starts being useful."
+			]
+			icon: "minecraft:rotten_flesh"
+			id: "4DA7190000000001"
+			rewards: [{
+				id: "4DA7190000000004"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "&8Collect what the dead no longer need."
+			tasks: [
+				{
+					count: 8L
+					id: "4DA7190000000002"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DA7190000000003"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "02ABC294035A8C54"
+					item: {
+						Count: 1
+						id: "biomancy:despoil_sickle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Useful Remains"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DA7190000000001"]
+			description: [
+				"Some parts hold shape better than others."
+				""
+				"Fangs, marrow, sinew, glands, and claws are not trophies. They are instructions written by the body."
+				""
+				"Collect a Sharp Fang and a Primordial Core. Do not ask why they are warm."
+			]
+			icon: "biomancy:mob_fang"
+			id: "4DA7200000000001"
+			rewards: [{
+				id: "4DA7200000000004"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "&8The body keeps blueprints in ugly places."
+			tasks: [
+				{
+					count: 2L
+					id: "4DA7200000000002"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					id: "4DA7200000000003"
+					item: "biomancy:primordial_core"
+					type: "item"
+				}
+			]
+			title: "&4Parts With Purpose"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DA7200000000001"]
+			description: [
+				"The Primordial Cradle does not look like a machine."
+				""
+				"That is because machines are honest."
+				""
+				"Craft the Cradle. Place it carefully. Some workstations craft items. This one considers making life."
+			]
+			icon: "biomancy:primordial_cradle"
+			id: "4DA7210000000001"
+			rewards: [{
+				id: "4DA7210000000003"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&8A cradle is still a cradle, even when it has teeth."
+			tasks: [{
+				id: "4DA7210000000002"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "&4The Primordial Cradle"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DA7210000000001"]
+			description: [
+				"The Cradle wants meat."
+				""
+				"Fresh meat. Living memory. Warm ingredients. The kind of offering that makes villagers stop asking what you are building."
+				""
+				"Gather raw meat and a healing potion, then prepare to feed the thing properly."
+			]
+			icon: "minecraft:potion"
+			id: "4DA7220000000001"
+			rewards: [{
+				id: "4DA7220000000005"
+				type: "xp"
+				xp: 85
+			}]
+			subtitle: "&8Do not feed it anything you cannot afford to regret."
+			tasks: [
+				{
+					count: 5L
+					id: "4DA7220000000002"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "4DA7220000000003"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA7220000000004"
+					title: "Feed the Primordial Cradle"
+					type: "checkmark"
+				}
+			]
+			title: "&4Meat for the Cradle"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DA7220000000001"]
+			description: [
+				"Something lived because you asked it to."
+				""
+				"That sentence should bother you."
+				""
+				"Recover Living Flesh from Biomancy. The material twitches because it has not agreed to be dead."
+			]
+			icon: "biomancy:living_flesh"
+			id: "4DA7230000000001"
+			rewards: [{
+				id: "4DA7230000000003"
+				type: "xp"
+				xp: 110
+			}]
+			subtitle: "&8It is meat with an opinion."
+			tasks: [{
+				advancement: "biomancy:biomancy/living_flesh"
+				criterion: ""
+				id: "1B2748E4212341F2"
+				type: "advancement"
+			}]
+			title: "&4Living Flesh"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4DA7050000000001"
+				"4DA7110000000001"
+				"4DA7180000000001"
+				"4DA7230000000001"
+			]
+			description: [
+				"Four doors opened today."
+				""
+				"One was carved into an enchanting table. One was written into a spell book. One bloomed from a flower. One pulsed inside a cradle of meat."
+				""
+				"They all lead somewhere."
+				""
+				"The terrible part is that they may lead to the same place."
+			]
+			icon: "born_in_chaos_v1:bottle_of_magical_energy"
+			id: "4DA7240000000001"
+			rewards: [
+				{
+					id: "4DA7240000000003"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "4DA7240000000004"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4DA7240000000005"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&8You have learned enough to be dangerous. Not enough to be safe."
+			tasks: [{
+				id: "38B8DE7C5A36365A"
+				item: "born_in_chaos_v1:bottle_of_magical_energy"
+				type: "item"
+			}]
+			title: "&5The Things That Answer"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DA7040000000001"]
+			description: [
+				"The souls of the dead scream from their graves as you realize the grindstone might be inefficient."
+				""
+				"Remove an enchantment from a tool using the Disenchantment Book and a occupied grave."
+			]
+			id: "4D825083D365CC8D"
+			rewards: [{
+				id: "118EA2C646FC3BD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&8Rewrite the word, it can be used again."
+			tasks: [
+				{
+					id: "46101495B64442C4"
+					item: "tombstone:book_of_disenchantment"
+					type: "item"
+				}
+				{
+					id: "1DBFD939FC9B75CB"
+					item: "disenchanting_table:disenchanting_table"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&5Moving the Blessing"
+			x: 8.5d
+			y: -1.0d
+		}
+	]
+	title: " &4&lDay Four: &8The Journey Into The Darkness"
+}
