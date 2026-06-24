@@ -1,7 +1,9 @@
 ServerEvents.tags('item', event => {
   const weakDrinks = [
     'survival_instinct:beer',
-    'survival_instinct:whiskey'
+    'survival_instinct:whiskey',
+    'undead_revamp2:spittea',
+    'minecraft:suspicious_stew',
   ]
 
   const mildDrinks = [
@@ -24,6 +26,21 @@ ServerEvents.tags('item', event => {
     'kobolds:kobold_potion',
     'biomancy:acid_extract',
     'the_bumblezone:bee_soup',
+    'minecraft:beetroot_soup',
+    'aquaculture:turtle_soup',
+    'farmersdelight:pumpkin_soup',
+    'trinketsandbaubles:goblin_soup',
+    'trinketsandbaubles:fairy_dew',
+    'survival_instinct:orange',
+    'regions_unexplored:hanging_earlight_fruit',
+    'quark:ancient_fruit',
+    'bosses_of_mass_destruction:crystal_fruit',
+    'minecraft:chorus_fruit',
+    'born_in_chaos_v1:mint_ice_cream',
+    'irons_spellbooks:greater_oakskin_elixir',
+    'irons_spellbooks:greater_healing_potion',
+    'irons_spellbooks:greater_invisibility_elixir',
+    'irons_spellbooks:greater_evasion_elixir',
   ]
 
   const goodDrinks = [
@@ -31,7 +48,13 @@ ServerEvents.tags('item', event => {
     'survival_instinct:milk',
     'the_bumblezone:sugar_water_bottle',
     'the_bumblezone:royal_jelly_bottle',
-    'farmersdelight:milk_bottle'
+    'farmersdelight:milk_bottle',
+    'farmersdelight:chicken_soup',
+    'farmersdelight:vegetable_soup',
+    'farmersdelight:noodle_soup',
+    'farmersdelight:onion_soup',
+    'under_the_moon:puffball_soup',
+    'the_deep_void:eyeball_soup',
   ]
 
   const greatDrinks = [
@@ -40,12 +63,15 @@ ServerEvents.tags('item', event => {
     'survival_instinct:apple_juice',
     'survival_instinct:bottle_of_water',
     'trinketsandbaubles:dwarf_stout',
-    'trinketsandbaubles:titan_spirit'
+    'trinketsandbaubles:titan_spirit',
+    'oceansdelight:bowl_of_guardian_soup',
   ]
 
   const energyDrinks = [
     'survival_instinct:monster_can',
     'survival_instinct:energy_can',
+    'arphex:scorched_soup',
+    'arphex:void_sherbet',
   ]
 
   const allDrinks = weakDrinks.concat(mildDrinks, goodDrinks, greatDrinks, energyDrinks)
