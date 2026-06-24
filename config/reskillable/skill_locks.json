@@ -1,5 +1,40 @@
 {
 	"skillLocks": {
+		"evilhunter:silver_armor_boots": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_chestplate": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_helmet": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_leggings": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_axe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"evilhunter:silver_pickaxe": [
+			"mining:5",
+			"magic:3"
+		],
+		"evilhunter:silver_showel": [
+			"attack:5",
+			"magic:3"
+		],
+		"evilhunter:silver_sword": [
+			"attack:5",
+			"magic:3"
+		],
+		"evilhunter:sivler_hoe": [
+			"farming:1"
+		],
 		"aquaculture:diamond_fillet_knife": [
 			"attack:15"
 		],
@@ -2233,7 +2268,7 @@
 			"gathering:1"
 		],
 		"minecraft:flint_and_steel": [
-			"gathering:3"
+			"attack:10"
 		],
 		"minecraft:golden_axe": [
 			"gathering:5",
