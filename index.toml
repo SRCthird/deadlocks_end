@@ -1034,7 +1034,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b432a44a70e42cfdfe0e02c4fa6cae3bfe491fac3373dd48c827b1674ebbbb3b"
+hash = "c345ec31467aefa6028194750a404f067d3bfecbc5ac5e30e4fd1132b4698c5c"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1146,7 +1146,11 @@ hash = "6e3e9678b78dab23bee1933b8914b8e534281ea868cac92e0505f8230b5ff24c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "54939c9b4765bfe52a847e2a3ae52a031d295dc16353dafacf83385916b49d02"
+hash = "6c34f618cd96e9ea7707f944f69d37c9e0242d2c37ca78e4a16ade6d7ca7f43c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/day_four.snbt"
+hash = "65692151f3e382382daabc9edf03c6d474748f1ec4dae89d3bb05b9006c718ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_one.snbt"
@@ -1154,7 +1158,7 @@ hash = "5c524921f64a83a3cad93ccea4506b24c2a0ee448eeab0ecee2a8b1ce70c4b0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_three.snbt"
-hash = "d9c18c65cf7641b6153fdeb8e5886a9a1bbad46a6a476108558a5f34c2e8baeb"
+hash = "62cce2f156986aada0595ffa7a3cd7486342b0fce44be8e3a2dbcff7c75d02e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/day_two.snbt"
@@ -1167,6 +1171,10 @@ hash = "a3844ef316bd884a7735b3099ec26d0f0bf630b22c6ce4dee7853031baf4943b"
 [[files]]
 file = "config/ftbxmodcompat.snbt"
 hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
+
+[[files]]
+file = "config/gentlepicking-common.toml"
+hash = "c965f61e99734082a5a14193ef0bae51f44e5a9ef9152ba6edc37849a5e227ac"
 
 [[files]]
 file = "config/gml-script-mods.toml"
@@ -1918,7 +1926,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e645f7fe649e4029e3b4cb5bd48359b38ec820c6f8faa1024af7874526f8fb82"
+hash = "62fc89c2b44c62c804d5a6535a6107bf7b00e26d85a8d213679832bab90b450f"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2022,7 +2030,7 @@ hash = "3739d1198a49ea61fc8e43c94375a9b9a9a7dd378ac6e48b9d4e23ba0981c3b0"
 
 [[files]]
 file = "config/reskillable/skill_locks.json"
-hash = "44368d875376dd98ad0eea1144aedf61e93cebf1dbe3900cf6299c996f7c5302"
+hash = "2bf670a585b060eaa45476c0679933e3f4d824011f9775b9813db9705fcabe14"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -2414,7 +2422,7 @@ hash = "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
 
 [[files]]
 file = "config/vivecraft-client-config.json"
-hash = "9bafbdbc2af00db719f871eb66cdc0966a081f0fb8895db06958e3f4cda8311b"
+hash = "1399a9dce727df28aa11e181bf5141eb60076ef39b6fb518f1e5c42433c4e66f"
 
 [[files]]
 file = "config/vivecraft-server-config.toml"
@@ -2513,8 +2521,12 @@ file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
+file = "defaultconfigs/cant_breathe-server.toml"
+hash = "281d3a18cde3d574ee04d933e955582852f9aae21c2dac942f8deb9bb5bfe49a"
+
+[[files]]
 file = "defaultconfigs/firstaid-server.toml"
-hash = "0cc5244e0d489ae08ea633d620500eb3438eaa7139386a5a48c1bfa5edf9d19e"
+hash = "a9271722d4069471e803a7a6238c21a4bd2e18a4fcd36907da06042c3bab1a5a"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -2539,6 +2551,10 @@ hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
 [[files]]
 file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
+
+[[files]]
+file = "defaultconfigs/grindstoneblacklist-server.toml"
+hash = "10a040cad27775eb7b84fc62eb75ddb8e6326e622349ca87ea491f2475239d40"
 
 [[files]]
 file = "icon.png"
@@ -2609,6 +2625,14 @@ file = "kubejs/data/deadlocks_end/forge/biome_modifier/remove_orelibrary_silver.
 hash = "a7b16be581839c8888c7f6dfdf3c4ea5191eef6ac1144c6b5d54e6e48f79c6c6"
 
 [[files]]
+file = "kubejs/data/reskillable_by_material_skill_locks.json"
+hash = "d9008910eb0bacf5e9a09de7f9932f36069033b3bf07650386b99b17c1701832"
+
+[[files]]
+file = "kubejs/data/skill_locks.json"
+hash = "2bf670a585b060eaa45476c0679933e3f4d824011f9775b9813db9705fcabe14"
+
+[[files]]
 file = "kubejs/server_scripts/00_hydration.js"
 hash = "faea861df0f5aa986ece7c48b89f148a2c9d4661b74f1a3832b13a3ab7b5a025"
 
@@ -2617,12 +2641,20 @@ file = "kubejs/server_scripts/00_reskillable.js"
 hash = "be6a9fee7ff475a7053ab2f91ed1c634fa10aa32e7e406cdbc554d5e94d5222c"
 
 [[files]]
+file = "kubejs/server_scripts/00_sanity.js"
+hash = "0e6aecb2b4a2efeb5dab101a0c6acf75d7c7d61fddb472ca754e1b438645c010"
+
+[[files]]
+file = "kubejs/server_scripts/00_sugar_water.js"
+hash = "812992f78b5d7ebe99c44a1ffbad5ebaf33095dbdf88efa06e1d9ac88243d1eb"
+
+[[files]]
 file = "kubejs/server_scripts/01_dump_by_material_locks.js"
-hash = "b09f2bec43931cdbf0ade89cc4d31b5bd27612d25d8fb08e97a0d310ea815f3c"
+hash = "5502852abd02eef8d1ceea662ff3b386efea27c89c0df52ce544df7608426e1e"
 
 [[files]]
 file = "kubejs/server_scripts/99_reskillable_compile.js"
-hash = "1e0ac709e43aa17e2158c5767fc70c2b9d6e0657987d5b206ed6de6bac44cf14"
+hash = "37833e75f241d997a3321f0dbd4c845f4b1760c0866d9621c15285ee5a512c8a"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -3289,7 +3321,7 @@ metafile = true
 
 [[files]]
 file = "mods/first-aid-revived.pw.toml"
-hash = "e40e0fc055bb4d053c141c6823cc898e89784835a2f62610330846cc76d841ac"
+hash = "bfacc544b23e9538f79fb6221d537ddd5ae20d2d92895c92763a311902e986c9"
 metafile = true
 
 [[files]]
@@ -3353,6 +3385,11 @@ hash = "50356d090a552bc0b2de6abb9052e661c630552fa6d72ed0bf878a3e78956172"
 metafile = true
 
 [[files]]
+file = "mods/gentle-picking-forge.pw.toml"
+hash = "bdc583d0b9c2525d5e67371044fbd241b4845309ae9c95f010a1a8070f6b3871"
+metafile = true
+
+[[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "361a2451dc12db42636eed5aab8c03f8a281347504e0131346a3ec8b8273333b"
 metafile = true
@@ -3373,6 +3410,11 @@ hash = "562e198638ec4e2e69494469c80a6a5fa2bf8d9473bf97e557e43dacf3fe8be3"
 metafile = true
 
 [[files]]
+file = "mods/grindstone-blacklist.pw.toml"
+hash = "36f35e97c2b22a3b52570a39c3c5e3a4ed67157bd4df92c35e5c4615a94667b2"
+metafile = true
+
+[[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "5cc6ba3c65186988790abfb0213393f6b886fad92f33a097815b21672cfc2d32"
 metafile = true
@@ -3385,11 +3427,6 @@ metafile = true
 [[files]]
 file = "mods/healing-campfire.pw.toml"
 hash = "7810ce2b61ce57427f2fa73e4b806488f38efb655375f716f296dd98980278da"
-metafile = true
-
-[[files]]
-file = "mods/healingbed.pw.toml"
-hash = "621a9e2a1c2ca6f45a7b9b0218976d2da4639357ddc63ce5a992f8b0014a95cf"
 metafile = true
 
 [[files]]
@@ -3553,6 +3590,11 @@ hash = "d6f72ad685580eb26a498b6e2f763e7c09aecb5e0ad43b64106f2e5e12d51052"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-sanity.pw.toml"
+hash = "f3f9682d7317ec62b4d72a0c1fb683d5dca799ae868e264b62c9164d8c0258f6"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "4ed7bd36763314b13d24f73d9ccb46c20711727fae1cd31651553014b6f2549e"
 metafile = true
@@ -3570,11 +3612,6 @@ metafile = true
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "ef3d96505d75c874c9b5949876408a80fa810070841a11252e9f4756360f71ec"
-metafile = true
-
-[[files]]
-file = "mods/level-up-mod.pw.toml"
-hash = "67302c1c529d0a973364dd64797d2027babbe6be2451e5f889083659279a6a5c"
 metafile = true
 
 [[files]]
@@ -4364,7 +4401,7 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "1b27f0cebd70f8e73cbf193df5694e07b5f50a43ff90ff403fc3bde606e67fb9"
+hash = "71663b84ed99b068e1de5ea35510297b66f523e9be91c2382997e0200bbf6f32"
 metafile = true
 
 [[files]]
@@ -4404,12 +4441,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "e30f5d98648a4d3278ca6104ebd5826a09feed157530273ef418b24c05a2364b"
+hash = "9f2108437048cf5f8bab2cbb386ba6db9476e9ae98e3a04b46b2d92efd2ea989"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "9cc0f10e49a7f818a766ee3e3bd71c81f0c2366e15f8d413627bd75d056b7517"
+hash = "6a7b924b79571b9b67a14347efa0d733974b38a1d59d41bad52cf8b19d4d3452"
 metafile = true
 
 [[files]]
@@ -4706,7 +4743,7 @@ hash = "d7b5e9e29b9b7cbd88f52b13af1c950e98e9777c470680ba63e021d1ac4df433"
 
 [[files]]
 file = "scripts/sticks_and_straws.zs"
-hash = "b841534c098cc798de9302c6d8ca4dee4da4bb03cd1ed67944d207916b9c2c0c"
+hash = "e77446bf86dfdbd53717a22b8576b87cb5324d3140ce2f77e564696323dd71ea"
 
 [[files]]
 file = "shaderpacks/insanity-shader.pw.toml"
