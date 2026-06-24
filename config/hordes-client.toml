@@ -26,8 +26,6 @@
 	cureTooltip = true
 	#Show a tooltip on items that give infection immunity?
 	immunityTooltip = true
-	#Show a tooltip on wearable items that grant some protection against infection?
-	wearableProtectionTooltip = true
 
 ["Zombie Players"]
 	#Colour tint for zombie players.

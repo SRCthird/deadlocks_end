@@ -1,0 +1,61 @@
+
+["Lurker Configurations"]
+	"Lurker Chase Music" = true
+	#if set to true then music will play before the Lurker chase
+	"Lurker Anticipation Music" = true
+	#if set to true then a message will be shown before the Lurker chase
+	"Lurker Anticipation Quotes" = true
+	"Pop Up Jumpscare" = true
+	"Jumpscare Sound" = true
+	#If set to false the lurker will chase you for approximately 2 minutes, if set to true the lurker will chase you for approximately 3 minutes
+	"Longer Lurker Chase" = false
+	"Spooky Ambience" = true
+	"Lurker Invulnerable" = false
+	"Show Amnesia Effect In Inventory" = true
+	"Show Insanity Effect In Inventory" = true
+	"Lurker Persist During Day" = true
+	"Aggro Lurker Can Break Trapdoors" = true
+	"Void Chromatic Shader" = true
+	"Lurker Voice Lines" = true
+	"Void Ambient Music" = true
+	"Constant Void Ambient Music" = true
+	"Lurker Boss Music" = true
+	#if set to true and your insanity is high there is a very rare change blocks around your house may change axis' while you are away from your home
+	"Can Change Block Axis When Away From Home" = true
+	"Void Gateway Has Delay Before Jumpscare/Reducing Insanity" = true
+	"Aggressive AI Variant Can Break Walls Above Ground On Hard Mode" = false
+	"Aggressive AI Variant Can Break Walls Instantly On Hard Mode" = false
+	"Unprovoked AI Variant Can Open Doors And Slowly Break Blocks Undergound If Above Easy Mode" = true
+	"Falling Below Bedrock in the Overworld/Surface will Transport You to the Void" = true
+	"Falling Into the Abyss in the Void will Transport You Back to the Overworld/Surface" = true
+
+[Insanity]
+	#the insanity countdown time determines how long the timer is for insanity. 1 is 5mins, 2 is 10mins, 3 is 20mins, and 4 is 30mins.
+	"Insanity Countdown Time" = 3.0
+	"Insanity Progress Effect" = true
+	Amnesia = true
+	"Encounters Progress Insanity Stages" = true
+	"Insanity Bar" = false
+	"Insanity Figures" = true
+	"Show Purple Overlay When Reducing Insanity From Eating" = false
+	"Insanity Fog" = true
+
+[Spawning]
+	#the spawn rate can range from 1 to 5, with 1 being the lowest and 5 being the highest. you can set it to 0.5 for the lowest possible spawn rate.
+	"Lurker Spawn Rate" = 3.0
+	Multi-spawning = false
+	#the nether spawn rate can range from 1 to 5, with 1 being the lowest and 5 being the highest. you can set it to 0.5 for the lowest possible spawn rate.
+	"Nether Lurker Spawn Rate" = 2.0
+	"Invisible Entities Spawning" = true
+	"Villager Shapeshifter Spawning" = true
+	"Cow Shapeshifter Spawning" = true
+	"Pig Shapeshifter Spawning" = true
+	"Chicken Shapeshifter Spawning" = true
+	"Sheep Shapeshifter Spawning" = true
+	#the void gateway spawn rate can range from 1 to 5, with 1 being the lowest and 5 being the highest. you can set it to 0.5 for the lowest possible spawn rate.
+	"Void Gateway Spawn Rate" = 3.0
+	"Cave Spawning" = true
+	"Nether Spawning" = true
+	"Lurklings Spawn In Overworld" = true
+	"Surveyors Spawn In Overworld" = true
+

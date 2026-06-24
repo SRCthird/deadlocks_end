@@ -37,4 +37,17 @@ VillagesCitySeparation = 16
 #Average distance between two neighboring generation attempts.
 #Range: 0 ~ 4096
 VillagesCitySpacing = 34
+#Use new Profile system? (if no profiles are preset, mod will use config values)
+UseProfilesInsteadConfig = true
+#Defines profile to use
+ProfileName = "none"
+#defines projection of structure spawn ('projection' in default template_pool.json)
+CityProjection = "terrain_matching"
+#--------------------------------------------Megapolis Spawn Settings--------------------------------------------
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+MegapolisSpacing = 60
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+MegapolisSeparation = 25
 
