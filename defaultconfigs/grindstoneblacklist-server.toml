@@ -1,0 +1,4 @@
+[grindstoneblacklist]
+	#Items in this list cannot be used in a grindstone.
+	#Use full item ids, for example: evilhunter:true_silver_sword
+	blacklisted_items = ["evilhunter:true_silver_sword", "evilhunter:ritual_sword"]
