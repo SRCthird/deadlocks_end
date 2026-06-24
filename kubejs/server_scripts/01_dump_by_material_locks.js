@@ -1,5 +1,6 @@
 (function () {
   var H = global.ReskillableLockHelpers;
+  var Component = Java.loadClass("net.minecraft.network.chat.Component");
 
   if (!H) {
     throw new Error(
@@ -25,7 +26,8 @@
     "nopunchtree",
     "immersiveengineering",
     "nethersdelight",
-    "magistuarmory"
+    "magistuarmory",
+    "evilhunter"
   ];
 
   function has(path, text) {
@@ -42,7 +44,7 @@
     return (
       namespace === "minecraft" &&
       has(path, "brush")
-    )
+    );
   }
 
   function isReinforcedHammerItem(id, path) {
@@ -51,7 +53,7 @@
     return (
       namespace === "justhammers" &&
       has(path, "reinforced")
-    )
+    );
   }
 
   function isDestructorHammerItem(id, path) {
@@ -60,7 +62,7 @@
     return (
       namespace === "justhammers" &&
       has(path, "destructor")
-    )
+    );
   }
 
   function isShieldItem(id, path) {
@@ -132,7 +134,7 @@
     return (
       has(path, "fishing_rod") ||
       has(path, "fishingrod")
-    )
+    );
   }
 
   function isToolItem(path) {
@@ -272,11 +274,11 @@
       outputRequirements.push(H.req("gathering", level));
     } else if (isReinforcedHammer) {
       outputRequirements.push(
-        H.req("mining", (level+5 <= 32) ? level+5 : 32)
+        H.req("mining", (level + 5 <= 32) ? level + 5 : 32)
       );
     } else if (isDestructorHammer) {
       outputRequirements.push(
-        H.req("mining", (level+10 <= 32) ? level+10 : 32)
+        H.req("mining", (level + 10 <= 32) ? level + 10 : 32)
       );
     } else if (level != 1) {
       outputRequirements.push(H.req("attack", level));
@@ -309,7 +311,7 @@
     );
   }
 
-  ServerEvents.recipes(function (event) {
+  function dumpReskillableLocks() {
     H.dumpLocks({
       namespaces: NAMESPACES,
       shouldInclude: shouldInclude,
@@ -317,5 +319,28 @@
       outputPath: OUTPUT_PATH,
       label: "Weaponry + Shields + Tools + Armor"
     });
+  }
+
+  ServerEvents.commandRegistry(function (event) {
+    var Commands = event.commands;
+
+    event.register(
+      Commands.literal("dump_reskillable_locks")
+        .requires(function (source) {
+          return source.hasPermission(2);
+        })
+        .executes(function (context) {
+          dumpReskillableLocks();
+
+          context.source.sendSuccess(
+            function () {
+              return Component.literal("Dumped Reskillable locks to " + OUTPUT_PATH);
+            },
+            true
+          );
+
+          return 1;
+        })
+    );
   });
 })();

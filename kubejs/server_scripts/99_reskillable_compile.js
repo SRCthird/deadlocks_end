@@ -6,7 +6,7 @@
   ];
 
   // Final combined output.
-  var OUTPUT_PATH = "kubejs/data/reskillable/skill_locks.json";
+  var OUTPUT_PATH = "kubejs/data/skill_locks.json";
 
   function readJson(path) {
     try {
@@ -124,7 +124,33 @@
     );
   }
 
-  ServerEvents.recipes(function (event) {
-    compileReskillableLocks();
+  ServerEvents.commandRegistry(function (event) {
+    var Commands = event.commands;
+
+    event.register(
+      Commands.literal("compile_reskillable_locks")
+        .requires(function (source) {
+          return source.hasPermission(2);
+        })
+        .executes(function (context) {
+          var result = compileReskillableLocks();
+
+          context.source.sendSuccess(
+            function () {
+              return Component.literal(
+                "Compiled " +
+                  result.uniqueLocks +
+                  " Reskillable locks from " +
+                  result.filesRead +
+                  " files to " +
+                  OUTPUT_PATH
+              );
+            },
+            true
+          );
+
+          return 1;
+        })
+    );
   });
 })();

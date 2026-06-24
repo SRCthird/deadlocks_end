@@ -1,0 +1,5350 @@
+{
+	"skillLocks": {
+		"aquaculture:diamond_fillet_knife": [
+			"attack:15"
+		],
+		"aquaculture:diamond_fishing_rod": [
+			"gathering:15"
+		],
+		"aquaculture:gold_fillet_knife": [
+			"attack:5",
+			"magic:3"
+		],
+		"aquaculture:gold_fishing_rod": [
+			"gathering:5",
+			"magic:3"
+		],
+		"aquaculture:iron_fillet_knife": [
+			"attack:5"
+		],
+		"aquaculture:iron_fishing_rod": [
+			"gathering:5"
+		],
+		"aquaculture:neptunium_axe": [
+			"gathering:32"
+		],
+		"aquaculture:neptunium_boots": [
+			"defense:32"
+		],
+		"aquaculture:neptunium_bow": [
+			"attack:32"
+		],
+		"aquaculture:neptunium_chestplate": [
+			"defense:32"
+		],
+		"aquaculture:neptunium_fishing_rod": [
+			"gathering:32"
+		],
+		"aquaculture:neptunium_helmet": [
+			"defense:32"
+		],
+		"aquaculture:neptunium_hoe": [
+			"farming:32"
+		],
+		"aquaculture:neptunium_leggings": [
+			"defense:32"
+		],
+		"aquaculture:neptunium_pickaxe": [
+			"mining:32"
+		],
+		"aquaculture:neptunium_shovel": [
+			"gathering:32"
+		],
+		"aquaculture:neptunium_sword": [
+			"attack:32"
+		],
+		"aquaculture:stone_fillet_knife": [
+			"attack:0"
+		],
+		"aquaculture:wooden_fillet_knife": [
+			"attack:0"
+		],
+		"chestcavity:diamond_cleaver": [
+			"attack:15"
+		],
+		"chestcavity:gold_cleaver": [
+			"attack:5",
+			"magic:3"
+		],
+		"chestcavity:iron_cleaver": [
+			"attack:5"
+		],
+		"chestcavity:netherite_cleaver": [
+			"attack:30"
+		],
+		"chestcavity:stone_cleaver": [
+			"attack:0"
+		],
+		"chestcavity:wooden_cleaver": [
+			"attack:0"
+		],
+		"dragonseeker:dragonseeker": [
+			"attack:25"
+		],
+		"dragonseeker:epic_dragonseeker": [
+			"attack:25"
+		],
+		"dragonseeker:legendary_dragonseeker": [
+			"attack:25"
+		],
+		"evilhunter:silver_armor_boots": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_chestplate": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_helmet": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_armor_leggings": [
+			"defense:5",
+			"magic:3"
+		],
+		"evilhunter:silver_axe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"evilhunter:silver_pickaxe": [
+			"mining:5",
+			"magic:3"
+		],
+		"evilhunter:silver_showel": [
+			"attack:5",
+			"magic:3"
+		],
+		"evilhunter:silver_sword": [
+			"attack:5",
+			"magic:3"
+		],
+		"evilhunter:sivler_hoe": [
+			"farming:1"
+		],
+		"iceandfire:amphithere_macuahuitl": [
+			"attack:5"
+		],
+		"iceandfire:armor_amythest_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_amythest_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_amythest_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_amythest_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_black_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_black_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_black_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_black_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_blue_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_blue_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_blue_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_blue_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_bronze_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_bronze_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_bronze_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_bronze_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_copper_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_copper_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_copper_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_copper_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_copper_metal_boots": [
+			"defense:3"
+		],
+		"iceandfire:armor_copper_metal_chestplate": [
+			"defense:3"
+		],
+		"iceandfire:armor_copper_metal_helmet": [
+			"defense:3"
+		],
+		"iceandfire:armor_copper_metal_leggings": [
+			"defense:3"
+		],
+		"iceandfire:armor_electric_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_electric_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_electric_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_electric_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_gray_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_gray_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_gray_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_gray_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_green_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_green_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_green_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_green_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_red_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_red_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_red_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_red_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_sapphire_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_sapphire_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_sapphire_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_sapphire_leggings": [
+			"defense:25"
+		],
+		"iceandfire:armor_silver_boots": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_chestplate": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_helmet": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_leggings": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_metal_boots": [
+			"defense:5",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_metal_chestplate": [
+			"defense:5",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_metal_helmet": [
+			"defense:5",
+			"magic:3"
+		],
+		"iceandfire:armor_silver_metal_leggings": [
+			"defense:5",
+			"magic:3"
+		],
+		"iceandfire:armor_white_boots": [
+			"defense:25"
+		],
+		"iceandfire:armor_white_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:armor_white_helmet": [
+			"defense:25"
+		],
+		"iceandfire:armor_white_leggings": [
+			"defense:25"
+		],
+		"iceandfire:blindfold": [
+			"attack:5"
+		],
+		"iceandfire:copper_axe": [
+			"gathering:3"
+		],
+		"iceandfire:copper_hoe": [
+			"farming:3"
+		],
+		"iceandfire:copper_pickaxe": [
+			"mining:3"
+		],
+		"iceandfire:copper_shovel": [
+			"gathering:3"
+		],
+		"iceandfire:copper_sword": [
+			"attack:3"
+		],
+		"iceandfire:deathworm_gauntlet_red": [
+			"attack:15"
+		],
+		"iceandfire:deathworm_gauntlet_white": [
+			"attack:15"
+		],
+		"iceandfire:deathworm_gauntlet_yellow": [
+			"attack:15"
+		],
+		"iceandfire:deathworm_red_boots": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_red_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_red_helmet": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_red_leggings": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_white_boots": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_white_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_white_helmet": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_white_leggings": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_yellow_boots": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_yellow_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_yellow_helmet": [
+			"defense:15"
+		],
+		"iceandfire:deathworm_yellow_leggings": [
+			"defense:15"
+		],
+		"iceandfire:diamond_hippogryph_armor": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_copper_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_copper_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_copper_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_copper_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_diamond_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_diamond_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_diamond_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_diamond_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_fire_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_fire_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_fire_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_fire_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_ice_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_ice_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_ice_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_ice_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_lightning_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_lightning_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_lightning_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_dragonsteel_lightning_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_gold_body": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_gold_head": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_gold_neck": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_gold_tail": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_iron_body": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_iron_head": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_iron_neck": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_iron_tail": [
+			"defense:25"
+		],
+		"iceandfire:dragonarmor_silver_body": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_silver_head": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_silver_neck": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonarmor_silver_tail": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:dragonbone_axe": [
+			"gathering:25"
+		],
+		"iceandfire:dragonbone_bow": [
+			"attack:25"
+		],
+		"iceandfire:dragonbone_hoe": [
+			"farming:25"
+		],
+		"iceandfire:dragonbone_pickaxe": [
+			"mining:25"
+		],
+		"iceandfire:dragonbone_shovel": [
+			"gathering:25"
+		],
+		"iceandfire:dragonbone_sword": [
+			"attack:25"
+		],
+		"iceandfire:dragonbone_sword_fire": [
+			"attack:25"
+		],
+		"iceandfire:dragonbone_sword_ice": [
+			"attack:25"
+		],
+		"iceandfire:dragonbone_sword_lightning": [
+			"attack:25"
+		],
+		"iceandfire:dragonsteel_fire_axe": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_fire_boots": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_fire_chestplate": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_fire_helmet": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_fire_hoe": [
+			"farming:32"
+		],
+		"iceandfire:dragonsteel_fire_leggings": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_fire_pickaxe": [
+			"mining:32"
+		],
+		"iceandfire:dragonsteel_fire_shovel": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_fire_sword": [
+			"attack:32"
+		],
+		"iceandfire:dragonsteel_ice_axe": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_ice_boots": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_ice_chestplate": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_ice_helmet": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_ice_hoe": [
+			"farming:32"
+		],
+		"iceandfire:dragonsteel_ice_leggings": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_ice_pickaxe": [
+			"mining:32"
+		],
+		"iceandfire:dragonsteel_ice_shovel": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_ice_sword": [
+			"attack:32"
+		],
+		"iceandfire:dragonsteel_lightning_axe": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_lightning_boots": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_lightning_chestplate": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_lightning_helmet": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_lightning_hoe": [
+			"farming:32"
+		],
+		"iceandfire:dragonsteel_lightning_leggings": [
+			"defense:32"
+		],
+		"iceandfire:dragonsteel_lightning_pickaxe": [
+			"mining:32"
+		],
+		"iceandfire:dragonsteel_lightning_shovel": [
+			"gathering:32"
+		],
+		"iceandfire:dragonsteel_lightning_sword": [
+			"attack:32"
+		],
+		"iceandfire:dread_knight_sword": [
+			"attack:30"
+		],
+		"iceandfire:dread_queen_staff": [
+			"attack:25"
+		],
+		"iceandfire:dread_queen_sword": [
+			"attack:30"
+		],
+		"iceandfire:dread_sword": [
+			"attack:5"
+		],
+		"iceandfire:earplugs": [
+			"attack:5"
+		],
+		"iceandfire:forest_troll_leather_boots": [
+			"defense:20"
+		],
+		"iceandfire:forest_troll_leather_chestplate": [
+			"defense:20"
+		],
+		"iceandfire:forest_troll_leather_helmet": [
+			"defense:20"
+		],
+		"iceandfire:forest_troll_leather_leggings": [
+			"defense:20"
+		],
+		"iceandfire:frost_troll_leather_boots": [
+			"defense:20"
+		],
+		"iceandfire:frost_troll_leather_chestplate": [
+			"defense:20"
+		],
+		"iceandfire:frost_troll_leather_helmet": [
+			"defense:20"
+		],
+		"iceandfire:frost_troll_leather_leggings": [
+			"defense:20"
+		],
+		"iceandfire:ghost_sword": [
+			"attack:30"
+		],
+		"iceandfire:gold_hippogryph_armor": [
+			"defense:25",
+			"magic:3"
+		],
+		"iceandfire:hippocampus_slapper": [
+			"attack:5"
+		],
+		"iceandfire:hippogryph_sword": [
+			"attack:5"
+		],
+		"iceandfire:iron_hippogryph_armor": [
+			"defense:25"
+		],
+		"iceandfire:lich_staff": [
+			"attack:25"
+		],
+		"iceandfire:mountain_troll_leather_boots": [
+			"defense:20"
+		],
+		"iceandfire:mountain_troll_leather_chestplate": [
+			"defense:20"
+		],
+		"iceandfire:mountain_troll_leather_helmet": [
+			"defense:20"
+		],
+		"iceandfire:mountain_troll_leather_leggings": [
+			"defense:20"
+		],
+		"iceandfire:myrmex_desert_axe": [
+			"gathering:15"
+		],
+		"iceandfire:myrmex_desert_boots": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_desert_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_desert_helmet": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_desert_hoe": [
+			"farming:15"
+		],
+		"iceandfire:myrmex_desert_leggings": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_desert_pickaxe": [
+			"mining:15"
+		],
+		"iceandfire:myrmex_desert_shovel": [
+			"gathering:15"
+		],
+		"iceandfire:myrmex_desert_staff": [
+			"attack:15"
+		],
+		"iceandfire:myrmex_desert_sword": [
+			"attack:15"
+		],
+		"iceandfire:myrmex_desert_sword_venom": [
+			"attack:15"
+		],
+		"iceandfire:myrmex_jungle_axe": [
+			"gathering:15"
+		],
+		"iceandfire:myrmex_jungle_boots": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_jungle_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_jungle_helmet": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_jungle_hoe": [
+			"farming:15"
+		],
+		"iceandfire:myrmex_jungle_leggings": [
+			"defense:15"
+		],
+		"iceandfire:myrmex_jungle_pickaxe": [
+			"mining:15"
+		],
+		"iceandfire:myrmex_jungle_shovel": [
+			"gathering:15"
+		],
+		"iceandfire:myrmex_jungle_staff": [
+			"attack:15"
+		],
+		"iceandfire:myrmex_jungle_sword": [
+			"attack:15"
+		],
+		"iceandfire:myrmex_jungle_sword_venom": [
+			"attack:15"
+		],
+		"iceandfire:sheep_boots": [
+			"defense:15"
+		],
+		"iceandfire:sheep_chestplate": [
+			"defense:15"
+		],
+		"iceandfire:sheep_helmet": [
+			"defense:15"
+		],
+		"iceandfire:sheep_leggings": [
+			"defense:15"
+		],
+		"iceandfire:silver_axe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"iceandfire:silver_hoe": [
+			"farming:5",
+			"magic:3"
+		],
+		"iceandfire:silver_pickaxe": [
+			"mining:5",
+			"magic:3"
+		],
+		"iceandfire:silver_shovel": [
+			"gathering:5",
+			"magic:3"
+		],
+		"iceandfire:silver_sword": [
+			"attack:5",
+			"magic:3"
+		],
+		"iceandfire:stymphalian_bird_dagger": [
+			"attack:5"
+		],
+		"iceandfire:tide_blue_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_blue_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_blue_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_blue_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_bronze_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_bronze_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_bronze_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_bronze_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_deepblue_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_deepblue_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_deepblue_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_deepblue_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_green_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_green_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_green_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_green_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_purple_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_purple_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_purple_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_purple_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_red_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_red_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_red_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_red_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_teal_boots": [
+			"defense:25"
+		],
+		"iceandfire:tide_teal_chestplate": [
+			"defense:25"
+		],
+		"iceandfire:tide_teal_helmet": [
+			"defense:25"
+		],
+		"iceandfire:tide_teal_leggings": [
+			"defense:25"
+		],
+		"iceandfire:tide_trident": [
+			"defense:25"
+		],
+		"iceandfire:troll_weapon_axe": [
+			"gathering:30"
+		],
+		"iceandfire:troll_weapon_column": [
+			"attack:30"
+		],
+		"iceandfire:troll_weapon_column_forest": [
+			"attack:30"
+		],
+		"iceandfire:troll_weapon_column_frost": [
+			"attack:30"
+		],
+		"iceandfire:troll_weapon_hammer": [
+			"attack:30"
+		],
+		"iceandfire:troll_weapon_trunk": [
+			"attack:30"
+		],
+		"iceandfire:troll_weapon_trunk_frost": [
+			"attack:30"
+		],
+		"immersiveengineering:armor_faraday_boots": [
+			"defense:1"
+		],
+		"immersiveengineering:armor_faraday_chestplate": [
+			"defense:1"
+		],
+		"immersiveengineering:armor_faraday_helmet": [
+			"defense:1"
+		],
+		"immersiveengineering:armor_faraday_leggings": [
+			"defense:1"
+		],
+		"immersiveengineering:armor_piercing": [
+			"defense:1"
+		],
+		"immersiveengineering:armor_steel_boots": [
+			"defense:10"
+		],
+		"immersiveengineering:armor_steel_chestplate": [
+			"defense:10"
+		],
+		"immersiveengineering:armor_steel_helmet": [
+			"defense:10"
+		],
+		"immersiveengineering:armor_steel_leggings": [
+			"defense:10"
+		],
+		"immersiveengineering:axe_steel": [
+			"gathering:10"
+		],
+		"immersiveengineering:hoe_steel": [
+			"farming:10"
+		],
+		"immersiveengineering:pickaxe_steel": [
+			"mining:10"
+		],
+		"immersiveengineering:shield": [
+			"defense:1"
+		],
+		"immersiveengineering:shovel_steel": [
+			"gathering:10"
+		],
+		"immersiveengineering:sword_steel": [
+			"attack:10"
+		],
+		"immersiveengineering:toolupgrade_shield_flash": [
+			"defense:1"
+		],
+		"immersiveengineering:toolupgrade_shield_magnet": [
+			"defense:1"
+		],
+		"immersiveengineering:toolupgrade_shield_shock": [
+			"defense:1"
+		],
+		"justhammers:destructor_core": [
+			"mining:11"
+		],
+		"justhammers:diamond_destructor_hammer": [
+			"mining:25"
+		],
+		"justhammers:diamond_hammer": [
+			"attack:15"
+		],
+		"justhammers:diamond_impact_hammer": [
+			"attack:15"
+		],
+		"justhammers:diamond_reinforced_hammer": [
+			"mining:20"
+		],
+		"justhammers:diamond_reinforced_impact_hammer": [
+			"mining:20"
+		],
+		"justhammers:gold_destructor_hammer": [
+			"mining:15",
+			"magic:3"
+		],
+		"justhammers:gold_hammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"justhammers:gold_impact_hammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"justhammers:gold_reinforced_hammer": [
+			"mining:10",
+			"magic:3"
+		],
+		"justhammers:gold_reinforced_impact_hammer": [
+			"mining:10",
+			"magic:3"
+		],
+		"justhammers:iron_destructor_hammer": [
+			"mining:15"
+		],
+		"justhammers:iron_hammer": [
+			"attack:5"
+		],
+		"justhammers:iron_impact_hammer": [
+			"attack:5"
+		],
+		"justhammers:iron_reinforced_hammer": [
+			"mining:10"
+		],
+		"justhammers:iron_reinforced_impact_hammer": [
+			"mining:10"
+		],
+		"justhammers:netherite_destructor_hammer": [
+			"mining:32"
+		],
+		"justhammers:netherite_hammer": [
+			"attack:30"
+		],
+		"justhammers:netherite_impact_hammer": [
+			"attack:30"
+		],
+		"justhammers:netherite_reinforced_hammer": [
+			"mining:32"
+		],
+		"justhammers:netherite_reinforced_impact_hammer": [
+			"mining:32"
+		],
+		"justhammers:reinforced_core": [
+			"mining:6"
+		],
+		"justhammers:reinforced_impact_core": [
+			"mining:6"
+		],
+		"justhammers:stone_destructor_hammer": [
+			"mining:10"
+		],
+		"justhammers:stone_hammer": [
+			"attack:0"
+		],
+		"justhammers:stone_impact_hammer": [
+			"attack:0"
+		],
+		"justhammers:stone_reinforced_hammer": [
+			"mining:5"
+		],
+		"justhammers:stone_reinforced_impact_hammer": [
+			"mining:5"
+		],
+		"kobolds:kobold_iron_axe": [
+			"gathering:5"
+		],
+		"kobolds:kobold_iron_hoe": [
+			"farming:5"
+		],
+		"kobolds:kobold_iron_pickaxe": [
+			"mining:5"
+		],
+		"kobolds:kobold_iron_shovel": [
+			"gathering:5"
+		],
+		"kobolds:kobold_iron_sword": [
+			"attack:5"
+		],
+		"magistuarmory:brigandine_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:bronze_ahlspiess": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_bastardsword": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_buckler": [
+			"defense:5"
+		],
+		"magistuarmory:bronze_chainmorgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_chivalrylance": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_claymore": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_concavehalberd": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_ellipticalshield": [
+			"defense:5"
+		],
+		"magistuarmory:bronze_estoc": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_flamebladedsword": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_guisarme": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_heatershield": [
+			"defense:5"
+		],
+		"magistuarmory:bronze_heavymace": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_heavywarhammer": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_katzbalger": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_kiteshield": [
+			"defense:5"
+		],
+		"magistuarmory:bronze_lochaberaxe": [
+			"gathering:5"
+		],
+		"magistuarmory:bronze_lucernhammer": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_morgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_pavese": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_pike": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_ranseur": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_rondache": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_roundshield": [
+			"defense:5"
+		],
+		"magistuarmory:bronze_shortsword": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_stylet": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_target": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_tartsche": [
+			"attack:5"
+		],
+		"magistuarmory:bronze_zweihander": [
+			"attack:5"
+		],
+		"magistuarmory:ceremonial_boots": [
+			"defense:1"
+		],
+		"magistuarmory:ceremonial_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:chainmail_boots": [
+			"defense:1"
+		],
+		"magistuarmory:chainmail_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:chainmail_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:chainmail_horse_armor": [
+			"defense:1"
+		],
+		"magistuarmory:chainmail_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:copper_ahlspiess": [
+			"attack:3"
+		],
+		"magistuarmory:copper_bastardsword": [
+			"attack:3"
+		],
+		"magistuarmory:copper_buckler": [
+			"defense:3"
+		],
+		"magistuarmory:copper_chainmorgenstern": [
+			"attack:3"
+		],
+		"magistuarmory:copper_chivalrylance": [
+			"attack:3"
+		],
+		"magistuarmory:copper_claymore": [
+			"attack:3"
+		],
+		"magistuarmory:copper_concavehalberd": [
+			"attack:3"
+		],
+		"magistuarmory:copper_ellipticalshield": [
+			"defense:3"
+		],
+		"magistuarmory:copper_estoc": [
+			"attack:3"
+		],
+		"magistuarmory:copper_flamebladedsword": [
+			"attack:3"
+		],
+		"magistuarmory:copper_guisarme": [
+			"attack:3"
+		],
+		"magistuarmory:copper_heatershield": [
+			"defense:3"
+		],
+		"magistuarmory:copper_heavymace": [
+			"attack:3"
+		],
+		"magistuarmory:copper_heavywarhammer": [
+			"attack:3"
+		],
+		"magistuarmory:copper_katzbalger": [
+			"attack:3"
+		],
+		"magistuarmory:copper_kiteshield": [
+			"defense:3"
+		],
+		"magistuarmory:copper_lochaberaxe": [
+			"gathering:3"
+		],
+		"magistuarmory:copper_lucernhammer": [
+			"attack:3"
+		],
+		"magistuarmory:copper_morgenstern": [
+			"attack:3"
+		],
+		"magistuarmory:copper_pavese": [
+			"attack:3"
+		],
+		"magistuarmory:copper_pike": [
+			"attack:3"
+		],
+		"magistuarmory:copper_ranseur": [
+			"attack:3"
+		],
+		"magistuarmory:copper_rondache": [
+			"attack:3"
+		],
+		"magistuarmory:copper_roundshield": [
+			"defense:3"
+		],
+		"magistuarmory:copper_shortsword": [
+			"attack:3"
+		],
+		"magistuarmory:copper_stylet": [
+			"attack:3"
+		],
+		"magistuarmory:copper_target": [
+			"attack:3"
+		],
+		"magistuarmory:copper_tartsche": [
+			"attack:3"
+		],
+		"magistuarmory:copper_zweihander": [
+			"attack:3"
+		],
+		"magistuarmory:corruptedroundshield": [
+			"defense:1"
+		],
+		"magistuarmory:crusader_boots": [
+			"defense:1"
+		],
+		"magistuarmory:crusader_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:crusader_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:cuirassier_boots": [
+			"defense:1"
+		],
+		"magistuarmory:cuirassier_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:cuirassier_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:cuirassier_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:diamond_ahlspiess": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_bastardsword": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_buckler": [
+			"defense:15"
+		],
+		"magistuarmory:diamond_chainmorgenstern": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_chivalrylance": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_claymore": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_concavehalberd": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_ellipticalshield": [
+			"defense:15"
+		],
+		"magistuarmory:diamond_estoc": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_flamebladedsword": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_guisarme": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_heatershield": [
+			"defense:15"
+		],
+		"magistuarmory:diamond_heavymace": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_heavywarhammer": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_katzbalger": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_kiteshield": [
+			"defense:15"
+		],
+		"magistuarmory:diamond_lochaberaxe": [
+			"gathering:15"
+		],
+		"magistuarmory:diamond_lucernhammer": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_morgenstern": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_pavese": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_pike": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_ranseur": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_rondache": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_roundshield": [
+			"defense:15"
+		],
+		"magistuarmory:diamond_shortsword": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_stylet": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_target": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_tartsche": [
+			"attack:15"
+		],
+		"magistuarmory:diamond_zweihander": [
+			"attack:15"
+		],
+		"magistuarmory:face_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:gambeson_boots": [
+			"defense:1"
+		],
+		"magistuarmory:gambeson_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:gold_ahlspiess": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_bastardsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_buckler": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_chainmorgenstern": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_chivalrylance": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_claymore": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_concavehalberd": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_ellipticalshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_estoc": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_flamebladedsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_guisarme": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_heatershield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_heavymace": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_heavywarhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_katzbalger": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_kiteshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_lochaberaxe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_lucernhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_morgenstern": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_pavese": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_pike": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_ranseur": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_rondache": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_roundshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_shortsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_stylet": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_target": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_tartsche": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gold_zweihander": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:gothic_boots": [
+			"defense:1"
+		],
+		"magistuarmory:gothic_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:gothic_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:halfarmor_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:heavy_crossbow": [
+			"agility:1",
+			"attack:1"
+		],
+		"magistuarmory:iron_ahlspiess": [
+			"attack:5"
+		],
+		"magistuarmory:iron_bastardsword": [
+			"attack:5"
+		],
+		"magistuarmory:iron_buckler": [
+			"defense:5"
+		],
+		"magistuarmory:iron_chainmorgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:iron_chivalrylance": [
+			"attack:5"
+		],
+		"magistuarmory:iron_claymore": [
+			"attack:5"
+		],
+		"magistuarmory:iron_concavehalberd": [
+			"attack:5"
+		],
+		"magistuarmory:iron_ellipticalshield": [
+			"defense:5"
+		],
+		"magistuarmory:iron_estoc": [
+			"attack:5"
+		],
+		"magistuarmory:iron_flamebladedsword": [
+			"attack:5"
+		],
+		"magistuarmory:iron_guisarme": [
+			"attack:5"
+		],
+		"magistuarmory:iron_heatershield": [
+			"defense:5"
+		],
+		"magistuarmory:iron_heavymace": [
+			"attack:5"
+		],
+		"magistuarmory:iron_heavywarhammer": [
+			"attack:5"
+		],
+		"magistuarmory:iron_katzbalger": [
+			"attack:5"
+		],
+		"magistuarmory:iron_kiteshield": [
+			"defense:5"
+		],
+		"magistuarmory:iron_lochaberaxe": [
+			"gathering:5"
+		],
+		"magistuarmory:iron_lucernhammer": [
+			"attack:5"
+		],
+		"magistuarmory:iron_morgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:iron_pavese": [
+			"attack:5"
+		],
+		"magistuarmory:iron_pike": [
+			"attack:5"
+		],
+		"magistuarmory:iron_ranseur": [
+			"attack:5"
+		],
+		"magistuarmory:iron_rondache": [
+			"attack:5"
+		],
+		"magistuarmory:iron_roundshield": [
+			"defense:5"
+		],
+		"magistuarmory:iron_shortsword": [
+			"attack:5"
+		],
+		"magistuarmory:iron_stylet": [
+			"attack:5"
+		],
+		"magistuarmory:iron_target": [
+			"attack:5"
+		],
+		"magistuarmory:iron_tartsche": [
+			"attack:5"
+		],
+		"magistuarmory:iron_zweihander": [
+			"attack:5"
+		],
+		"magistuarmory:jousting_boots": [
+			"defense:5"
+		],
+		"magistuarmory:jousting_chestplate": [
+			"defense:5"
+		],
+		"magistuarmory:jousting_leggings": [
+			"defense:5"
+		],
+		"magistuarmory:kastenbrust_boots": [
+			"defense:1"
+		],
+		"magistuarmory:kastenbrust_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:kastenbrust_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:knight_boots": [
+			"defense:1"
+		],
+		"magistuarmory:knight_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:knight_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:lamellar_boots": [
+			"defense:1"
+		],
+		"magistuarmory:lamellar_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:longbow": [
+			"agility:1"
+		],
+		"magistuarmory:maximilian_boots": [
+			"defense:1"
+		],
+		"magistuarmory:maximilian_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:maximilian_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:maximilian_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:netherite_ahlspiess": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_bastardsword": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_buckler": [
+			"defense:30"
+		],
+		"magistuarmory:netherite_chainmorgenstern": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_chivalrylance": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_claymore": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_concavehalberd": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_ellipticalshield": [
+			"defense:30"
+		],
+		"magistuarmory:netherite_estoc": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_flamebladedsword": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_guisarme": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_heatershield": [
+			"defense:30"
+		],
+		"magistuarmory:netherite_heavymace": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_heavywarhammer": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_katzbalger": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_kiteshield": [
+			"defense:30"
+		],
+		"magistuarmory:netherite_lochaberaxe": [
+			"gathering:30"
+		],
+		"magistuarmory:netherite_lucernhammer": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_morgenstern": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_pavese": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_pike": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_ranseur": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_rondache": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_roundshield": [
+			"defense:30"
+		],
+		"magistuarmory:netherite_shortsword": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_stylet": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_target": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_tartsche": [
+			"attack:30"
+		],
+		"magistuarmory:netherite_zweihander": [
+			"attack:30"
+		],
+		"magistuarmory:norman_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:platemail_boots": [
+			"defense:1"
+		],
+		"magistuarmory:platemail_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:platemail_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:rustedchainmail_boots": [
+			"defense:1"
+		],
+		"magistuarmory:rustedchainmail_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:rustedchainmail_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:rustedchainmail_leggings": [
+			"defense:1"
+		],
+		"magistuarmory:rustedcrusader_boots": [
+			"defense:1"
+		],
+		"magistuarmory:rustedcrusader_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:rustedhalfarmor_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:rustednorman_helmet": [
+			"defense:1"
+		],
+		"magistuarmory:silver_ahlspiess": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_bastardsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_buckler": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_chainmorgenstern": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_chivalrylance": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_claymore": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_concavehalberd": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_ellipticalshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_estoc": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_flamebladedsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_guisarme": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_heatershield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_heavymace": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_heavywarhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_katzbalger": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_kiteshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_lochaberaxe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_lucernhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_morgenstern": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_pavese": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_pike": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_ranseur": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_rondache": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_roundshield": [
+			"defense:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_shortsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_stylet": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_target": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_tartsche": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:silver_zweihander": [
+			"attack:5",
+			"magic:3"
+		],
+		"magistuarmory:steel_ahlspiess": [
+			"attack:10"
+		],
+		"magistuarmory:steel_bastardsword": [
+			"attack:10"
+		],
+		"magistuarmory:steel_buckler": [
+			"defense:10"
+		],
+		"magistuarmory:steel_chainmorgenstern": [
+			"attack:10"
+		],
+		"magistuarmory:steel_chivalrylance": [
+			"attack:10"
+		],
+		"magistuarmory:steel_claymore": [
+			"attack:10"
+		],
+		"magistuarmory:steel_concavehalberd": [
+			"attack:10"
+		],
+		"magistuarmory:steel_ellipticalshield": [
+			"defense:10"
+		],
+		"magistuarmory:steel_estoc": [
+			"attack:10"
+		],
+		"magistuarmory:steel_flamebladedsword": [
+			"attack:10"
+		],
+		"magistuarmory:steel_guisarme": [
+			"attack:10"
+		],
+		"magistuarmory:steel_heatershield": [
+			"defense:10"
+		],
+		"magistuarmory:steel_heavymace": [
+			"attack:10"
+		],
+		"magistuarmory:steel_heavywarhammer": [
+			"attack:10"
+		],
+		"magistuarmory:steel_katzbalger": [
+			"attack:10"
+		],
+		"magistuarmory:steel_kiteshield": [
+			"defense:10"
+		],
+		"magistuarmory:steel_lochaberaxe": [
+			"gathering:10"
+		],
+		"magistuarmory:steel_lucernhammer": [
+			"attack:10"
+		],
+		"magistuarmory:steel_morgenstern": [
+			"attack:10"
+		],
+		"magistuarmory:steel_pavese": [
+			"attack:10"
+		],
+		"magistuarmory:steel_pike": [
+			"attack:10"
+		],
+		"magistuarmory:steel_ranseur": [
+			"attack:10"
+		],
+		"magistuarmory:steel_rondache": [
+			"attack:10"
+		],
+		"magistuarmory:steel_roundshield": [
+			"defense:10"
+		],
+		"magistuarmory:steel_shortsword": [
+			"attack:10"
+		],
+		"magistuarmory:steel_stylet": [
+			"attack:10"
+		],
+		"magistuarmory:steel_target": [
+			"attack:10"
+		],
+		"magistuarmory:steel_tartsche": [
+			"attack:10"
+		],
+		"magistuarmory:steel_zweihander": [
+			"attack:10"
+		],
+		"magistuarmory:stone_ahlspiess": [
+			"attack:0"
+		],
+		"magistuarmory:stone_bastardsword": [
+			"attack:0"
+		],
+		"magistuarmory:stone_buckler": [
+			"defense:0"
+		],
+		"magistuarmory:stone_chainmorgenstern": [
+			"attack:0"
+		],
+		"magistuarmory:stone_chivalrylance": [
+			"attack:0"
+		],
+		"magistuarmory:stone_claymore": [
+			"attack:0"
+		],
+		"magistuarmory:stone_concavehalberd": [
+			"attack:0"
+		],
+		"magistuarmory:stone_ellipticalshield": [
+			"defense:0"
+		],
+		"magistuarmory:stone_estoc": [
+			"attack:0"
+		],
+		"magistuarmory:stone_flamebladedsword": [
+			"attack:0"
+		],
+		"magistuarmory:stone_guisarme": [
+			"attack:0"
+		],
+		"magistuarmory:stone_heatershield": [
+			"defense:0"
+		],
+		"magistuarmory:stone_heavymace": [
+			"attack:0"
+		],
+		"magistuarmory:stone_heavywarhammer": [
+			"attack:0"
+		],
+		"magistuarmory:stone_katzbalger": [
+			"attack:0"
+		],
+		"magistuarmory:stone_kiteshield": [
+			"defense:0"
+		],
+		"magistuarmory:stone_lochaberaxe": [
+			"gathering:0"
+		],
+		"magistuarmory:stone_lucernhammer": [
+			"attack:0"
+		],
+		"magistuarmory:stone_morgenstern": [
+			"attack:0"
+		],
+		"magistuarmory:stone_pavese": [
+			"attack:0"
+		],
+		"magistuarmory:stone_pike": [
+			"attack:0"
+		],
+		"magistuarmory:stone_ranseur": [
+			"attack:0"
+		],
+		"magistuarmory:stone_rondache": [
+			"attack:0"
+		],
+		"magistuarmory:stone_roundshield": [
+			"defense:0"
+		],
+		"magistuarmory:stone_shortsword": [
+			"attack:0"
+		],
+		"magistuarmory:stone_stylet": [
+			"attack:0"
+		],
+		"magistuarmory:stone_target": [
+			"attack:0"
+		],
+		"magistuarmory:stone_tartsche": [
+			"attack:0"
+		],
+		"magistuarmory:stone_zweihander": [
+			"attack:0"
+		],
+		"magistuarmory:tin_ahlspiess": [
+			"attack:5"
+		],
+		"magistuarmory:tin_bastardsword": [
+			"attack:5"
+		],
+		"magistuarmory:tin_buckler": [
+			"defense:5"
+		],
+		"magistuarmory:tin_chainmorgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:tin_chivalrylance": [
+			"attack:5"
+		],
+		"magistuarmory:tin_claymore": [
+			"attack:5"
+		],
+		"magistuarmory:tin_concavehalberd": [
+			"attack:5"
+		],
+		"magistuarmory:tin_ellipticalshield": [
+			"defense:5"
+		],
+		"magistuarmory:tin_estoc": [
+			"attack:5"
+		],
+		"magistuarmory:tin_flamebladedsword": [
+			"attack:5"
+		],
+		"magistuarmory:tin_guisarme": [
+			"attack:5"
+		],
+		"magistuarmory:tin_heatershield": [
+			"defense:5"
+		],
+		"magistuarmory:tin_heavymace": [
+			"attack:5"
+		],
+		"magistuarmory:tin_heavywarhammer": [
+			"attack:5"
+		],
+		"magistuarmory:tin_katzbalger": [
+			"attack:5"
+		],
+		"magistuarmory:tin_kiteshield": [
+			"defense:5"
+		],
+		"magistuarmory:tin_lochaberaxe": [
+			"gathering:5"
+		],
+		"magistuarmory:tin_lucernhammer": [
+			"attack:5"
+		],
+		"magistuarmory:tin_morgenstern": [
+			"attack:5"
+		],
+		"magistuarmory:tin_pavese": [
+			"attack:5"
+		],
+		"magistuarmory:tin_pike": [
+			"attack:5"
+		],
+		"magistuarmory:tin_ranseur": [
+			"attack:5"
+		],
+		"magistuarmory:tin_rondache": [
+			"attack:5"
+		],
+		"magistuarmory:tin_roundshield": [
+			"defense:5"
+		],
+		"magistuarmory:tin_shortsword": [
+			"attack:5"
+		],
+		"magistuarmory:tin_stylet": [
+			"attack:5"
+		],
+		"magistuarmory:tin_target": [
+			"attack:5"
+		],
+		"magistuarmory:tin_tartsche": [
+			"attack:5"
+		],
+		"magistuarmory:tin_zweihander": [
+			"attack:5"
+		],
+		"magistuarmory:wingedhussar_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:wood_ahlspiess": [
+			"attack:0"
+		],
+		"magistuarmory:wood_bastardsword": [
+			"attack:0"
+		],
+		"magistuarmory:wood_buckler": [
+			"defense:0"
+		],
+		"magistuarmory:wood_chainmorgenstern": [
+			"attack:0"
+		],
+		"magistuarmory:wood_chivalrylance": [
+			"attack:0"
+		],
+		"magistuarmory:wood_claymore": [
+			"attack:0"
+		],
+		"magistuarmory:wood_concavehalberd": [
+			"attack:0"
+		],
+		"magistuarmory:wood_ellipticalshield": [
+			"defense:0"
+		],
+		"magistuarmory:wood_estoc": [
+			"attack:0"
+		],
+		"magistuarmory:wood_flamebladedsword": [
+			"attack:0"
+		],
+		"magistuarmory:wood_guisarme": [
+			"attack:0"
+		],
+		"magistuarmory:wood_heatershield": [
+			"defense:0"
+		],
+		"magistuarmory:wood_heavymace": [
+			"attack:0"
+		],
+		"magistuarmory:wood_heavywarhammer": [
+			"attack:0"
+		],
+		"magistuarmory:wood_katzbalger": [
+			"attack:0"
+		],
+		"magistuarmory:wood_kiteshield": [
+			"defense:0"
+		],
+		"magistuarmory:wood_lochaberaxe": [
+			"gathering:0"
+		],
+		"magistuarmory:wood_lucernhammer": [
+			"attack:0"
+		],
+		"magistuarmory:wood_morgenstern": [
+			"attack:0"
+		],
+		"magistuarmory:wood_pavese": [
+			"attack:0"
+		],
+		"magistuarmory:wood_pike": [
+			"attack:0"
+		],
+		"magistuarmory:wood_ranseur": [
+			"attack:0"
+		],
+		"magistuarmory:wood_rondache": [
+			"attack:0"
+		],
+		"magistuarmory:wood_roundshield": [
+			"defense:0"
+		],
+		"magistuarmory:wood_shortsword": [
+			"attack:0"
+		],
+		"magistuarmory:wood_stylet": [
+			"attack:0"
+		],
+		"magistuarmory:wood_target": [
+			"attack:0"
+		],
+		"magistuarmory:wood_tartsche": [
+			"attack:0"
+		],
+		"magistuarmory:wood_zweihander": [
+			"attack:0"
+		],
+		"magistuarmory:xivcenturyknight_boots": [
+			"defense:1"
+		],
+		"magistuarmory:xivcenturyknight_chestplate": [
+			"defense:1"
+		],
+		"magistuarmory:xivcenturyknight_leggings": [
+			"defense:1"
+		],
+		"minecraft:armor_stand": [
+			"defense:1"
+		],
+		"minecraft:brush": [
+			"gathering:5"
+		],
+		"minecraft:chainmail_boots": [
+			"defense:1"
+		],
+		"minecraft:chainmail_chestplate": [
+			"defense:1"
+		],
+		"minecraft:chainmail_helmet": [
+			"defense:1"
+		],
+		"minecraft:chainmail_leggings": [
+			"defense:1"
+		],
+		"minecraft:coast_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:crossbow": [
+			"agility:1",
+			"attack:1"
+		],
+		"minecraft:diamond_axe": [
+			"gathering:15"
+		],
+		"minecraft:diamond_boots": [
+			"defense:15"
+		],
+		"minecraft:diamond_chestplate": [
+			"defense:15"
+		],
+		"minecraft:diamond_helmet": [
+			"defense:15"
+		],
+		"minecraft:diamond_hoe": [
+			"farming:15"
+		],
+		"minecraft:diamond_horse_armor": [
+			"defense:15"
+		],
+		"minecraft:diamond_leggings": [
+			"defense:15"
+		],
+		"minecraft:diamond_pickaxe": [
+			"mining:15"
+		],
+		"minecraft:diamond_shovel": [
+			"gathering:15"
+		],
+		"minecraft:diamond_sword": [
+			"attack:15"
+		],
+		"minecraft:dune_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:elytra": [
+			"agility:25"
+		],
+		"minecraft:eye_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:fishing_rod": [
+			"gathering:1"
+		],
+		"minecraft:flint_and_steel": [
+			"attack:10"
+		],
+		"minecraft:golden_axe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"minecraft:golden_boots": [
+			"defense:5",
+			"magic:3"
+		],
+		"minecraft:golden_chestplate": [
+			"defense:5",
+			"magic:3"
+		],
+		"minecraft:golden_helmet": [
+			"defense:5",
+			"magic:3"
+		],
+		"minecraft:golden_hoe": [
+			"farming:5",
+			"magic:3"
+		],
+		"minecraft:golden_horse_armor": [
+			"defense:5",
+			"magic:3"
+		],
+		"minecraft:golden_leggings": [
+			"defense:5",
+			"magic:3"
+		],
+		"minecraft:golden_pickaxe": [
+			"mining:5",
+			"magic:3"
+		],
+		"minecraft:golden_shovel": [
+			"gathering:5",
+			"magic:3"
+		],
+		"minecraft:golden_sword": [
+			"attack:5",
+			"magic:3"
+		],
+		"minecraft:host_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:iron_axe": [
+			"gathering:5"
+		],
+		"minecraft:iron_boots": [
+			"defense:5"
+		],
+		"minecraft:iron_chestplate": [
+			"defense:5"
+		],
+		"minecraft:iron_helmet": [
+			"defense:5"
+		],
+		"minecraft:iron_hoe": [
+			"farming:5"
+		],
+		"minecraft:iron_horse_armor": [
+			"defense:5"
+		],
+		"minecraft:iron_leggings": [
+			"defense:5"
+		],
+		"minecraft:iron_pickaxe": [
+			"mining:5"
+		],
+		"minecraft:iron_shovel": [
+			"gathering:5"
+		],
+		"minecraft:iron_sword": [
+			"attack:5"
+		],
+		"minecraft:leather_boots": [
+			"defense:1"
+		],
+		"minecraft:leather_chestplate": [
+			"defense:1"
+		],
+		"minecraft:leather_helmet": [
+			"defense:1"
+		],
+		"minecraft:leather_horse_armor": [
+			"defense:1"
+		],
+		"minecraft:leather_leggings": [
+			"defense:1"
+		],
+		"minecraft:netherite_axe": [
+			"gathering:30"
+		],
+		"minecraft:netherite_boots": [
+			"defense:30"
+		],
+		"minecraft:netherite_chestplate": [
+			"defense:30"
+		],
+		"minecraft:netherite_helmet": [
+			"defense:30"
+		],
+		"minecraft:netherite_hoe": [
+			"farming:30"
+		],
+		"minecraft:netherite_leggings": [
+			"defense:30"
+		],
+		"minecraft:netherite_pickaxe": [
+			"mining:30"
+		],
+		"minecraft:netherite_shovel": [
+			"gathering:30"
+		],
+		"minecraft:netherite_sword": [
+			"attack:30"
+		],
+		"minecraft:raiser_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:rib_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:sentry_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:shaper_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:shield": [
+			"defense:1"
+		],
+		"minecraft:silence_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:snout_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:spire_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:stone_axe": [
+			"gathering:0"
+		],
+		"minecraft:stone_hoe": [
+			"farming:0"
+		],
+		"minecraft:stone_pickaxe": [
+			"mining:0"
+		],
+		"minecraft:stone_shovel": [
+			"gathering:0"
+		],
+		"minecraft:stone_sword": [
+			"attack:0"
+		],
+		"minecraft:tide_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:turtle_helmet": [
+			"defense:1"
+		],
+		"minecraft:vex_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:ward_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:waxed_copper_block": [
+			"gathering:3"
+		],
+		"minecraft:waxed_cut_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_cut_copper_slab": [
+			"gathering:3"
+		],
+		"minecraft:waxed_cut_copper_stairs": [
+			"gathering:3"
+		],
+		"minecraft:waxed_exposed_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_exposed_cut_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_exposed_cut_copper_slab": [
+			"gathering:3"
+		],
+		"minecraft:waxed_exposed_cut_copper_stairs": [
+			"gathering:3"
+		],
+		"minecraft:waxed_oxidized_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_oxidized_cut_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_oxidized_cut_copper_slab": [
+			"gathering:3"
+		],
+		"minecraft:waxed_oxidized_cut_copper_stairs": [
+			"gathering:3"
+		],
+		"minecraft:waxed_weathered_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_weathered_cut_copper": [
+			"gathering:3"
+		],
+		"minecraft:waxed_weathered_cut_copper_slab": [
+			"gathering:3"
+		],
+		"minecraft:waxed_weathered_cut_copper_stairs": [
+			"gathering:3"
+		],
+		"minecraft:wayfinder_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:wild_armor_trim_smithing_template": [
+			"defense:1"
+		],
+		"minecraft:wooden_axe": [
+			"gathering:0"
+		],
+		"minecraft:wooden_hoe": [
+			"farming:0"
+		],
+		"minecraft:wooden_pickaxe": [
+			"mining:0"
+		],
+		"minecraft:wooden_shovel": [
+			"gathering:0"
+		],
+		"minecraft:wooden_sword": [
+			"attack:0"
+		],
+		"nethersdelight:diamond_machete": [
+			"attack:15"
+		],
+		"nethersdelight:golden_machete": [
+			"attack:5",
+			"magic:3"
+		],
+		"nethersdelight:iron_machete": [
+			"attack:5"
+		],
+		"nethersdelight:netherite_machete": [
+			"attack:30"
+		],
+		"simplyswords:brimstone_claymore": [
+			"attack:0"
+		],
+		"simplyswords:diamond_chakram": [
+			"attack:15"
+		],
+		"simplyswords:diamond_claymore": [
+			"attack:15"
+		],
+		"simplyswords:diamond_cutlass": [
+			"attack:15"
+		],
+		"simplyswords:diamond_glaive": [
+			"attack:15"
+		],
+		"simplyswords:diamond_greataxe": [
+			"gathering:15"
+		],
+		"simplyswords:diamond_greathammer": [
+			"attack:15"
+		],
+		"simplyswords:diamond_halberd": [
+			"attack:15"
+		],
+		"simplyswords:diamond_katana": [
+			"attack:15"
+		],
+		"simplyswords:diamond_longsword": [
+			"attack:15"
+		],
+		"simplyswords:diamond_rapier": [
+			"attack:15"
+		],
+		"simplyswords:diamond_sai": [
+			"attack:15"
+		],
+		"simplyswords:diamond_scythe": [
+			"attack:15"
+		],
+		"simplyswords:diamond_spear": [
+			"attack:15"
+		],
+		"simplyswords:diamond_twinblade": [
+			"attack:15"
+		],
+		"simplyswords:diamond_warglaive": [
+			"attack:15"
+		],
+		"simplyswords:gold_chakram": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_claymore": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_cutlass": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_glaive": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_greataxe": [
+			"gathering:5",
+			"magic:3"
+		],
+		"simplyswords:gold_greathammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_halberd": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_katana": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_longsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_rapier": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_sai": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_scythe": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_spear": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_twinblade": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:gold_warglaive": [
+			"attack:5",
+			"magic:3"
+		],
+		"simplyswords:iron_chakram": [
+			"attack:5"
+		],
+		"simplyswords:iron_claymore": [
+			"attack:5"
+		],
+		"simplyswords:iron_cutlass": [
+			"attack:5"
+		],
+		"simplyswords:iron_glaive": [
+			"attack:5"
+		],
+		"simplyswords:iron_greataxe": [
+			"gathering:5"
+		],
+		"simplyswords:iron_greathammer": [
+			"attack:5"
+		],
+		"simplyswords:iron_halberd": [
+			"attack:5"
+		],
+		"simplyswords:iron_katana": [
+			"attack:5"
+		],
+		"simplyswords:iron_longsword": [
+			"attack:5"
+		],
+		"simplyswords:iron_rapier": [
+			"attack:5"
+		],
+		"simplyswords:iron_sai": [
+			"attack:5"
+		],
+		"simplyswords:iron_scythe": [
+			"attack:5"
+		],
+		"simplyswords:iron_spear": [
+			"attack:5"
+		],
+		"simplyswords:iron_twinblade": [
+			"attack:5"
+		],
+		"simplyswords:iron_warglaive": [
+			"attack:5"
+		],
+		"simplyswords:netherite_chakram": [
+			"attack:30"
+		],
+		"simplyswords:netherite_claymore": [
+			"attack:30"
+		],
+		"simplyswords:netherite_cutlass": [
+			"attack:30"
+		],
+		"simplyswords:netherite_glaive": [
+			"attack:30"
+		],
+		"simplyswords:netherite_greataxe": [
+			"gathering:30"
+		],
+		"simplyswords:netherite_greathammer": [
+			"attack:30"
+		],
+		"simplyswords:netherite_halberd": [
+			"attack:30"
+		],
+		"simplyswords:netherite_katana": [
+			"attack:30"
+		],
+		"simplyswords:netherite_longsword": [
+			"attack:30"
+		],
+		"simplyswords:netherite_rapier": [
+			"attack:30"
+		],
+		"simplyswords:netherite_sai": [
+			"attack:30"
+		],
+		"simplyswords:netherite_scythe": [
+			"attack:30"
+		],
+		"simplyswords:netherite_spear": [
+			"attack:30"
+		],
+		"simplyswords:netherite_twinblade": [
+			"attack:30"
+		],
+		"simplyswords:netherite_warglaive": [
+			"attack:30"
+		],
+		"simplyswords:runic_chakram": [
+			"attack:32"
+		],
+		"simplyswords:runic_claymore": [
+			"attack:32"
+		],
+		"simplyswords:runic_cutlass": [
+			"attack:32"
+		],
+		"simplyswords:runic_glaive": [
+			"attack:32"
+		],
+		"simplyswords:runic_greataxe": [
+			"gathering:32"
+		],
+		"simplyswords:runic_greathammer": [
+			"attack:32"
+		],
+		"simplyswords:runic_halberd": [
+			"attack:32"
+		],
+		"simplyswords:runic_katana": [
+			"attack:32"
+		],
+		"simplyswords:runic_longsword": [
+			"attack:32"
+		],
+		"simplyswords:runic_rapier": [
+			"attack:32"
+		],
+		"simplyswords:runic_sai": [
+			"attack:32"
+		],
+		"simplyswords:runic_scythe": [
+			"attack:32"
+		],
+		"simplyswords:runic_spear": [
+			"attack:32"
+		],
+		"simplyswords:runic_twinblade": [
+			"attack:32"
+		],
+		"simplyswords:runic_warglaive": [
+			"attack:32"
+		],
+		"simplyswords:shadowsting": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_battle_hammer": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_battleaxe": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_boomerang": [
+			"agility:5"
+		],
+		"spartanfire:desert_myrmex_chitin_dagger": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_flanged_mace": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_glaive": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_greatsword": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_halberd": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanfire:desert_myrmex_chitin_javelin": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_katana": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_lance": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_longbow": [
+			"agility:5"
+		],
+		"spartanfire:desert_myrmex_chitin_longsword": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_pike": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_quarterstaff": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_rapier": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_saber": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_scythe": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_spear": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_throwing_knife": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_tomahawk": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_chitin_warhammer": [
+			"attack:5"
+		],
+		"spartanfire:desert_myrmex_stinger_battle_hammer": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_battleaxe": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_boomerang": [
+			"agility:20"
+		],
+		"spartanfire:desert_myrmex_stinger_dagger": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_flanged_mace": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_glaive": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_greatsword": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_halberd": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_heavy_crossbow": [
+			"agility:20",
+			"attack:10"
+		],
+		"spartanfire:desert_myrmex_stinger_javelin": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_katana": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_lance": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_longbow": [
+			"agility:20"
+		],
+		"spartanfire:desert_myrmex_stinger_longsword": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_parrying_dagger": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_pike": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_quarterstaff": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_rapier": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_saber": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_scythe": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_spear": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_throwing_knife": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_tomahawk": [
+			"attack:20"
+		],
+		"spartanfire:desert_myrmex_stinger_warhammer": [
+			"attack:20"
+		],
+		"spartanfire:dragon_bone_battle_hammer": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_battleaxe": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_boomerang": [
+			"agility:25"
+		],
+		"spartanfire:dragon_bone_dagger": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_flanged_mace": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_glaive": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_greatsword": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_halberd": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_heavy_crossbow": [
+			"agility:25",
+			"attack:13"
+		],
+		"spartanfire:dragon_bone_javelin": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_katana": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_lance": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_longbow": [
+			"agility:25"
+		],
+		"spartanfire:dragon_bone_longsword": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_parrying_dagger": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_pike": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_quarterstaff": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_rapier": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_saber": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_scythe": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_spear": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_throwing_knife": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_tomahawk": [
+			"attack:25"
+		],
+		"spartanfire:dragon_bone_warhammer": [
+			"attack:25"
+		],
+		"spartanfire:fire_dragonsteel_battle_hammer": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_battleaxe": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_boomerang": [
+			"agility:32"
+		],
+		"spartanfire:fire_dragonsteel_dagger": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_flanged_mace": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_glaive": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_greatsword": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_halberd": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_heavy_crossbow": [
+			"agility:32",
+			"attack:16"
+		],
+		"spartanfire:fire_dragonsteel_javelin": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_katana": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_lance": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_longbow": [
+			"agility:32"
+		],
+		"spartanfire:fire_dragonsteel_longsword": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_parrying_dagger": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_pike": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_quarterstaff": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_rapier": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_saber": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_scythe": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_spear": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_throwing_knife": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_tomahawk": [
+			"attack:32"
+		],
+		"spartanfire:fire_dragonsteel_warhammer": [
+			"attack:32"
+		],
+		"spartanfire:flamed_dragon_bone_battle_hammer": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_battleaxe": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_boomerang": [
+			"agility:30"
+		],
+		"spartanfire:flamed_dragon_bone_dagger": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_flanged_mace": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_glaive": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_greatsword": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_halberd": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_heavy_crossbow": [
+			"agility:30",
+			"attack:15"
+		],
+		"spartanfire:flamed_dragon_bone_javelin": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_katana": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_lance": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_longbow": [
+			"agility:30"
+		],
+		"spartanfire:flamed_dragon_bone_longsword": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_parrying_dagger": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_pike": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_quarterstaff": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_rapier": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_saber": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_scythe": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_spear": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_throwing_knife": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_tomahawk": [
+			"attack:30"
+		],
+		"spartanfire:flamed_dragon_bone_warhammer": [
+			"attack:30"
+		],
+		"spartanfire:ice_dragonsteel_battle_hammer": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_battleaxe": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_boomerang": [
+			"agility:32"
+		],
+		"spartanfire:ice_dragonsteel_dagger": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_flanged_mace": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_glaive": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_greatsword": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_halberd": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_heavy_crossbow": [
+			"agility:32",
+			"attack:16"
+		],
+		"spartanfire:ice_dragonsteel_javelin": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_katana": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_lance": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_longbow": [
+			"agility:32"
+		],
+		"spartanfire:ice_dragonsteel_longsword": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_parrying_dagger": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_pike": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_quarterstaff": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_rapier": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_saber": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_scythe": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_spear": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_throwing_knife": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_tomahawk": [
+			"attack:32"
+		],
+		"spartanfire:ice_dragonsteel_warhammer": [
+			"attack:32"
+		],
+		"spartanfire:iced_dragon_bone_battle_hammer": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_battleaxe": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_boomerang": [
+			"agility:30"
+		],
+		"spartanfire:iced_dragon_bone_dagger": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_flanged_mace": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_glaive": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_greatsword": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_halberd": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_heavy_crossbow": [
+			"agility:30",
+			"attack:15"
+		],
+		"spartanfire:iced_dragon_bone_javelin": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_katana": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_lance": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_longbow": [
+			"agility:30"
+		],
+		"spartanfire:iced_dragon_bone_longsword": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_parrying_dagger": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_pike": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_quarterstaff": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_rapier": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_saber": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_scythe": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_spear": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_throwing_knife": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_tomahawk": [
+			"attack:30"
+		],
+		"spartanfire:iced_dragon_bone_warhammer": [
+			"attack:30"
+		],
+		"spartanfire:jungle_myrmex_chitin_battle_hammer": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_battleaxe": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_boomerang": [
+			"agility:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_dagger": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_flanged_mace": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_glaive": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_greatsword": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_halberd": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanfire:jungle_myrmex_chitin_javelin": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_katana": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_lance": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_longbow": [
+			"agility:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_longsword": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_pike": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_quarterstaff": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_rapier": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_saber": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_scythe": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_spear": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_throwing_knife": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_tomahawk": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_chitin_warhammer": [
+			"attack:5"
+		],
+		"spartanfire:jungle_myrmex_stinger_battle_hammer": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_battleaxe": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_boomerang": [
+			"agility:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_dagger": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_flanged_mace": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_glaive": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_greatsword": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_halberd": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_heavy_crossbow": [
+			"agility:20",
+			"attack:10"
+		],
+		"spartanfire:jungle_myrmex_stinger_javelin": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_katana": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_lance": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_longbow": [
+			"agility:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_longsword": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_parrying_dagger": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_pike": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_quarterstaff": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_rapier": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_saber": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_scythe": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_spear": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_throwing_knife": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_tomahawk": [
+			"attack:20"
+		],
+		"spartanfire:jungle_myrmex_stinger_warhammer": [
+			"attack:20"
+		],
+		"spartanfire:lightning_dragon_bone_battle_hammer": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_battleaxe": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_boomerang": [
+			"agility:30"
+		],
+		"spartanfire:lightning_dragon_bone_dagger": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_flanged_mace": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_glaive": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_greatsword": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_halberd": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_heavy_crossbow": [
+			"agility:30",
+			"attack:15"
+		],
+		"spartanfire:lightning_dragon_bone_javelin": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_katana": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_lance": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_longbow": [
+			"agility:30"
+		],
+		"spartanfire:lightning_dragon_bone_longsword": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_parrying_dagger": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_pike": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_quarterstaff": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_rapier": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_saber": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_scythe": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_spear": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_throwing_knife": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_tomahawk": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragon_bone_warhammer": [
+			"attack:30"
+		],
+		"spartanfire:lightning_dragonsteel_battle_hammer": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_battleaxe": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_boomerang": [
+			"agility:32"
+		],
+		"spartanfire:lightning_dragonsteel_dagger": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_flanged_mace": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_glaive": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_greatsword": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_halberd": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_heavy_crossbow": [
+			"agility:32",
+			"attack:16"
+		],
+		"spartanfire:lightning_dragonsteel_javelin": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_katana": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_lance": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_longbow": [
+			"agility:32"
+		],
+		"spartanfire:lightning_dragonsteel_longsword": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_parrying_dagger": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_pike": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_quarterstaff": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_rapier": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_saber": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_scythe": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_spear": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_throwing_knife": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_tomahawk": [
+			"attack:32"
+		],
+		"spartanfire:lightning_dragonsteel_warhammer": [
+			"attack:32"
+		],
+		"spartanshields:advanced_mekanists_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:advanced_mekanists_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:aluminum_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:aluminum_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:basic_mekanists_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:basic_mekanists_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:bronze_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:bronze_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:constantan_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:constantan_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:copper_basic_shield": [
+			"defense:3"
+		],
+		"spartanshields:copper_tower_shield": [
+			"defense:3"
+		],
+		"spartanshields:dark_steel_riot_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:dark_steel_riot_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:diamond_basic_shield": [
+			"defense:15"
+		],
+		"spartanshields:diamond_tower_shield": [
+			"defense:15"
+		],
+		"spartanshields:electrum_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:electrum_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:elementium_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:elementium_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:elite_mekanists_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:elite_mekanists_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:enderium_basic_shield": [
+			"defense:20"
+		],
+		"spartanshields:enderium_tower_shield": [
+			"defense:20"
+		],
+		"spartanshields:golden_basic_shield": [
+			"defense:5",
+			"magic:3"
+		],
+		"spartanshields:golden_tower_shield": [
+			"defense:5",
+			"magic:3"
+		],
+		"spartanshields:invar_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:invar_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:iron_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:iron_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:lapis_lazuli_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:lead_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:lead_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:lumium_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:lumium_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:manasteel_basic_shield": [
+			"defense:10",
+			"magic:3"
+		],
+		"spartanshields:manasteel_tower_shield": [
+			"defense:10",
+			"magic:3"
+		],
+		"spartanshields:netherite_basic_shield": [
+			"defense:30"
+		],
+		"spartanshields:netherite_tower_shield": [
+			"defense:30"
+		],
+		"spartanshields:nickel_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:nickel_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:obsidian_basic_shield": [
+			"defense:15"
+		],
+		"spartanshields:obsidian_tower_shield": [
+			"defense:15"
+		],
+		"spartanshields:osmium_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:platinum_basic_shield": [
+			"defense:20"
+		],
+		"spartanshields:platinum_tower_shield": [
+			"defense:20"
+		],
+		"spartanshields:refined_glowstone_basic_shield": [
+			"defense:0"
+		],
+		"spartanshields:refined_obsidian_basic_shield": [
+			"defense:15"
+		],
+		"spartanshields:signalum_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:signalum_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:silver_basic_shield": [
+			"defense:5",
+			"magic:3"
+		],
+		"spartanshields:silver_tower_shield": [
+			"defense:5",
+			"magic:3"
+		],
+		"spartanshields:steel_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:steel_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:stone_basic_shield": [
+			"defense:0"
+		],
+		"spartanshields:stone_tower_shield": [
+			"defense:0"
+		],
+		"spartanshields:terrasteel_basic_shield": [
+			"defense:10"
+		],
+		"spartanshields:terrasteel_tower_shield": [
+			"defense:10"
+		],
+		"spartanshields:tin_basic_shield": [
+			"defense:5"
+		],
+		"spartanshields:tin_tower_shield": [
+			"defense:5"
+		],
+		"spartanshields:ultimate_mekanists_basic_shield": [
+			"defense:1"
+		],
+		"spartanshields:ultimate_mekanists_tower_shield": [
+			"defense:1"
+		],
+		"spartanshields:wooden_basic_shield": [
+			"defense:0"
+		],
+		"spartanshields:wooden_tower_shield": [
+			"defense:0"
+		],
+		"spartanweaponry:aluminum_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:aluminum_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:aluminum_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:aluminum_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:aluminum_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:bronze_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:bronze_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:bronze_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:bronze_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:constantan_battle_hammer": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_battleaxe": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_boomerang": [
+			"agility:10"
+		],
+		"spartanweaponry:constantan_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_flanged_mace": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_glaive": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_greatsword": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_halberd": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_heavy_crossbow": [
+			"agility:10",
+			"attack:5"
+		],
+		"spartanweaponry:constantan_javelin": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_katana": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_lance": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_longbow": [
+			"agility:10"
+		],
+		"spartanweaponry:constantan_longsword": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_parrying_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_pike": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_quarterstaff": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_rapier": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_saber": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_scythe": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_spear": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_throwing_knife": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_tomahawk": [
+			"attack:10"
+		],
+		"spartanweaponry:constantan_warhammer": [
+			"attack:10"
+		],
+		"spartanweaponry:copper_battle_hammer": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_battleaxe": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_boomerang": [
+			"agility:3"
+		],
+		"spartanweaponry:copper_dagger": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_flanged_mace": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_glaive": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_greatsword": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_halberd": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_heavy_crossbow": [
+			"agility:3",
+			"attack:2"
+		],
+		"spartanweaponry:copper_javelin": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_katana": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_lance": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_longbow": [
+			"agility:3"
+		],
+		"spartanweaponry:copper_longsword": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_parrying_dagger": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_pike": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_quarterstaff": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_rapier": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_saber": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_scythe": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_spear": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_throwing_knife": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_tomahawk": [
+			"attack:3"
+		],
+		"spartanweaponry:copper_warhammer": [
+			"attack:3"
+		],
+		"spartanweaponry:diamond_battle_hammer": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_battleaxe": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_boomerang": [
+			"agility:15"
+		],
+		"spartanweaponry:diamond_dagger": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_flanged_mace": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_glaive": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_greatsword": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_halberd": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_heavy_crossbow": [
+			"agility:15",
+			"attack:8"
+		],
+		"spartanweaponry:diamond_javelin": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_katana": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_lance": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_longbow": [
+			"agility:15"
+		],
+		"spartanweaponry:diamond_longsword": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_parrying_dagger": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_pike": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_quarterstaff": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_rapier": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_saber": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_scythe": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_spear": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_throwing_knife": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_tomahawk": [
+			"attack:15"
+		],
+		"spartanweaponry:diamond_warhammer": [
+			"attack:15"
+		],
+		"spartanweaponry:electrum_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:electrum_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:electrum_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:electrum_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:electrum_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:golden_battle_hammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_battleaxe": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_boomerang": [
+			"agility:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_dagger": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_flanged_mace": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_glaive": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_greatsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_halberd": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_heavy_crossbow": [
+			"agility:5",
+			"attack:3",
+			"magic:3"
+		],
+		"spartanweaponry:golden_javelin": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_katana": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_lance": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_longbow": [
+			"agility:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_longsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_parrying_dagger": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_pike": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_quarterstaff": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_rapier": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_saber": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_scythe": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_spear": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_throwing_knife": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_tomahawk": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:golden_warhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:invar_battle_hammer": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_battleaxe": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_boomerang": [
+			"agility:10"
+		],
+		"spartanweaponry:invar_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_flanged_mace": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_glaive": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_greatsword": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_halberd": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_heavy_crossbow": [
+			"agility:10",
+			"attack:5"
+		],
+		"spartanweaponry:invar_javelin": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_katana": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_lance": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_longbow": [
+			"agility:10"
+		],
+		"spartanweaponry:invar_longsword": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_parrying_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_pike": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_quarterstaff": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_rapier": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_saber": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_scythe": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_spear": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_throwing_knife": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_tomahawk": [
+			"attack:10"
+		],
+		"spartanweaponry:invar_warhammer": [
+			"attack:10"
+		],
+		"spartanweaponry:iron_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:iron_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:iron_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:iron_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:iron_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:lead_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:lead_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:lead_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:lead_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:leather_heavy_crossbow": [
+			"agility:1",
+			"attack:1"
+		],
+		"spartanweaponry:leather_longbow": [
+			"agility:1"
+		],
+		"spartanweaponry:netherite_battle_hammer": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_battleaxe": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_boomerang": [
+			"agility:30"
+		],
+		"spartanweaponry:netherite_dagger": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_flanged_mace": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_glaive": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_greatsword": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_halberd": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_heavy_crossbow": [
+			"agility:30",
+			"attack:15"
+		],
+		"spartanweaponry:netherite_javelin": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_katana": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_lance": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_longbow": [
+			"agility:30"
+		],
+		"spartanweaponry:netherite_longsword": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_parrying_dagger": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_pike": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_quarterstaff": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_rapier": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_saber": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_scythe": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_spear": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_throwing_knife": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_tomahawk": [
+			"attack:30"
+		],
+		"spartanweaponry:netherite_warhammer": [
+			"attack:30"
+		],
+		"spartanweaponry:nickel_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:nickel_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:nickel_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:nickel_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:nickel_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:platinum_battle_hammer": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_battleaxe": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_boomerang": [
+			"agility:20"
+		],
+		"spartanweaponry:platinum_dagger": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_flanged_mace": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_glaive": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_greatsword": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_halberd": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_heavy_crossbow": [
+			"agility:20",
+			"attack:10"
+		],
+		"spartanweaponry:platinum_javelin": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_katana": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_lance": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_longbow": [
+			"agility:20"
+		],
+		"spartanweaponry:platinum_longsword": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_parrying_dagger": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_pike": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_quarterstaff": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_rapier": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_saber": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_scythe": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_spear": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_throwing_knife": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_tomahawk": [
+			"attack:20"
+		],
+		"spartanweaponry:platinum_warhammer": [
+			"attack:20"
+		],
+		"spartanweaponry:silver_battle_hammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_battleaxe": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_boomerang": [
+			"agility:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_dagger": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_flanged_mace": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_glaive": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_greatsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_halberd": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_heavy_crossbow": [
+			"agility:5",
+			"attack:3",
+			"magic:3"
+		],
+		"spartanweaponry:silver_javelin": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_katana": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_lance": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_longbow": [
+			"agility:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_longsword": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_parrying_dagger": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_pike": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_quarterstaff": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_rapier": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_saber": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_scythe": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_spear": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_throwing_knife": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_tomahawk": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:silver_warhammer": [
+			"attack:5",
+			"magic:3"
+		],
+		"spartanweaponry:steel_battle_hammer": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_battleaxe": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_boomerang": [
+			"agility:10"
+		],
+		"spartanweaponry:steel_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_flanged_mace": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_glaive": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_greatsword": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_halberd": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_heavy_crossbow": [
+			"agility:10",
+			"attack:5"
+		],
+		"spartanweaponry:steel_javelin": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_katana": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_lance": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_longbow": [
+			"agility:10"
+		],
+		"spartanweaponry:steel_longsword": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_parrying_dagger": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_pike": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_quarterstaff": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_rapier": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_saber": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_scythe": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_spear": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_throwing_knife": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_tomahawk": [
+			"attack:10"
+		],
+		"spartanweaponry:steel_warhammer": [
+			"attack:10"
+		],
+		"spartanweaponry:stone_battle_hammer": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_battleaxe": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_boomerang": [
+			"agility:0"
+		],
+		"spartanweaponry:stone_dagger": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_flanged_mace": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_glaive": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_greatsword": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_halberd": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_javelin": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_katana": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_lance": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_longsword": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_parrying_dagger": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_pike": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_quarterstaff": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_rapier": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_saber": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_scythe": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_spear": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_throwing_knife": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_tomahawk": [
+			"attack:0"
+		],
+		"spartanweaponry:stone_warhammer": [
+			"attack:0"
+		],
+		"spartanweaponry:studded_cestus": [
+			"attack:3"
+		],
+		"spartanweaponry:studded_club": [
+			"attack:3"
+		],
+		"spartanweaponry:tin_battle_hammer": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_battleaxe": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_boomerang": [
+			"agility:5"
+		],
+		"spartanweaponry:tin_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_flanged_mace": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_glaive": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_greatsword": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_halberd": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_heavy_crossbow": [
+			"agility:5",
+			"attack:3"
+		],
+		"spartanweaponry:tin_javelin": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_katana": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_lance": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_longbow": [
+			"agility:5"
+		],
+		"spartanweaponry:tin_longsword": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_parrying_dagger": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_pike": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_quarterstaff": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_rapier": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_saber": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_scythe": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_spear": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_throwing_knife": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_tomahawk": [
+			"attack:5"
+		],
+		"spartanweaponry:tin_warhammer": [
+			"attack:5"
+		],
+		"spartanweaponry:wooden_battle_hammer": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_battleaxe": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_boomerang": [
+			"agility:0"
+		],
+		"spartanweaponry:wooden_club": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_dagger": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_flanged_mace": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_glaive": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_greatsword": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_halberd": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_heavy_crossbow": [
+			"agility:0",
+			"attack:0"
+		],
+		"spartanweaponry:wooden_javelin": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_katana": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_lance": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_longbow": [
+			"agility:0"
+		],
+		"spartanweaponry:wooden_longsword": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_parrying_dagger": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_pike": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_quarterstaff": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_rapier": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_saber": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_scythe": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_spear": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_throwing_knife": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_tomahawk": [
+			"attack:0"
+		],
+		"spartanweaponry:wooden_warhammer": [
+			"attack:0"
+		],
+		"srp_spartans:living_b1_heavy_crossbow": [
+			"agility:32",
+			"attack:16",
+			"magic:20"
+		],
+		"srp_spartans:living_b1_lance": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_b1_longbow": [
+			"agility:32",
+			"magic:20"
+		],
+		"srp_spartans:living_b1_spear": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_b2_glaive": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_b2_pike": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_br1_rapier": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_br2_javelin": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_br2_saber": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_buckler": [
+			"defense:32",
+			"magic:20"
+		],
+		"srp_spartans:living_c1_halberd": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_c_dagger": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_cr1_tomahawk": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_cr2_flanged_mace": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_gauntlet": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_i_battle_hammer": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_i_battleaxe": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_i_boomerang": [
+			"agility:32",
+			"magic:20"
+		],
+		"srp_spartans:living_i_quarterstaff": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_i_warhammer": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_r2_parrying_dagger": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_reaper_scythe": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_v1_greatsword": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_v2_longsword": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_vr1_katana": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:living_vr1_throwing_knife": [
+			"attack:32",
+			"magic:20"
+		],
+		"srp_spartans:sentient_b2_heavy_crossbow": [
+			"agility:32",
+			"attack:16",
+			"magic:32"
+		],
+		"srp_spartans:sentient_b2_lance": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_b2_longbow": [
+			"agility:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_b2_spear": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_b3_glaive": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_b3_pike": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_br2_rapier": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_br3_javelin": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_br3_saber": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_buckler": [
+			"defense:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_c2_halberd": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_c_dagger": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_cr2_tomahawk": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_cr3_flanged_mace": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_gauntlet": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_i_battle_hammer": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_i_battleaxe": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_i_boomerang": [
+			"agility:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_i_quarterstaff": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_i_warhammer": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_r3_parrying_dagger": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_reaper_scythe": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_v2_greatsword": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_v3_longsword": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_vr2_katana": [
+			"attack:32",
+			"magic:32"
+		],
+		"srp_spartans:sentient_vr2_throwing_knife": [
+			"attack:32",
+			"magic:32"
+		]
+	}
+}
