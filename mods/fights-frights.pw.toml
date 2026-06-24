@@ -1,0 +1,13 @@
+name = "Fights&Frights"
+filename = "fightsfrights-1.6.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b99920046a95904aae2ac7142ede85e35e1b804"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8218541
+project-id = 1498334
