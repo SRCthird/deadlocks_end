@@ -1,13 +1,13 @@
 name = "Simply Tents"
-filename = "simplytents-3.0.1-1.20.1.forge.jar"
+filename = "simplytents-4.6-1.20.1.forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6577400273c090180a45ccc128f3b50b1b9257bb"
+hash = "38b3537868d9ca5f4c19a2297169e92b66b0bb14"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8061647
+file-id = 8198028
 project-id = 1152882

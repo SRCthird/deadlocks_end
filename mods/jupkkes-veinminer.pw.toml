@@ -1,13 +1,13 @@
 name = "Jupkke's Veinminer"
-filename = "veinminer-1.1.0 - Copy.jar"
+filename = "jupkkeveinminerfortune.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9dccfe9d5bc5079c3b7c3dff6467364460af43c7"
+hash = "57ee80c997e818bf844b18b3aeeb2d4b719a3676"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6628582
+file-id = 7254488
 project-id = 1282529

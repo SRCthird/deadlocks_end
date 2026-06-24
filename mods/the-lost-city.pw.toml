@@ -1,13 +1,13 @@
 name = "The Lost City"
-filename = "the_lost_city-1.4.1.jar"
+filename = "the_lost_city-1.5.0-alpha7-forge-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ff69ba1dfe312930926b24e44b8463c3e4af1939"
+hash = "9658498f59193bf0c192ec15cc27aaf67b59aba3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7144935
+file-id = 7813139
 project-id = 1159207

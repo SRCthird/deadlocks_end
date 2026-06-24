@@ -1,13 +1,13 @@
 name = "The Midnight Lurker"
-filename = "the_midnight_lurker_3.3.7.jar"
+filename = "the_midnight_lurker-face_your_fears-4.0.0-D2_beta-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8f12b5ce64c9d33f62cc066b7476db51b4bfafa2"
+hash = "18079a685c761b474349e6ed67c07c5740036073"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5775477
+file-id = 8166686
 project-id = 923133

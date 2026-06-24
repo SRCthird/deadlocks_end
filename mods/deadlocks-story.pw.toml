@@ -1,13 +1,13 @@
 name = "Deadlock's Story"
-filename = "deadlocksstory-1.0.0.jar"
+filename = "deadlocksstory-1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bf954332f511c5bc6af96228b5bade3813062663"
+hash = "7221c60c74fcfa02da31a0413b8c5f897f2fc3ee"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8214499
+file-id = 8250660
 project-id = 1568417
