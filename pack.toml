@@ -1,12 +1,12 @@
 name = "Deadlocks End"
 author = "FrigidAmbiance"
-version = "1.0.2"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5417687c0c8be8ef5e8b9556bfd1710631106adf5d7c821f7ee3d61a22eff0cc"
+hash = "69c149561948e98aa31f0be10cfbc72526e28e1c61351520c2146b2ee897aed5"
 
 [versions]
 forge = "47.4.10"

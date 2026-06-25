@@ -482,7 +482,7 @@ hash = "ed68f0c0b35f9ebbb3d3f93a4913e314b04bfdeab480fc7683bd6ae392cd2e0e"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
+hash = "0dd4eb23710328966e241aed478683e80f706356d5a5d8ead32d74932af6959b"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -878,7 +878,7 @@ hash = "d6a33eb606fd76b0329e8d0abc58da2eea803be7aa07aaf8885a5284d038dbca"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "7699f1d68a4ab710376a9cae23848650060b5f2cad3953f898d0e9e3b0309f24"
+hash = "27243a3327776238d54b2a2760b60532f10b2a70a43ddc5352a40d67097602cb"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -1034,7 +1034,7 @@ hash = "030ee3fc2f9bef247eeddd0b9d172338e05bf67714a6f78a8efa582ce828b36a"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a5913e54c41a6713b6334ed99fbd919547faeff9a49ff398d565a8370b1942a5"
+hash = "8f24dd14d637241924b0ad44ea4374c7f577454f45dc60db3ba73739f1027759"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1050,7 +1050,7 @@ hash = "7d4410bcfc1dcf3265c53842a57f0f9d95a07131d4de67116a9f65def0bcf54a"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "81c37a3c8010a47318a53015da617b44ed522730f6fed24075412a6985bccc52"
+hash = "b26513fba0a9cc9e5e4e9f93d6d522d030ed225fa58b5af6c6e671fa72748747"
 
 [[files]]
 file = "config/fancymenu/customization/me.frigidambiance.customization.txt"
@@ -2102,7 +2102,7 @@ hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e920f2e35f7aced647ca6edde7593ac985d3ee99954e6df3284300ce8523852e"
+hash = "769d746b29632f3093573e69b527c678c84ecf3ccd951eb154b9b3cf13614e70"
 
 [[files]]
 file = "config/patchouli-client.toml"
